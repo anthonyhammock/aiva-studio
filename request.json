@@ -7,5 +7,6 @@
   "count": 3,
   "model": "lightning",
   "clips": [],
-  "note": "Edit and push to run the studio. step: portraits (make candidates) or animate (needs a pick in picks.json). only: persona ids, empty for all twelve."
+  "note": "Edit and push to run the studio. step: portraits (make candidates) or animate (needs a pick in picks.json). only: persona ids, empty for all twelve.",
+  "run": 2
 }
