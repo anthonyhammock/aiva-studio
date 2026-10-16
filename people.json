@@ -15,7 +15,7 @@
     {
       "id": "zoe",
       "look": "A 20-year-old East Asian American college student with a chin-length lavender-dyed bob, round tortoiseshell glasses, one white wireless earbud, light makeup, an oversized oatmeal hoodie",
-      "place": "softly blurred cozy campus café behind her, string lights and plants, daylight",
+      "place": "softly blurred cozy campus caf\u00e9 behind her, string lights and plants, daylight",
       "energy": "lively and expressive, quick playful eyebrow raises",
       "gestures": [
         "fix_glasses",
@@ -48,7 +48,7 @@
     {
       "id": "eleanor",
       "look": "An elegant British woman of 58 with a sleek silver chin-length bob, fair skin with fine lines, blue-grey eyes, half-moon reading glasses, a single strand of pearls, a taupe tweed blazer",
-      "place": "softly blurred wood-panelled study behind her, leather books and a green banker’s lamp",
+      "place": "softly blurred wood-panelled study behind her, leather books and a green banker\u2019s lamp",
       "energy": "dry and understated, small precise movements, a hint of amusement",
       "gestures": [
         "fix_glasses",
@@ -102,7 +102,7 @@
     },
     {
       "id": "grace",
-      "look": "A gracious Southern woman of 66 with short soft white curls, fair skin with laugh lines, kind blue eyes, a pearl necklace, a periwinkle-blue blouse",
+      "look": "An elderly 66-year-old Southern grandmother with short soft snow-white curly hair, fair skin with natural wrinkles and laugh lines, kind blue eyes, a pearl necklace, a periwinkle-blue blouse",
       "place": "softly blurred sunlit Savannah parlor behind her, lace curtains and fresh flowers",
       "energy": "gentle and gracious, warm small nods",
       "gestures": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "dev",
-      "look": "A sharp Indian American man of 38 with short neat black hair, clean-shaven, medium-brown skin, a crisp white shirt with the sleeves rolled once, a slim steel watch",
+      "look": "A sharp 38-year-old Indian American man with short neat black hair greying slightly at the temples, clean-shaven, medium-brown skin, a crisp white shirt with the sleeves rolled once, a slim steel watch",
       "place": "softly blurred minimalist Chicago office behind him, city view, cool daylight",
       "energy": "deadpan and economical, minimal movement, the faintest dry smile",
       "gestures": [
@@ -124,7 +124,7 @@
     },
     {
       "id": "luna",
-      "look": "A vibrant Cuban American woman of 26 with long sleek dark hair with caramel highlights, warm tan skin, statement gold earrings, a coral silk camisole top",
+      "look": "A vibrant 26-year-old Cuban American woman with long sleek dark hair with caramel highlights, warm tan skin, statement gold earrings, a coral silk blouse",
       "place": "softly blurred bright Miami creative studio behind her, pastel walls and palm shadows",
       "energy": "bubbly and expressive, playful confident movements",
       "gestures": [

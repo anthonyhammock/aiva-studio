@@ -1,10 +1,7 @@
 {
-  "step": "animate",
-  "only": [
-    "marco",
-    "sienna"
-  ],
-  "count": 1,
+  "step": "portraits",
+  "only": [],
+  "count": 3,
   "model": "lightning",
   "clips": [],
   "note": "Edit and push to run the studio. step: portraits (make candidates) or animate (needs a pick in picks.json). only: persona ids, empty for all twelve."

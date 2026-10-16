@@ -19,12 +19,13 @@ W, H = 896, 1120          # 4:5, about one megapixel (an SDXL-native size)
 
 # Lightning: 6 steps with light guidance. Full: the slower, slightly richer model.
 SETTINGS = {
-    "lightning": dict(steps=6, cfg=1.5, sampler="dpm++2m_sde", scheduler="karras"),
+    "lightning": dict(steps=8, cfg=1.4, sampler="dpm++2m_sde", scheduler="karras"),
     "full": dict(steps=30, cfg=4.5, sampler="dpm++2m", scheduler="karras"),
 }
 
 NEGATIVE = ("cartoon, anime, 3d render, cgi, illustration, painting, plastic skin, airbrushed, "
-            "doll, deformed, asymmetric eyes, cross-eyed, bad teeth, extra fingers, hands, blurry, "
+            "doll, deformed, asymmetric eyes, cross-eyed, open mouth, teeth, grin, extra fingers, hands, "
+            "noisy fabric, color noise, blurry, "
             "lowres, jpeg artifacts, watermark, text, logo, frame")
 
 
