@@ -1,0 +1,19 @@
+{
+  "persona": "luna",
+  "n": 1,
+  "seed": 8101,
+  "model": "RealVisXL_V5.0_Lightning_fp16.safetensors",
+  "settings": {
+    "steps": 6,
+    "cfg": 1.5,
+    "sampler": "dpm++2m_sde",
+    "scheduler": "karras"
+  },
+  "prompt": "RAW photo, close-up head and shoulders portrait of A vibrant Cuban American woman of 26 with long sleek dark hair with caramel highlights, warm tan skin, statement gold earrings, a coral silk camisole top, softly blurred bright Miami creative studio behind her, pastel walls and palm shadows, looking straight into the camera, relaxed natural expression, lips gently closed, soft natural window light, 85mm lens at f/2, shallow depth of field, natural skin texture with fine pores, subtle film grain, photorealistic, sharp focus on the eyes",
+  "negative": "cartoon, anime, 3d render, cgi, illustration, painting, plastic skin, airbrushed, doll, deformed, asymmetric eyes, cross-eyed, bad teeth, extra fingers, hands, blurry, lowres, jpeg artifacts, watermark, text, logo, frame",
+  "size": [
+    896,
+    1120
+  ],
+  "seconds": 1382
+}
