@@ -1,0 +1,19 @@
+{
+  "persona": "jaylen",
+  "n": 3,
+  "seed": 7303,
+  "model": "RealVisXL_V5.0_Lightning_fp16.safetensors",
+  "settings": {
+    "steps": 8,
+    "cfg": 1.4,
+    "sampler": "dpm++2m_sde",
+    "scheduler": "karras"
+  },
+  "prompt": "RAW photo, close-up head and shoulders portrait of An athletic Black man of 29 with a sharp low fade and a neatly trimmed full beard, deep brown skin, bright friendly eyes, a red quarter-zip athletic pullover, softly blurred bright modern startup office behind him, glass walls and plants, daylight, looking straight into the camera, relaxed natural expression, lips gently closed, soft natural window light, 85mm lens at f/2, shallow depth of field, natural skin texture with fine pores, subtle film grain, photorealistic, sharp focus on the eyes",
+  "negative": "cartoon, anime, 3d render, cgi, illustration, painting, plastic skin, airbrushed, doll, deformed, asymmetric eyes, cross-eyed, open mouth, teeth, grin, extra fingers, hands, noisy fabric, color noise, blurry, lowres, jpeg artifacts, watermark, text, logo, frame",
+  "size": [
+    896,
+    1120
+  ],
+  "seconds": 1418
+}
