@@ -95,7 +95,13 @@ class Driver:
         self.eyes_s = calc_eye_close_ratio(self.lmk[None])                    # (1, 2)
         self.lip_s = calc_lip_close_ratio(self.lmk[None])                     # (1, 1)
         self._eye0 = self._eye_delta(float(self.eyes_s.mean()))
-        self._lip0 = self._lip_delta(float(self.lip_s[0, 0]))
+        # A portrait with parted lips or a toothy smile gets its mouth closed for
+        # the resting pose (LivePortrait's own lip normalisation), so talking
+        # clips open from closed lips. Closed-lip portraits are left as they are.
+        self.close_lips = float(self.lip_s[0, 0]) > cfg.lip_normalize_threshold
+        self._lip_rest = 0.0 if self.close_lips else float(self.lip_s[0, 0])
+        self._lip0 = None if self.close_lips else self._lip_delta(self._lip_rest)
+        self._lip_closed = self._lip_delta(0.0) if self.close_lips else None
 
     # where the face sits in the portrait: centre and size, as fractions
     def face_box(self):
@@ -126,7 +132,10 @@ class Driver:
         if eyes_closed:
             x_d = x_d + (self._eye_delta(float(self.eyes_s.mean()) * (1 - eyes_closed)) - self._eye0)
         if mouth_open:
-            x_d = x_d + (self._lip_delta(float(self.lip_s[0, 0]) + 0.32 * mouth_open) - self._lip0)
+            d = self._lip_delta(self._lip_rest + 0.32 * mouth_open)
+            x_d = x_d + (d if self.close_lips else d - self._lip0)
+        elif self.close_lips:
+            x_d = x_d + self._lip_closed
         x_d = self.lp.stitching(self.x_s, x_d)
         out = self.lp.warp_decode(self.f_s, self.x_s, x_d)
         face = self.lp.parse_output(out["out"])[0]
