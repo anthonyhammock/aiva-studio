@@ -12,10 +12,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: studio-${{ github.ref }}
-  cancel-in-progress: false
-
 env:
   SDCPP_COMMIT: 8cd731e7b4667eb8f40a153315b9a7125d09a58d
   LP_COMMIT: 9b294b3d0536135442ea73cb01e6cb3ca7029dd3
