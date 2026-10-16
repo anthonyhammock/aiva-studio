@@ -1,6 +1,9 @@
 {
-  "step": "portraits",
-  "only": [],
+  "step": "animate",
+  "only": [
+    "marco",
+    "sienna"
+  ],
   "count": 3,
   "model": "lightning",
   "clips": [],

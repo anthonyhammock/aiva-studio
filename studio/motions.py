@@ -99,7 +99,8 @@ class Track:
             if u <= 0 or u >= length:
                 continue
             i = u * fps
-            a, b = int(i), min(int(i) + 1, n - 1)
+            a = min(int(i), n - 1)
+            b = min(a + 1, n - 1)
             f = exp[a] * (1 - (i - a)) + exp[b] * (i - a)
             total += k * f * hold(u, 0, length, ramp)
         return total

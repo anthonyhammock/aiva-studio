@@ -67,6 +67,13 @@ def main():
         sys.exit(f"{args.person}: no pick in picks.json yet")
     src = ROOT / "out" / "candidates" / args.person / f"{pick}.webp"
     portrait = cv2.cvtColor(cv2.imread(str(src)), cv2.COLOR_BGR2RGB)
+    # the website shows 4:5; SDXL sizes come in steps of 64 (896x1152), so trim
+    # the extra height, a little more from the bottom than the top
+    h, w = portrait.shape[:2]
+    if h > round(w * 1.25):
+        extra = h - round(w * 1.25)
+        top = extra // 3
+        portrait = np.ascontiguousarray(portrait[top:top + round(w * 1.25)])
     h, w = portrait.shape[:2]
 
     out = ROOT / "out" / "people" / args.person
