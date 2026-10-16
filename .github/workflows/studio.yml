@@ -1,0 +1,142 @@
+# Runs whatever request.json asks for, one job per persona, on free GitHub
+# runners, and commits the results back to the branch.
+#   step "portraits": RealVisXL V5.0 on stable-diffusion.cpp → out/candidates/<id>/
+#   step "animate":   LivePortrait on the CPU → out/people/<id>/ (+ out/review/<id>/)
+name: Studio
+
+on:
+  push:
+    paths: ['request.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: studio-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  SDCPP_COMMIT: 8cd731e7b4667eb8f40a153315b9a7125d09a58d
+  LP_COMMIT: 9b294b3d0536135442ea73cb01e6cb3ca7029dd3
+  LP_WEIGHTS_REV: 82a4fa6735ca58432b6ce39301b4b9ee066dea47
+  VAE_REV: 207b116dae70ace3637169f1ddd2434b91b3a8cd
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      step: ${{ steps.plan.outputs.step }}
+      people: ${{ steps.plan.outputs.people }}
+      count: ${{ steps.plan.outputs.count }}
+      model: ${{ steps.plan.outputs.model }}
+      clips: ${{ steps.plan.outputs.clips }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        run: python3 studio/plan.py
+
+  sdcpp:
+    needs: plan
+    if: needs.plan.outputs.step == 'portraits'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build stable-diffusion.cpp (portable AVX2 build)
+        run: |
+          git init -q sdcpp && cd sdcpp
+          git remote add origin https://github.com/leejet/stable-diffusion.cpp
+          git fetch -q --depth 1 origin "$SDCPP_COMMIT" && git checkout -q FETCH_HEAD
+          git submodule update -q --init --recursive --depth 1 || true
+          cmake -B build -DCMAKE_BUILD_TYPE=Release -DGGML_NATIVE=OFF -DGGML_AVX=ON -DGGML_AVX2=ON -DGGML_FMA=ON -DGGML_F16C=ON
+          cmake --build build -j 4 --target sd-cli
+          ls -la build/bin
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sd-cli
+          path: sdcpp/build/bin/
+          retention-days: 3
+
+  portraits:
+    needs: [plan, sdcpp]
+    if: needs.plan.outputs.step == 'portraits' && needs.plan.outputs.people != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        person: ${{ fromJSON(needs.plan.outputs.people) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: sd-cli
+          path: bin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Models
+        run: |
+          chmod +x bin/*
+          pip install -q "huggingface_hub>=0.25"
+          python3 - <<'PY'
+          import os
+          from huggingface_hub import hf_hub_download
+          repo, name, rev = {
+              "lightning": ("SG161222/RealVisXL_V5.0_Lightning", "RealVisXL_V5.0_Lightning_fp16.safetensors", "f4454158cedaab9f0688c199561d6c92525f3a85"),
+              "full": ("SG161222/RealVisXL_V5.0", "RealVisXL_V5.0_fp16.safetensors", "ac93e0dda1f6d448cae19bbfab8c5e720a5e48bc"),
+          }[os.environ["KIND"]]
+          m = hf_hub_download(repo, name, revision=rev, local_dir="models")
+          v = hf_hub_download("madebyollin/sdxl-vae-fp16-fix", "sdxl_vae.safetensors", revision=os.environ["VAE_REV"], local_dir="models")
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write(f"SD_MODEL={m}\nSD_VAE={v}\n")
+          PY
+        env:
+          KIND: ${{ needs.plan.outputs.model }}
+      - name: Generate
+        run: |
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null)
+          SD_CLI=$PWD/bin/sd-cli python3 studio/portraits.py --person "${{ matrix.person }}" --count "${{ needs.plan.outputs.count }}" --model "${{ needs.plan.outputs.model }}"
+      - name: Commit
+        if: always()
+        run: |
+          studio/commit.sh "Portrait candidates for ${{ matrix.person }}" "out/candidates/${{ matrix.person }}"
+
+  animate:
+    needs: plan
+    if: needs.plan.outputs.step == 'animate' && needs.plan.outputs.people != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        person: ${{ fromJSON(needs.plan.outputs.people) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: LivePortrait
+        run: |
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null)
+          git init -q LivePortrait && cd LivePortrait
+          git remote add origin https://github.com/KwaiVGI/LivePortrait
+          git fetch -q --depth 1 origin "$LP_COMMIT" && git checkout -q FETCH_HEAD && cd ..
+          pip install -q --index-url https://download.pytorch.org/whl/cpu torch==2.5.1
+          pip install -q numpy==1.26.4 scipy opencv-python-headless onnxruntime pyyaml rich "huggingface_hub>=0.25"
+          python3 - <<'PY'
+          import os
+          from huggingface_hub import hf_hub_download
+          files = ["liveportrait/base_models/appearance_feature_extractor.pth", "liveportrait/base_models/motion_extractor.pth",
+                   "liveportrait/base_models/spade_generator.pth", "liveportrait/base_models/warping_module.pth",
+                   "liveportrait/retargeting_models/stitching_retargeting_module.pth", "liveportrait/landmark.onnx"]
+          for f in files:
+              hf_hub_download("KlingTeam/LivePortrait", f, revision=os.environ["LP_WEIGHTS_REV"], local_dir="LivePortrait/pretrained_weights")
+          PY
+      - name: Animate
+        run: LP_DIR=$PWD/LivePortrait python3 studio/animate.py --person "${{ matrix.person }}" --clips "${{ needs.plan.outputs.clips }}"
+      - name: Commit
+        if: always()
+        run: |
+          studio/commit.sh "Animated ${{ matrix.person }}" "out/people/${{ matrix.person }}" "out/review/${{ matrix.person }}"

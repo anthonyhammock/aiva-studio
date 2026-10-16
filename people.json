@@ -1,0 +1,137 @@
+{
+  "note": "Casting briefs for Aiva's twelve fictional personas. Every face is invented; never describe or reference a real person.",
+  "people": [
+    {
+      "id": "sienna",
+      "look": "A poised woman of 34 with long chestnut-auburn waves past the shoulders, warm light-olive skin, green eyes, subtle natural makeup, small gold earrings, a tailored deep forest-green blazer over a cream silk top",
+      "place": "softly blurred Manhattan corner office behind her, warm late-afternoon window light",
+      "energy": "composed and warm, efficient small gestures",
+      "gestures": [
+        "hair_flip",
+        "nod",
+        "smile"
+      ]
+    },
+    {
+      "id": "zoe",
+      "look": "A 20-year-old East Asian American college student with a chin-length lavender-dyed bob, round tortoiseshell glasses, one white wireless earbud, light makeup, an oversized oatmeal hoodie",
+      "place": "softly blurred cozy campus café behind her, string lights and plants, daylight",
+      "energy": "lively and expressive, quick playful eyebrow raises",
+      "gestures": [
+        "fix_glasses",
+        "eye_roll",
+        "smirk"
+      ]
+    },
+    {
+      "id": "marco",
+      "look": "A strikingly handsome Italian man of 34 with dark swept-back hair, short well-groomed stubble, warm olive skin, deep brown eyes, a charming confident half-smile, a navy suit jacket over an open-collar white shirt",
+      "place": "softly blurred grand hotel lobby behind him, warm brass lamps and marble",
+      "energy": "relaxed and charming, slow confident movements",
+      "gestures": [
+        "smile",
+        "wink",
+        "brow_raise"
+      ]
+    },
+    {
+      "id": "jaylen",
+      "look": "An athletic Black man of 29 with a sharp low fade and a neatly trimmed full beard, deep brown skin, bright friendly eyes, a red quarter-zip athletic pullover",
+      "place": "softly blurred bright modern startup office behind him, glass walls and plants, daylight",
+      "energy": "energetic and upbeat, big genuine smiles",
+      "gestures": [
+        "fist_pump",
+        "nod",
+        "smile"
+      ]
+    },
+    {
+      "id": "eleanor",
+      "look": "An elegant British woman of 58 with a sleek silver chin-length bob, fair skin with fine lines, blue-grey eyes, half-moon reading glasses, a single strand of pearls, a taupe tweed blazer",
+      "place": "softly blurred wood-panelled study behind her, leather books and a green banker’s lamp",
+      "energy": "dry and understated, small precise movements, a hint of amusement",
+      "gestures": [
+        "fix_glasses",
+        "brow_raise",
+        "nod"
+      ]
+    },
+    {
+      "id": "rosa",
+      "look": "A warm Mexican American woman of 41 with dark curly hair in a loose bun with a few curls framing her face, medium-tan skin, small gold hoops, a terracotta cardigan over a cream top",
+      "place": "softly blurred cheerful small-business office behind her, a bakery shelf and warm light",
+      "energy": "big-hearted and animated, warm laughing eyes",
+      "gestures": [
+        "smile",
+        "nod",
+        "head_tilt"
+      ]
+    },
+    {
+      "id": "kai",
+      "look": "A calm Japanese-Hawaiian man of 27 with long black hair tied in a top knot, light-tan sun-kissed skin, clean-shaven, a thin cord necklace, an off-white linen shirt",
+      "place": "softly blurred airy minimalist studio behind him, plants and soft ocean light through a window",
+      "energy": "calm and unhurried, gentle slow movements",
+      "gestures": [
+        "breathe",
+        "nod",
+        "smile"
+      ]
+    },
+    {
+      "id": "amara",
+      "look": "A striking Nigerian British woman of 35 with long braids gathered in an elegant updo, deep brown skin, defined brows, gold hoop earrings, a structured cobalt-blue blazer",
+      "place": "softly blurred glass-walled boardroom behind her, city skyline, daylight",
+      "energy": "sharp and assured, crisp deliberate gestures",
+      "gestures": [
+        "head_tilt",
+        "nod",
+        "smile"
+      ]
+    },
+    {
+      "id": "theo",
+      "look": "A friendly French-Canadian man of 31 with messy brown curls, light stubble, fair skin, hazel-green eyes, thick black-rimmed glasses, a camel cardigan over a navy T-shirt",
+      "place": "softly blurred home office behind him, bookshelves, a plant and a second monitor glow",
+      "energy": "curious and animated, nerdy enthusiasm",
+      "gestures": [
+        "scratch_head",
+        "fix_glasses",
+        "smile"
+      ]
+    },
+    {
+      "id": "grace",
+      "look": "A gracious Southern woman of 66 with short soft white curls, fair skin with laugh lines, kind blue eyes, a pearl necklace, a periwinkle-blue blouse",
+      "place": "softly blurred sunlit Savannah parlor behind her, lace curtains and fresh flowers",
+      "energy": "gentle and gracious, warm small nods",
+      "gestures": [
+        "smile",
+        "head_tilt",
+        "nod"
+      ]
+    },
+    {
+      "id": "dev",
+      "look": "A sharp Indian American man of 38 with short neat black hair, clean-shaven, medium-brown skin, a crisp white shirt with the sleeves rolled once, a slim steel watch",
+      "place": "softly blurred minimalist Chicago office behind him, city view, cool daylight",
+      "energy": "deadpan and economical, minimal movement, the faintest dry smile",
+      "gestures": [
+        "nod",
+        "brow_raise",
+        "smirk"
+      ]
+    },
+    {
+      "id": "luna",
+      "look": "A vibrant Cuban American woman of 26 with long sleek dark hair with caramel highlights, warm tan skin, statement gold earrings, a coral silk camisole top",
+      "place": "softly blurred bright Miami creative studio behind her, pastel walls and palm shadows",
+      "energy": "bubbly and expressive, playful confident movements",
+      "gestures": [
+        "hair_flip",
+        "smile",
+        "head_tilt"
+      ]
+    }
+  ]
+}
