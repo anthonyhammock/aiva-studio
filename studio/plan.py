@@ -18,7 +18,8 @@ if step == "animate":
 if step not in ("portraits", "animate"):
     raise SystemExit(f"request.json step must be portraits or animate, not {step!r}")
 out = {"step": step, "people": json.dumps(chosen), "count": str(req.get("count", 3)),
-       "model": req.get("model", "lightning"), "clips": ",".join(req.get("clips", []))}
+       "model": req.get("model", "lightning"), "clips": ",".join(req.get("clips", [])),
+       "preview": "--preview" if req.get("preview") else ""}
 with open(os.environ.get("GITHUB_OUTPUT", "/dev/stdout"), "a") as f:
     for k, v in out.items():
         f.write(f"{k}={v}\n")

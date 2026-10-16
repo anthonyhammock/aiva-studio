@@ -59,6 +59,7 @@ def main():
     ap.add_argument("--person", required=True)
     ap.add_argument("--clips", default="")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--preview", action="store_true", help="write to out/preview/<id>/ and leave out/people alone")
     args = ap.parse_args()
     torch.set_num_threads(os.cpu_count() or 4)
 
@@ -76,8 +77,8 @@ def main():
         portrait = np.ascontiguousarray(portrait[top:top + round(w * 1.25)])
     h, w = portrait.shape[:2]
 
-    out = ROOT / "out" / "people" / args.person
-    review = ROOT / "out" / "review" / args.person
+    out = ROOT / "out" / ("preview" if args.preview else "people") / args.person
+    review = out / "review" if args.preview else ROOT / "out" / "review" / args.person
     out.mkdir(parents=True, exist_ok=True)
     review.mkdir(parents=True, exist_ok=True)
     meta_path = out / "meta.json"
@@ -87,18 +88,19 @@ def main():
 
     t0 = time.time()
     drv = Driver(portrait)
-    templates = {name: load_template(name) for name in motions.TEMPLATES}
+    templates = motions.derive({name: load_template(name) for name in motions.TEMPLATES})
     print(f"{args.person}: models ready in {time.time() - t0:.0f}s; face {drv.face_box()}", flush=True)
 
     neutral = drv.render()
     save_webp(neutral, out / "portrait.webp", w)
     save_webp(neutral, out / "portrait-sm.webp", 480)
 
-    wanted = [c for c in args.clips.split(",") if c] or list(motions.CLIPS)
+    named = [c for c in args.clips.split(",") if c]
+    wanted = named or list(motions.CLIPS)
     clips = meta.get("clips", {})
     for name in wanted:
         target = out / f"{name}.mp4"
-        if target.exists() and name in clips and not args.force:
+        if target.exists() and name in clips and not (args.force or named):   # named clips are always remade
             print(f"{args.person}/{name}: already made", flush=True)
             continue
         t1 = time.time()

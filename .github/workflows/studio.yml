@@ -27,6 +27,7 @@ jobs:
       count: ${{ steps.plan.outputs.count }}
       model: ${{ steps.plan.outputs.model }}
       clips: ${{ steps.plan.outputs.clips }}
+      preview: ${{ steps.plan.outputs.preview }}
     steps:
       - uses: actions/checkout@v4
       - id: plan
@@ -131,8 +132,12 @@ jobs:
               hf_hub_download("KlingTeam/LivePortrait", f, revision=os.environ["LP_WEIGHTS_REV"], local_dir="LivePortrait/pretrained_weights")
           PY
       - name: Animate
-        run: LP_DIR=$PWD/LivePortrait python3 studio/animate.py --person "${{ matrix.person }}" --clips "${{ needs.plan.outputs.clips }}"
+        run: LP_DIR=$PWD/LivePortrait python3 studio/animate.py --person "${{ matrix.person }}" --clips "${{ needs.plan.outputs.clips }}" ${{ needs.plan.outputs.preview }}
       - name: Commit
         if: always()
         run: |
-          studio/commit.sh "Animated ${{ matrix.person }}" "out/people/${{ matrix.person }}" "out/review/${{ matrix.person }}"
+          if [ -n "${{ needs.plan.outputs.preview }}" ]; then
+            studio/commit.sh "Preview for ${{ matrix.person }}" "out/preview/${{ matrix.person }}"
+          else
+            studio/commit.sh "Animated ${{ matrix.person }}" "out/people/${{ matrix.person }}" "out/review/${{ matrix.person }}"
+          fi

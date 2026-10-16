@@ -164,17 +164,33 @@ def _still(t, d, s):
 
 CLIPS = {
     "idle": dict(dur=5.0, pose=_idle, blinks=[1.7, 4.0], build=lambda T: T),
-    "idle2": dict(dur=5.0, pose=_glance, blinks=[0.6, 3.4], build=lambda T: T.add("shy", 1.4, 0.35)),
-    "listen": dict(dur=5.0, pose=_listen, blinks=[0.5, 3.6], build=lambda T: T.add("shy", 0.8, 0.25)),
-    "think": dict(dur=5.0, pose=_think, blinks=[3.5], build=lambda T: T.add("shy", 3.3, 0.5)),
+    "idle2": dict(dur=5.0, pose=_glance, blinks=[0.6, 3.4], build=lambda T: T.add("smile", 1.4, 0.4)),
+    "listen": dict(dur=5.0, pose=_listen, blinks=[0.5, 3.6], build=lambda T: T.add("smile", 0.8, 0.3)),
+    "think": dict(dur=5.0, pose=_think, blinks=[3.5], build=lambda T: T.add("smile", 3.0, 0.5)),
     "talk": dict(dur=5.0, pose=_talk, blinks=[1.9, 4.2], build=lambda T: T.add("talking", 0.3, 1.0)),
     "talk2": dict(dur=5.0, pose=_talk, blinks=[0.9, 3.3],
                   mouth=lambda t, d, s: syllables(t, 0.35, 4.6, s + 9), build=lambda T: T),
-    "nod": dict(dur=4.0, pose=_nod, blinks=[2.6], build=lambda T: T.add("laugh", 0.5, 0.35)),
-    "smile": dict(dur=4.0, pose=_still, blinks=[3.1], build=lambda T: T.add("shy", 0.4, 0.8)),
-    "wink": dict(dur=4.0, pose=_still, blinks=[], build=lambda T: T.add("wink", 0.6, 1.0).add("shy", 0.5, 0.3)),
-    "head_tilt": dict(dur=4.0, pose=_tilt, blinks=[2.8], build=lambda T: T.add("shy", 0.5, 0.45)),
+    "nod": dict(dur=4.0, pose=_nod, blinks=[2.6], build=lambda T: T.add("smile", 0.5, 0.6)),
+    "smile": dict(dur=4.0, pose=_still, blinks=[3.1], build=lambda T: T.add("smile", 0.4, 1.0)),
+    "wink": dict(dur=4.0, pose=_still, blinks=[], build=lambda T: T.add("wink", 0.6, 1.0).add("smile", 0.5, 0.4)),
+    "head_tilt": dict(dur=4.0, pose=_tilt, blinks=[2.8], build=lambda T: T.add("smile", 0.5, 0.7)),
     "laugh": dict(dur=4.0, pose=_still, blinks=[], build=lambda T: T.add("laugh", 0.4, 0.8)),
 }
 
-TEMPLATES = ["shy", "talking", "laugh", "wink"]
+TEMPLATES = ["talking", "laugh", "wink"]
+
+# Keypoint 19 carries most of the jaw / lower-lip drop in LivePortrait's
+# expression space (it dominates the laugh and talking templates); 17 helps.
+# A laugh with those held back is a warm, closed-mouth smile.
+MOUTH_OPEN_KP = {19: 0.08, 17: 0.5}
+
+
+def derive(templates):
+    """Adds templates built from the bundled ones: 'smile' (a laugh without
+    the open mouth)."""
+    laugh, fps = templates["laugh"]
+    smile = laugh.copy()
+    for kp, keep in MOUTH_OPEN_KP.items():
+        smile[:, kp, :] *= keep
+    templates["smile"] = (smile, fps)
+    return templates
