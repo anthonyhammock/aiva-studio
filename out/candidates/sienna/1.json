@@ -1,0 +1,19 @@
+{
+  "persona": "sienna",
+  "n": 1,
+  "seed": 7001,
+  "model": "RealVisXL_V5.0_Lightning_fp16.safetensors",
+  "settings": {
+    "steps": 6,
+    "cfg": 1.5,
+    "sampler": "dpm++2m_sde",
+    "scheduler": "karras"
+  },
+  "prompt": "RAW photo, close-up head and shoulders portrait of A poised woman of 34 with long chestnut-auburn waves past the shoulders, warm light-olive skin, green eyes, subtle natural makeup, small gold earrings, a tailored deep forest-green blazer over a cream silk top, softly blurred Manhattan corner office behind her, warm late-afternoon window light, looking straight into the camera, relaxed natural expression, lips gently closed, soft natural window light, 85mm lens at f/2, shallow depth of field, natural skin texture with fine pores, subtle film grain, photorealistic, sharp focus on the eyes",
+  "negative": "cartoon, anime, 3d render, cgi, illustration, painting, plastic skin, airbrushed, doll, deformed, asymmetric eyes, cross-eyed, bad teeth, extra fingers, hands, blurry, lowres, jpeg artifacts, watermark, text, logo, frame",
+  "size": [
+    896,
+    1120
+  ],
+  "seconds": 1377
+}
