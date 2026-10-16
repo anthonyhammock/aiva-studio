@@ -1,17 +1,22 @@
 {
   "step": "animate",
   "only": [
+    "sienna",
+    "zoe",
+    "jaylen",
+    "eleanor",
+    "rosa",
+    "kai",
+    "amara",
+    "theo",
     "grace",
-    "jaylen"
+    "dev",
+    "luna"
   ],
   "count": 3,
   "model": "lightning",
-  "clips": [
-    "smile",
-    "head_tilt",
-    "talk"
-  ],
+  "clips": [],
   "note": "Edit and push to run the studio. step: portraits (make candidates) or animate (needs a pick in picks.json). only: persona ids, empty for all twelve.",
-  "run": 4,
-  "preview": true
+  "run": 5,
+  "preview": false
 }
