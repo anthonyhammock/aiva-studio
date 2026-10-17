@@ -1,18 +1,20 @@
 {
   "step": "animate",
   "only": [
-    "sienna"
+    "marco"
   ],
   "count": 3,
   "model": "lightning",
   "clips": [
     "idle2",
+    "listen",
+    "think",
     "nod",
-    "head_tilt",
-    "think"
+    "smile",
+    "wink",
+    "head_tilt"
   ],
-  "note": "Edit and push to run the studio. step: portraits (make candidates) or animate (needs a pick in picks.json). only: persona ids, empty for all twelve. motion: a recording in driving/ to move like. preview: write to out/preview.",
-  "run": 7,
-  "preview": true,
-  "motion": "tests/roundtrip-sienna.json"
+  "note": "Edit and push to run the studio. step: portraits (make candidates) or animate (needs a pick in picks.json). only: persona ids, empty for all twelve.",
+  "run": 6,
+  "preview": false
 }
