@@ -8,6 +8,7 @@
 | [sdxl-vae-fp16-fix](https://huggingface.co/madebyollin/sdxl-vae-fp16-fix) | MIT | Decoding the portraits |
 | [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | MIT | Running RealVisXL on the CPU |
 | OpenCV and its Haar face cascade | Apache 2.0 / Intel licence | Finding the face before LivePortrait's landmarks |
+| [MediaPipe Face Landmarker](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) | Apache 2.0 | Measuring a real person's head movement, blinks, mouth and smile on the website's recording page (`driving/*.json`). It runs in that person's browser; the files hold numbers only, no images. |
 
 LivePortrait's own pipeline detects faces with InsightFace, whose models are for
 non-commercial research only. This studio doesn't download or use them; it uses OpenCV
