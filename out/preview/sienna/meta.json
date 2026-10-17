@@ -1,0 +1,35 @@
+{
+  "source": "2.webp",
+  "size": [
+    896,
+    1120
+  ],
+  "face": {
+    "cx": 0.5003758158002581,
+    "cy": 0.4799324035644531,
+    "w": 0.4591048104422433,
+    "h": 0.361395263671875
+  },
+  "clips": {
+    "idle2": {
+      "d": 7.24,
+      "frames": 181,
+      "motion": "recorded:roundtrip-sienna.json"
+    },
+    "nod": {
+      "d": 4.0,
+      "frames": 100,
+      "motion": "recorded:roundtrip-sienna.json"
+    },
+    "head_tilt": {
+      "d": 4.0,
+      "frames": 100,
+      "motion": "recorded:roundtrip-sienna.json"
+    },
+    "think": {
+      "d": 6.0,
+      "frames": 150,
+      "motion": "recorded:roundtrip-sienna.json"
+    }
+  }
+}
