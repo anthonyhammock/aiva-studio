@@ -17,6 +17,26 @@ brief (`people.json`), never based on a real person.
    so the website can chain them seamlessly. Review contact sheets go in
    `out/review/<id>/`.
 
+## Real motion
+
+The personas can move like a real person instead of following the written choreography.
+On the website, an admin opens **Admin → Aiva Motion** (`/admin/aiva-motion`), sits in
+front of their webcam and follows a 96-second on-screen script: sit, glance away, listen,
+talk, think, nod, smile, laugh, tilt the head, wink. MediaPipe's face tracker runs in
+their browser and records only numbers: head angles, blinks, mouth opening and smile, 25
+times a second. No video or picture of the person is uploaded anywhere, and the personas
+keep their own faces.
+
+Upload the downloaded file into `driving/` (GitHub: Add file → Upload files → Commit).
+That push alone starts a run that re-animates every persona with it (`studio/drive.py`);
+the recorded clips are 4–12 seconds long instead of 4–5. Clips the recording doesn't
+cover keep the written choreography. It takes about four hours on the free runners. Then
+bring the media into the site with `node scripts/aiva-avatars/generate.mjs import` in the
+web repo.
+
+To try a recording on one persona first, set `request.json` to
+`{"step": "animate", "only": ["sienna"], "motion": "driving/<file>.json", "preview": true}`.
+
 ## Running it
 
 Edit `request.json` and push it; `.github/workflows/studio.yml` does the rest and
@@ -27,6 +47,8 @@ commits results back. The fields are:
 - `count`: number of candidates per persona
 - `model`: `lightning` (fast) or `full`
 - `clips`: a subset of clips to (re)make
+- `motion`: a motion recording to move like (`driving/<file>.json`); see Real motion
+- `preview`: write to `out/preview/<id>/` and leave `out/people/` alone
 
 You can also start it from Actions → Studio → Run workflow.
 

@@ -2,11 +2,13 @@
 # runners, and commits the results back to the branch.
 #   step "portraits": RealVisXL V5.0 on stable-diffusion.cpp → out/candidates/<id>/
 #   step "animate":   LivePortrait on the CPU → out/people/<id>/ (+ out/review/<id>/)
+#                     moved by written choreography, or by a real person's motion
+#                     recording (driving/*.json; pushing one on its own starts a run)
 name: Studio
 
 on:
   push:
-    paths: ['request.json']
+    paths: ['request.json', 'driving/**.json']
   workflow_dispatch:
 
 permissions:
@@ -28,8 +30,11 @@ jobs:
       model: ${{ steps.plan.outputs.model }}
       clips: ${{ steps.plan.outputs.clips }}
       preview: ${{ steps.plan.outputs.preview }}
+      motion: ${{ steps.plan.outputs.motion }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - id: plan
         run: python3 studio/plan.py
 
@@ -132,7 +137,9 @@ jobs:
               hf_hub_download("KlingTeam/LivePortrait", f, revision=os.environ["LP_WEIGHTS_REV"], local_dir="LivePortrait/pretrained_weights")
           PY
       - name: Animate
-        run: LP_DIR=$PWD/LivePortrait python3 studio/animate.py --person "${{ matrix.person }}" --clips "${{ needs.plan.outputs.clips }}" ${{ needs.plan.outputs.preview }}
+        run: LP_DIR=$PWD/LivePortrait python3 studio/animate.py --person "${{ matrix.person }}" --clips "${{ needs.plan.outputs.clips }}" ${{ needs.plan.outputs.preview }} ${MOTION:+--motion "$MOTION"}
+        env:
+          MOTION: ${{ needs.plan.outputs.motion }}
       - name: Commit
         if: always()
         run: |
