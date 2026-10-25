@@ -188,3 +188,25 @@ jobs:
         if: always()
         run: |
           studio/commit.sh "Music for ${{ matrix.genre }}" "out/music/${{ matrix.genre }}"
+
+  sounds:
+    needs: plan
+    if: needs.plan.outputs.step == 'sounds'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Tools
+        run: |
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null)
+          pip install -q --index-url https://download.pytorch.org/whl/cpu torch==2.9.1 torchaudio==2.9.1
+          pip install -q "transformers>=4.51.0,<4.58.0" requests soundfile librosa
+      - name: Find and label
+        run: python3 studio/sounds.py --only "${{ join(fromJSON(needs.plan.outputs.people), ',') }}" --per "${{ needs.plan.outputs.count }}"
+      - name: Commit
+        if: always()
+        run: |
+          studio/commit.sh "Sound candidates" "out/sounds"

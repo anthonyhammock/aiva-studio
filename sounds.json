@@ -1,0 +1,16 @@
+{
+  "probes": [
+    {"id": "gong", "query": "gong", "expect": ["Gong"]},
+    {"id": "temple_gong", "query": "temple gong", "expect": ["Gong"]},
+    {"id": "tam_tam", "query": "tam tam", "expect": ["Gong"]},
+    {"id": "singing_bowl", "query": "singing bowl", "expect": ["Singing bowl"]},
+    {"id": "temple_bell", "query": "temple bell", "expect": ["Church bell", "Bell", "Jingle bell", "Chime"]},
+    {"id": "whoosh", "query": "whoosh", "expect": ["Whoosh, swoosh, swish"]},
+    {"id": "impact", "query": "impact boom", "expect": ["Boom", "Thump, thud", "Explosion"]},
+    {"id": "engine_rev", "query": "engine rev", "expect": ["Engine", "Accelerating, revving, vroom", "Vehicle"]},
+    {"id": "cash_register", "query": "cash register", "expect": ["Cash register"]},
+    {"id": "crowd_cheer", "query": "crowd cheer", "expect": ["Cheering", "Crowd", "Applause"]},
+    {"id": "rain", "query": "rain", "expect": ["Rain", "Raindrop", "Rain on surface"]},
+    {"id": "door_close", "query": "door close", "expect": ["Door", "Slam"]}
+  ]
+}

@@ -14,7 +14,7 @@ people = [p["id"] for p in json.loads((ROOT / "people.json").read_text())["peopl
 only = [x for x in req.get("only", []) if x]
 step = req.get("step", "portraits")
 unknown = [x for x in only if x not in people]
-if unknown and step != "music":
+if unknown and step not in ("music", "sounds"):
     raise SystemExit(f"request.json names unknown personas: {unknown}")
 chosen = only or people
 motion = req.get("motion", "")
@@ -32,13 +32,16 @@ if step == "music":
     if unknown:
         raise SystemExit(f"request.json names unknown genres: {unknown}")
     chosen = only or genres
+if step == "sounds":
+    # one job; `only` picks probes from sounds.json
+    chosen = only
 if motion and not (ROOT / motion).exists():
     raise SystemExit(f"motion recording {motion} isn't in the repository")
 if step == "animate":
     picks = json.loads((ROOT / "picks.json").read_text())
     chosen = [p for p in chosen if picks.get(p)]
-if step not in ("portraits", "animate", "music"):
-    raise SystemExit(f"request.json step must be portraits, animate or music, not {step!r}")
+if step not in ("portraits", "animate", "music", "sounds"):
+    raise SystemExit(f"request.json step must be portraits, animate, music or sounds, not {step!r}")
 out = {"step": step, "people": json.dumps(chosen), "count": str(req.get("count", 3)),
        "model": req.get("model", "lightning"), "clips": ",".join(clips),
        "preview": "--preview" if preview else "", "motion": motion, "seconds": str(req.get("seconds", 0))}
