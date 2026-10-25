@@ -6,10 +6,10 @@
   "bpm": 68,
   "key": "A minor",
   "seconds": 60.0,
-  "length": 49.9,
+  "length": 49.84,
   "caption": "slow electric blues instrumental, soulful guitar bends, organ pad, slow 12/8 drums, emotional and smoky",
   "seed": 7351,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 222,
+  "made_in_seconds": 214,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

@@ -1,0 +1,15 @@
+{
+  "id": "dust-road",
+  "title": "Dust Road",
+  "genre": "blues",
+  "genre_name": "Blues",
+  "bpm": 84,
+  "key": "D major",
+  "seconds": 60.0,
+  "length": 56.24,
+  "caption": "acoustic delta blues instrumental, slide resonator guitar, foot stomp, warm and rootsy",
+  "seed": 6408,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 191,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

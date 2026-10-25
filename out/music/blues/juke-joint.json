@@ -6,10 +6,10 @@
   "bpm": 124,
   "key": "G major",
   "seconds": 60.0,
-  "length": 53.8,
+  "length": 53.84,
   "caption": "upbeat Chicago blues instrumental, harmonica lead, boogie piano, driving rhythm guitar, energetic",
   "seed": 7170,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 219,
+  "made_in_seconds": 194,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

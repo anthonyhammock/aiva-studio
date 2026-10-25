@@ -1,0 +1,15 @@
+{
+  "id": "southern-soul",
+  "title": "Southern Soul",
+  "genre": "blues",
+  "genre_name": "Blues",
+  "bpm": 92,
+  "key": "C major",
+  "seconds": 60.0,
+  "length": 53.42,
+  "caption": "soul blues instrumental, horn section, Hammond organ, clean guitar, groovy drums, warm and polished",
+  "seed": 9692,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 188,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

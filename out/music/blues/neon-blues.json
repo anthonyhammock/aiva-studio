@@ -1,0 +1,15 @@
+{
+  "id": "neon-blues",
+  "title": "Neon Blues",
+  "genre": "blues",
+  "genre_name": "Blues",
+  "bpm": 100,
+  "key": "B minor",
+  "seconds": 60.0,
+  "length": 54.88,
+  "caption": "modern blues rock instrumental, crunchy guitar riff, punchy drums, bass, confident and cool",
+  "seed": 7117,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 185,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

@@ -7,7 +7,7 @@
       "title": "Crossroads Shuffle",
       "bpm": 110,
       "key": "E major",
-      "length": 57.8,
+      "length": 57.78,
       "caption": "electric blues shuffle instrumental, expressive bluesy electric guitar lead, Hammond organ, shuffle drums, bass, 12-bar blues, gritty and fun"
     },
     {
@@ -15,7 +15,7 @@
       "title": "Slow River",
       "bpm": 68,
       "key": "A minor",
-      "length": 49.9,
+      "length": 49.84,
       "caption": "slow electric blues instrumental, soulful guitar bends, organ pad, slow 12/8 drums, emotional and smoky"
     },
     {
@@ -23,8 +23,32 @@
       "title": "Juke Joint",
       "bpm": 124,
       "key": "G major",
-      "length": 53.8,
+      "length": 53.84,
       "caption": "upbeat Chicago blues instrumental, harmonica lead, boogie piano, driving rhythm guitar, energetic"
+    },
+    {
+      "id": "dust-road",
+      "title": "Dust Road",
+      "bpm": 84,
+      "key": "D major",
+      "length": 56.24,
+      "caption": "acoustic delta blues instrumental, slide resonator guitar, foot stomp, warm and rootsy"
+    },
+    {
+      "id": "southern-soul",
+      "title": "Southern Soul",
+      "bpm": 92,
+      "key": "C major",
+      "length": 53.42,
+      "caption": "soul blues instrumental, horn section, Hammond organ, clean guitar, groovy drums, warm and polished"
+    },
+    {
+      "id": "neon-blues",
+      "title": "Neon Blues",
+      "bpm": 100,
+      "key": "B minor",
+      "length": 54.88,
+      "caption": "modern blues rock instrumental, crunchy guitar riff, punchy drums, bass, confident and cool"
     }
   ]
 }
