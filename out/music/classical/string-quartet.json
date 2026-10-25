@@ -1,0 +1,15 @@
+{
+  "id": "string-quartet",
+  "title": "Morning Quartet",
+  "genre": "classical",
+  "genre_name": "Classical",
+  "bpm": 100,
+  "key": "G major",
+  "seconds": 60.0,
+  "length": 58.8,
+  "caption": "classical string quartet, two violins, viola and cello, elegant and uplifting, baroque-inspired counterpoint",
+  "seed": 10375,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 225,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

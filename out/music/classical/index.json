@@ -1,0 +1,30 @@
+{
+  "genre": "classical",
+  "name": "Classical",
+  "tracks": [
+    {
+      "id": "nocturne",
+      "title": "Nocturne",
+      "bpm": 66,
+      "key": "Db major",
+      "length": 55.1,
+      "caption": "classical solo piano, romantic era nocturne style, expressive and gentle, rich concert grand piano"
+    },
+    {
+      "id": "string-quartet",
+      "title": "Morning Quartet",
+      "bpm": 100,
+      "key": "G major",
+      "length": 58.8,
+      "caption": "classical string quartet, two violins, viola and cello, elegant and uplifting, baroque-inspired counterpoint"
+    },
+    {
+      "id": "grand-hall",
+      "title": "Grand Hall",
+      "bpm": 92,
+      "key": "D major",
+      "length": 58.1,
+      "caption": "classical orchestra, full strings, woodwinds and French horns, majestic and triumphant, cinematic concert hall sound"
+    }
+  ]
+}

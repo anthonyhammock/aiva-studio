@@ -1,0 +1,15 @@
+{
+  "id": "grand-hall",
+  "title": "Grand Hall",
+  "genre": "classical",
+  "genre_name": "Classical",
+  "bpm": 92,
+  "key": "D major",
+  "seconds": 60.0,
+  "length": 58.1,
+  "caption": "classical orchestra, full strings, woodwinds and French horns, majestic and triumphant, cinematic concert hall sound",
+  "seed": 6904,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 224,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
