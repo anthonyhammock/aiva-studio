@@ -1,0 +1,15 @@
+{
+  "id": "midnight-martini",
+  "title": "Midnight Martini",
+  "genre": "jazz",
+  "genre_name": "Jazz",
+  "bpm": 96,
+  "key": "F minor",
+  "seconds": 60.0,
+  "length": 54.7,
+  "caption": "smooth late night jazz instrumental, muted trumpet, piano trio, soft ride cymbal, upright bass, intimate and classy",
+  "seed": 11572,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 223,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

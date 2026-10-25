@@ -1,0 +1,15 @@
+{
+  "id": "bossa-terrace",
+  "title": "Bossa Terrace",
+  "genre": "jazz",
+  "genre_name": "Jazz",
+  "bpm": 128,
+  "key": "D minor",
+  "seconds": 60.0,
+  "length": 55.5,
+  "caption": "bossa nova jazz instrumental, nylon guitar, light percussion, flute melody, upright bass, breezy and elegant",
+  "seed": 9263,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 223,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

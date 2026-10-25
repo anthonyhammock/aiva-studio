@@ -1,0 +1,30 @@
+{
+  "genre": "jazz",
+  "name": "Jazz",
+  "tracks": [
+    {
+      "id": "blue-room",
+      "title": "Blue Room",
+      "bpm": 120,
+      "key": "Bb major",
+      "length": 49.3,
+      "caption": "modern jazz quartet instrumental, piano, tenor saxophone, walking upright bass, brushed swing drums, sophisticated lounge"
+    },
+    {
+      "id": "midnight-martini",
+      "title": "Midnight Martini",
+      "bpm": 96,
+      "key": "F minor",
+      "length": 54.7,
+      "caption": "smooth late night jazz instrumental, muted trumpet, piano trio, soft ride cymbal, upright bass, intimate and classy"
+    },
+    {
+      "id": "bossa-terrace",
+      "title": "Bossa Terrace",
+      "bpm": 128,
+      "key": "D minor",
+      "length": 55.5,
+      "caption": "bossa nova jazz instrumental, nylon guitar, light percussion, flute melody, upright bass, breezy and elegant"
+    }
+  ]
+}
