@@ -48,6 +48,8 @@ licence fees and draw no copyright claims when posted. Run
 one job per genre, on the CPU, about two minutes a track, written to `out/music/<genre>/` as
 MP3 (128 kbps; the website's server-side renderer has no AAC) levelled to -14 LUFS with a JSON of what each was made from and an `index.json` per
 genre). `seconds` sets the length (60 by default: Motion videos are at most 30 seconds).
+A track that goes quiet for 1.5 s or more after its first 20 seconds ends there with a fade, so
+no video lands on dead air; `python studio/music.py --genre <id> --tidy` re-checks finished tracks.
 
 ## Real motion
 

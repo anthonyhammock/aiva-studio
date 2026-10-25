@@ -3,6 +3,7 @@ ACE-Step 1.5 (MIT; its makers allow commercial use of what it generates) on
 the CPU of a free runner.
 
     python studio/music.py --genre amapiano [--count 6] [--seconds 75]
+    python studio/music.py --genre amapiano --tidy    (re-check finished tracks for mid-song gaps)
 
 Reads the genre's tracks from music.json (caption, BPM, key) and writes
 out/music/<genre>/<id>.mp3 (128 kbps, about 1 MB a minute: MP3 is the one
@@ -16,6 +17,7 @@ so the 5 Hz language model (which plans songs from a short idea) isn't needed.
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -39,9 +41,31 @@ def encode(src, dst):
                     "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "128k", str(dst)], check=True)
 
 
+def cut_gap(path, after=20.0):
+    """The model sometimes stops for a few seconds mid-song and starts again,
+    which would land in a video as dead air. If a near-silent stretch of 1.5 s
+    or more comes after at least `after` seconds of music, the track ends there
+    instead, with a one-second fade. Returns whether it was cut."""
+    log = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(path), "-af", "silencedetect=n=-40dB:d=1.5",
+                          "-f", "null", "-"], capture_output=True, text=True).stderr
+    cut = next((s for s in map(float, re.findall(r"silence_start: ([0-9.]+)", log)) if s >= after), None)
+    if cut is None:
+        return False
+    tmp = path.with_suffix(".cut.mp3")
+    subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(path), "-t", f"{cut:.2f}",
+                    "-af", f"afade=t=out:st={cut - 1:.2f}:d=1", "-c:a", "libmp3lame", "-b:a", "128k", str(tmp)], check=True)
+    tmp.replace(path)
+    return True
+
+
 def length_of(path):
-    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", str(path)],
-                         capture_output=True, text=True).stdout.strip()
+    try:
+        out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", str(path)],
+                             capture_output=True, text=True).stdout.strip()
+    except FileNotFoundError:   # ffmpeg without ffprobe: read the duration ffmpeg reports
+        log = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path)], capture_output=True, text=True).stderr
+        h, m, sec = re.search(r"Duration: (\d+):(\d+):([\d.]+)", log).groups()
+        out = int(h) * 3600 + int(m) * 60 + float(sec)
     return round(float(out or 0), 2)
 
 
@@ -61,6 +85,7 @@ def main():
     ap.add_argument("--genre", required=True)
     ap.add_argument("--count", type=int, default=0, help="the first N tracks of the genre (0: all)")
     ap.add_argument("--seconds", type=float, default=0, help="length of each track (0: music.json's)")
+    ap.add_argument("--tidy", action="store_true", help="only re-check finished tracks for mid-song gaps (cut_gap)")
     args = ap.parse_args()
 
     catalog = json.loads((ROOT / "music.json").read_text())
@@ -71,6 +96,16 @@ def main():
     seconds = args.seconds or float(catalog.get("seconds", 75))
     out = ROOT / "out" / "music" / args.genre
     out.mkdir(parents=True, exist_ok=True)
+    if args.tidy:
+        for t in tracks:
+            mp3, meta = out / f"{t['id']}.mp3", out / f"{t['id']}.json"
+            if mp3.exists() and meta.exists() and cut_gap(mp3):
+                m = json.loads(meta.read_text())
+                m["length"] = length_of(mp3)
+                meta.write_text(json.dumps(m, indent=2) + "\n")
+                print(f"{args.genre}/{t['id']}: cut at a gap, now {m['length']}s", flush=True)
+        write_index(out, args.genre, genre)
+        return
     todo = [t for t in tracks if not (out / f"{t['id']}.mp3").exists()]
     if not todo:
         write_index(out, args.genre, genre)
@@ -106,6 +141,7 @@ def main():
                 print(f"{args.genre}/{t['id']}: failed: {res.error}", flush=True)
                 continue
             encode(res.audios[0]["path"], out / f"{t['id']}.mp3")
+            cut_gap(out / f"{t['id']}.mp3")
         secs = time.time() - t1
         meta = {"id": t["id"], "title": t["title"], "genre": args.genre, "genre_name": genre["name"], "bpm": t["bpm"],
                 "key": t.get("key"), "seconds": seconds, "length": length_of(out / f"{t['id']}.mp3"), "caption": t["caption"],
