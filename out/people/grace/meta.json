@@ -13,47 +13,87 @@
   "clips": {
     "idle": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.2
     },
     "idle2": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.2
     },
     "listen": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.2
     },
     "think": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.2
     },
     "talk": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.2
     },
     "talk2": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.2
     },
     "nod": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.2
     },
     "smile": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.2
     },
     "wink": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.2
     },
     "head_tilt": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.2
     },
     "laugh": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.2
+    },
+    "idle_long": {
+      "d": 14.0,
+      "frames": 350,
+      "motion": "written",
+      "warmth": 0.2
+    },
+    "listen_long": {
+      "d": 9.0,
+      "frames": 225,
+      "motion": "written",
+      "warmth": 0.2
+    },
+    "talk_long": {
+      "d": 8.0,
+      "frames": 200,
+      "motion": "written",
+      "warmth": 0.2
     }
   }
 }
