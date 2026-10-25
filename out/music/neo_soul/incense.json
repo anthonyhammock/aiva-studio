@@ -1,0 +1,15 @@
+{
+  "id": "incense",
+  "title": "Incense",
+  "genre": "neo_soul",
+  "genre_name": "Neo-Soul",
+  "bpm": 76,
+  "key": "D major",
+  "seconds": 60.0,
+  "length": 54.4,
+  "caption": "laid-back neo soul instrumental, dusty drums behind the beat, muted guitar, Wurlitzer keys, flute accents, earthy and soulful",
+  "seed": 5188,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 217,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
