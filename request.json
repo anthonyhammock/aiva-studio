@@ -3,10 +3,8 @@
   "only": [],
   "count": 3,
   "model": "lightning",
-  "clips": [
-    "warmth_sheet"
-  ],
+  "clips": [],
   "note": "Edit and push to run the studio. step: portraits (make candidates) or animate (needs a pick in picks.json). only: persona ids, empty for all twelve.",
-  "run": 7,
-  "preview": true
+  "run": 8,
+  "preview": false
 }

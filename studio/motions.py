@@ -21,8 +21,8 @@ LOOK_UP = -1.0
 # the others were cast with a neutral resting face, which reads as cool or
 # stern on a live call. Changing a persona's warmth remakes all its clips (the
 # resting pose is what clips are chained on).
-WARMTH = {"rosa": 0.0, "grace": 0.15}
-WARMTH_DEFAULT = 0.4
+WARMTH = {"rosa": 0.0, "grace": 0.2}
+WARMTH_DEFAULT = 0.5          # chosen from the warmth sheets: a soft smile, lips closed
 
 
 def warmth(person):
