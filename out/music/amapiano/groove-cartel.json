@@ -6,10 +6,10 @@
   "bpm": 113,
   "key": "A minor",
   "seconds": 60.0,
-  "length": 52.2,
+  "length": 52.17,
   "caption": "amapiano instrumental, punchy log drums, whistles, percussive vocal chops style synth, deep bass, energetic dance floor",
   "seed": 9367,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 221,
+  "made_in_seconds": 155,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

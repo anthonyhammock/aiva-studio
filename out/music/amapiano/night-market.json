@@ -1,0 +1,15 @@
+{
+  "id": "night-market",
+  "title": "Night Market",
+  "genre": "amapiano",
+  "genre_name": "Amapiano",
+  "bpm": 112,
+  "key": "D minor",
+  "seconds": 60.0,
+  "length": 55.17,
+  "caption": "deep amapiano instrumental, hypnotic log drum, atmospheric pads, minimal percussion, moody late night",
+  "seed": 8593,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 151,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

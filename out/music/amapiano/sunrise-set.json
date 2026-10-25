@@ -1,0 +1,15 @@
+{
+  "id": "sunrise-set",
+  "title": "Sunrise Set",
+  "genre": "amapiano",
+  "genre_name": "Amapiano",
+  "bpm": 111,
+  "key": "C major",
+  "seconds": 60.0,
+  "length": 56.06,
+  "caption": "uplifting amapiano instrumental, bright piano stabs, strings, log drum, shakers, euphoric and warm",
+  "seed": 8083,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 145,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

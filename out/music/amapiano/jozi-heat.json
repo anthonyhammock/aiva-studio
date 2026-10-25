@@ -1,0 +1,15 @@
+{
+  "id": "jozi-heat",
+  "title": "Jozi Heat",
+  "genre": "amapiano",
+  "genre_name": "Amapiano",
+  "bpm": 114,
+  "key": "G minor",
+  "seconds": 60.0,
+  "length": 57.18,
+  "caption": "amapiano instrumental, bouncing log drum rhythm, flute melody, kwaito-style percussion, warm and joyful",
+  "seed": 6352,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 152,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

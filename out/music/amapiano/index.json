@@ -15,7 +15,7 @@
       "title": "Groove Cartel",
       "bpm": 113,
       "key": "A minor",
-      "length": 52.2,
+      "length": 52.17,
       "caption": "amapiano instrumental, punchy log drums, whistles, percussive vocal chops style synth, deep bass, energetic dance floor"
     },
     {
@@ -23,8 +23,32 @@
       "title": "Velvet Piano",
       "bpm": 110,
       "key": "Eb major",
-      "length": 51.4,
+      "length": 51.36,
       "caption": "soulful amapiano instrumental, lush Rhodes and saxophone, soft log drum, gentle shakers, smooth and classy"
+    },
+    {
+      "id": "jozi-heat",
+      "title": "Jozi Heat",
+      "bpm": 114,
+      "key": "G minor",
+      "length": 57.18,
+      "caption": "amapiano instrumental, bouncing log drum rhythm, flute melody, kwaito-style percussion, warm and joyful"
+    },
+    {
+      "id": "night-market",
+      "title": "Night Market",
+      "bpm": 112,
+      "key": "D minor",
+      "length": 55.17,
+      "caption": "deep amapiano instrumental, hypnotic log drum, atmospheric pads, minimal percussion, moody late night"
+    },
+    {
+      "id": "sunrise-set",
+      "title": "Sunrise Set",
+      "bpm": 111,
+      "key": "C major",
+      "length": 56.06,
+      "caption": "uplifting amapiano instrumental, bright piano stabs, strings, log drum, shakers, euphoric and warm"
     }
   ]
 }
