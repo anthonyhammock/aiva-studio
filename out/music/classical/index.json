@@ -7,7 +7,7 @@
       "title": "Nocturne",
       "bpm": 66,
       "key": "Db major",
-      "length": 55.1,
+      "length": 55.12,
       "caption": "classical solo piano, romantic era nocturne style, expressive and gentle, rich concert grand piano"
     },
     {
@@ -15,7 +15,7 @@
       "title": "Morning Quartet",
       "bpm": 100,
       "key": "G major",
-      "length": 58.8,
+      "length": 58.83,
       "caption": "classical string quartet, two violins, viola and cello, elegant and uplifting, baroque-inspired counterpoint"
     },
     {
@@ -23,8 +23,32 @@
       "title": "Grand Hall",
       "bpm": 92,
       "key": "D major",
-      "length": 58.1,
+      "length": 58.12,
       "caption": "classical orchestra, full strings, woodwinds and French horns, majestic and triumphant, cinematic concert hall sound"
+    },
+    {
+      "id": "waltz",
+      "title": "Garden Waltz",
+      "bpm": 150,
+      "key": "F major",
+      "length": 53.81,
+      "caption": "classical waltz in three, light orchestra with strings and flute, graceful and charming"
+    },
+    {
+      "id": "cello-suite",
+      "title": "Cello Suite",
+      "bpm": 76,
+      "key": "C minor",
+      "length": 51.49,
+      "caption": "solo cello with soft piano accompaniment, melancholic and beautiful, chamber music"
+    },
+    {
+      "id": "allegro",
+      "title": "Allegro",
+      "bpm": 132,
+      "key": "A major",
+      "length": 57.39,
+      "caption": "classical chamber orchestra allegro, bright strings, harpsichord continuo, lively and joyful"
     }
   ]
 }

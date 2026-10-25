@@ -6,10 +6,10 @@
   "bpm": 66,
   "key": "Db major",
   "seconds": 60.0,
-  "length": 55.1,
+  "length": 55.12,
   "caption": "classical solo piano, romantic era nocturne style, expressive and gentle, rich concert grand piano",
   "seed": 6146,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 258,
+  "made_in_seconds": 232,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

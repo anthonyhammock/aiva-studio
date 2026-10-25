@@ -1,0 +1,15 @@
+{
+  "id": "allegro",
+  "title": "Allegro",
+  "genre": "classical",
+  "genre_name": "Classical",
+  "bpm": 132,
+  "key": "A major",
+  "seconds": 60.0,
+  "length": 57.39,
+  "caption": "classical chamber orchestra allegro, bright strings, harpsichord continuo, lively and joyful",
+  "seed": 5199,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 214,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

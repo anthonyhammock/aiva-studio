@@ -1,0 +1,15 @@
+{
+  "id": "waltz",
+  "title": "Garden Waltz",
+  "genre": "classical",
+  "genre_name": "Classical",
+  "bpm": 150,
+  "key": "F major",
+  "seconds": 60.0,
+  "length": 53.81,
+  "caption": "classical waltz in three, light orchestra with strings and flute, graceful and charming",
+  "seed": 3937,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 218,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
