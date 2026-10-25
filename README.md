@@ -46,7 +46,7 @@ each, listed with their sound and tempo in `music.json`. Being original, they ca
 licence fees and draw no copyright claims when posted. Run
 `{"step": "music", "only": ["amapiano"], "count": 6}` to make a genre (`studio/music.py`;
 one job per genre, on the CPU, about two minutes a track, written to `out/music/<genre>/` as
-AAC levelled to -14 LUFS with a JSON of what each was made from and an `index.json` per
+MP3 (128 kbps; the website's server-side renderer has no AAC) levelled to -14 LUFS with a JSON of what each was made from and an `index.json` per
 genre). `seconds` sets the length (60 by default: Motion videos are at most 30 seconds).
 
 ## Real motion

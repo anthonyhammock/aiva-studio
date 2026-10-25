@@ -5,8 +5,9 @@ the CPU of a free runner.
     python studio/music.py --genre amapiano [--count 6] [--seconds 75]
 
 Reads the genre's tracks from music.json (caption, BPM, key) and writes
-out/music/<genre>/<id>.m4a (AAC, about 0.7 MB a minute, which every browser
-decodes) plus <id>.json (what it was made from, how long it took), and
+out/music/<genre>/<id>.mp3 (128 kbps, about 1 MB a minute: MP3 is the one
+compressed format every browser decodes, including the open-source Chromium
+the website's server-side renderer uses, which has no AAC) plus <id>.json (what it was made from, how long it took), and
 out/music/<genre>/index.json listing the genre's finished tracks. Tracks
 already made are skipped, so a run that times out resumes.
 Only the diffusion model is used: the caption and metadata are written here,
@@ -29,13 +30,13 @@ MODEL = "acestep-v15-turbo"
 
 
 def encode(src, dst):
-    """AAC at 112 kbps, levelled to -14 LUFS (what streaming and social apps
+    """MP3 at 128 kbps, levelled to -14 LUFS (what streaming and social apps
     play at). The model ends its songs a few seconds before the length asked
     for and pads with silence: that tail is cut, after a short fade."""
     chain = ("areverse,silenceremove=start_periods=1:start_silence=0.05:start_threshold=-48dB,areverse,"
              "afade=t=in:d=0.02,loudnorm=I=-14:TP=-1.0:LRA=11")
     subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src), "-af", chain,
-                    "-ar", "44100", "-c:a", "aac", "-b:a", "112k", "-movflags", "+faststart", str(dst)], check=True)
+                    "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "128k", str(dst)], check=True)
 
 
 def length_of(path):
@@ -49,7 +50,7 @@ def write_index(out, genre_id, genre):
     done = []
     for t in genre["tracks"]:
         meta = out / f"{t['id']}.json"
-        if (out / f"{t['id']}.m4a").exists() and meta.exists():
+        if (out / f"{t['id']}.mp3").exists() and meta.exists():
             m = json.loads(meta.read_text())
             done.append({k: m.get(k) for k in ("id", "title", "bpm", "key", "length", "caption")})
     (out / "index.json").write_text(json.dumps({"genre": genre_id, "name": genre["name"], "tracks": done}, indent=2) + "\n")
@@ -70,7 +71,7 @@ def main():
     seconds = args.seconds or float(catalog.get("seconds", 75))
     out = ROOT / "out" / "music" / args.genre
     out.mkdir(parents=True, exist_ok=True)
-    todo = [t for t in tracks if not (out / f"{t['id']}.m4a").exists()]
+    todo = [t for t in tracks if not (out / f"{t['id']}.mp3").exists()]
     if not todo:
         write_index(out, args.genre, genre)
         print(f"{args.genre}: nothing to make", flush=True)
@@ -104,10 +105,10 @@ def main():
             if not res.success or not res.audios:
                 print(f"{args.genre}/{t['id']}: failed: {res.error}", flush=True)
                 continue
-            encode(res.audios[0]["path"], out / f"{t['id']}.m4a")
+            encode(res.audios[0]["path"], out / f"{t['id']}.mp3")
         secs = time.time() - t1
         meta = {"id": t["id"], "title": t["title"], "genre": args.genre, "genre_name": genre["name"], "bpm": t["bpm"],
-                "key": t.get("key"), "seconds": seconds, "length": length_of(out / f"{t['id']}.m4a"), "caption": t["caption"],
+                "key": t.get("key"), "seconds": seconds, "length": length_of(out / f"{t['id']}.mp3"), "caption": t["caption"],
                 "seed": seed, "model": f"ACE-Step 1.5 {MODEL}", "made_in_seconds": round(secs),
                 "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."}
         (out / f"{t['id']}.json").write_text(json.dumps(meta, indent=2) + "\n")

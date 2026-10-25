@@ -5,7 +5,7 @@
   "model": "lightning",
   "clips": [],
   "note": "Edit and push to run the studio. step: portraits (make candidates), animate (needs a pick in picks.json) or music (original instrumentals from music.json). only: persona ids (or genres for music), empty for all.",
-  "run": 10,
+  "run": 11,
   "preview": false,
   "seconds": 0
 }
