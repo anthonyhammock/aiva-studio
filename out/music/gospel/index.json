@@ -7,7 +7,7 @@
       "title": "Sunday Best",
       "bpm": 100,
       "key": "Ab major",
-      "length": 52.7,
+      "length": 52.66,
       "caption": "contemporary gospel instrumental, Hammond organ, grand piano, tight drums, bass, uplifting and joyful, church groove"
     },
     {
@@ -15,7 +15,7 @@
       "title": "Testimony",
       "bpm": 72,
       "key": "Eb major",
-      "length": 53.4,
+      "length": 53.42,
       "caption": "gospel ballad instrumental, piano and organ, soft drums, warm bass, hopeful and moving"
     },
     {
@@ -23,7 +23,7 @@
       "title": "Praise Break",
       "bpm": 140,
       "key": "Bb major",
-      "length": 55.4,
+      "length": 55.35,
       "caption": "fast gospel shout instrumental, organ runs, energetic drums, bass, celebratory"
     },
     {
@@ -31,7 +31,7 @@
       "title": "Morning Glory",
       "bpm": 88,
       "key": "C major",
-      "length": 53.6,
+      "length": 53.55,
       "caption": "gospel soul instrumental, horns, piano, handclaps, warm and bright"
     },
     {
@@ -39,8 +39,16 @@
       "title": "Still Waters",
       "bpm": 64,
       "key": "F major",
-      "length": 54.2,
+      "length": 54.15,
       "caption": "peaceful gospel instrumental, soft piano, strings, gentle organ, calm and comforting"
+    },
+    {
+      "id": "homecoming",
+      "title": "Homecoming",
+      "bpm": 110,
+      "key": "G major",
+      "length": 52.51,
+      "caption": "upbeat gospel funk instrumental, clavinet, bass, horns, tight drums, joyful"
     }
   ]
 }

@@ -6,10 +6,10 @@
   "bpm": 72,
   "key": "Eb major",
   "seconds": 60.0,
-  "length": 53.4,
+  "length": 53.42,
   "caption": "gospel ballad instrumental, piano and organ, soft drums, warm bass, hopeful and moving",
   "seed": 7029,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 141,
+  "made_in_seconds": 138,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

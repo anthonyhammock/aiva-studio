@@ -6,10 +6,10 @@
   "bpm": 100,
   "key": "Ab major",
   "seconds": 60.0,
-  "length": 52.7,
+  "length": 52.66,
   "caption": "contemporary gospel instrumental, Hammond organ, grand piano, tight drums, bass, uplifting and joyful, church groove",
   "seed": 7945,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 181,
+  "made_in_seconds": 137,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

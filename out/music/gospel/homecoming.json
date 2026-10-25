@@ -1,0 +1,15 @@
+{
+  "id": "homecoming",
+  "title": "Homecoming",
+  "genre": "gospel",
+  "genre_name": "Gospel",
+  "bpm": 110,
+  "key": "G major",
+  "seconds": 60.0,
+  "length": 52.51,
+  "caption": "upbeat gospel funk instrumental, clavinet, bass, horns, tight drums, joyful",
+  "seed": 7439,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 129,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
