@@ -1,10 +1,11 @@
 {
-  "step": "animate",
+  "step": "music",
   "only": [],
-  "count": 3,
+  "count": 1,
   "model": "lightning",
   "clips": [],
-  "note": "Edit and push to run the studio. step: portraits (make candidates) or animate (needs a pick in picks.json). only: persona ids, empty for all twelve.",
-  "run": 8,
-  "preview": false
+  "note": "Edit and push to run the studio. step: portraits (make candidates), animate (needs a pick in picks.json) or music (original instrumentals from music.json). only: persona ids (or genres for music), empty for all.",
+  "run": 9,
+  "preview": false,
+  "seconds": 30
 }

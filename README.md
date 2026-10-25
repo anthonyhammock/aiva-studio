@@ -37,6 +37,17 @@ Besides the 4–5 second clips there are three long takes the website plays most
 down), with blinks every two to four seconds. The website measures each talking clip's
 mouth when it imports a run, for lip sync.
 
+## Original music
+
+The website's Motion videos and Aiva can use original instrumentals made here with
+ACE-Step 1.5 (MIT; its makers allow commercial use of what it generates): hip-hop, R&B,
+neo-soul, jazz, blues, classical, afrobeats, amapiano, lo-fi, pop and gospel, six tracks
+each, listed with their sound and tempo in `music.json`. Being original, they carry no
+licence fees and draw no copyright claims when posted. Run
+`{"step": "music", "only": ["amapiano"], "count": 6}` to make a genre (`studio/music.py`;
+one job per genre, on the CPU, written to `out/music/<genre>/` as MP3s levelled to
+-14 LUFS with a JSON of what each was made from). `seconds` sets the length.
+
 ## Real motion
 
 The personas can move like a real person instead of following the written choreography.

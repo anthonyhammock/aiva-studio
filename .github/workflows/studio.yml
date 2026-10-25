@@ -2,6 +2,7 @@
 # runners, and commits the results back to the branch.
 #   step "portraits": RealVisXL V5.0 on stable-diffusion.cpp → out/candidates/<id>/
 #   step "animate":   LivePortrait on the CPU → out/people/<id>/ (+ out/review/<id>/)
+#   step "music":     ACE-Step 1.5 on the CPU → out/music/<genre>/ (one job per genre in music.json)
 #                     moved by written choreography, or by a real person's motion
 #                     recording (driving/*.json; pushing one on its own starts a run)
 name: Studio
@@ -19,6 +20,8 @@ env:
   LP_COMMIT: 9b294b3d0536135442ea73cb01e6cb3ca7029dd3
   LP_WEIGHTS_REV: 82a4fa6735ca58432b6ce39301b4b9ee066dea47
   VAE_REV: 207b116dae70ace3637169f1ddd2434b91b3a8cd
+  ACE_CODE_REV: 7403460e9b34972f760317b56048f6cb9d4a3a11
+  ACE_MODEL_REV: 19671f406d603126926c1b7e2adc169acbcade22
 
 jobs:
   plan:
@@ -30,6 +33,7 @@ jobs:
       model: ${{ steps.plan.outputs.model }}
       clips: ${{ steps.plan.outputs.clips }}
       preview: ${{ steps.plan.outputs.preview }}
+      seconds: ${{ steps.plan.outputs.seconds }}
       motion: ${{ steps.plan.outputs.motion }}
     steps:
       - uses: actions/checkout@v4
@@ -148,3 +152,39 @@ jobs:
           else
             studio/commit.sh "Animated ${{ matrix.person }}" "out/people/${{ matrix.person }}" "out/review/${{ matrix.person }}"
           fi
+
+  music:
+    needs: plan
+    if: needs.plan.outputs.step == 'music' && needs.plan.outputs.people != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    strategy:
+      fail-fast: false
+      max-parallel: 11
+      matrix:
+        genre: ${{ fromJSON(needs.plan.outputs.people) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: ACE-Step
+        run: |
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null)
+          GIT_LFS_SKIP_SMUDGE=1 git clone -q https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5 acestep
+          git -C acestep checkout -q "$ACE_CODE_REV"
+          pip install -q --index-url https://download.pytorch.org/whl/cpu torch==2.9.1 torchaudio==2.9.1
+          pip install -q "transformers>=4.51.0,<4.58.0" diffusers scipy soundfile loguru einops "accelerate>=1.12.0" diskcache \
+            "numba>=0.63.1" "vector-quantize-pytorch>=1.27.15" xxhash pyyaml tqdm "huggingface_hub>=0.25"
+          python3 - <<'PY'
+          import os
+          from huggingface_hub import snapshot_download
+          snapshot_download("ACE-Step/Ace-Step1.5", revision=os.environ["ACE_MODEL_REV"], local_dir="acestep/checkpoints",
+                            allow_patterns=["acestep-v15-turbo/*", "vae/*", "Qwen3-Embedding-0.6B/*", "config.json"])
+          PY
+      - name: Make
+        run: ACE_DIR=$PWD/acestep python3 studio/music.py --genre "${{ matrix.genre }}" --count "${{ needs.plan.outputs.count }}" --seconds "${{ needs.plan.outputs.seconds }}"
+      - name: Commit
+        if: always()
+        run: |
+          studio/commit.sh "Music for ${{ matrix.genre }}" "out/music/${{ matrix.genre }}"
