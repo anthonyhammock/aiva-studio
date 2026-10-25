@@ -2,9 +2,9 @@
 # runners, and commits the results back to the branch.
 #   step "portraits": RealVisXL V5.0 on stable-diffusion.cpp → out/candidates/<id>/
 #   step "animate":   LivePortrait on the CPU → out/people/<id>/ (+ out/review/<id>/)
-#   step "music":     ACE-Step 1.5 on the CPU → out/music/<genre>/ (one job per genre in music.json)
 #                     moved by written choreography, or by a real person's motion
 #                     recording (driving/*.json; pushing one on its own starts a run)
+#   step "music":     ACE-Step 1.5 on the CPU → out/music/<genre>/ (one job per genre in music.json)
 name: Studio
 
 on:

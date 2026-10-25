@@ -45,8 +45,9 @@ neo-soul, jazz, blues, classical, afrobeats, amapiano, lo-fi, pop and gospel, si
 each, listed with their sound and tempo in `music.json`. Being original, they carry no
 licence fees and draw no copyright claims when posted. Run
 `{"step": "music", "only": ["amapiano"], "count": 6}` to make a genre (`studio/music.py`;
-one job per genre, on the CPU, written to `out/music/<genre>/` as MP3s levelled to
--14 LUFS with a JSON of what each was made from). `seconds` sets the length.
+one job per genre, on the CPU, about two minutes a track, written to `out/music/<genre>/` as
+AAC levelled to -14 LUFS with a JSON of what each was made from and an `index.json` per
+genre). `seconds` sets the length (60 by default: Motion videos are at most 30 seconds).
 
 ## Real motion
 
