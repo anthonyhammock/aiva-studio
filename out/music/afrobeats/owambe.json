@@ -1,0 +1,15 @@
+{
+  "id": "owambe",
+  "title": "Owambe",
+  "genre": "afrobeats",
+  "genre_name": "Afrobeats",
+  "bpm": 108,
+  "key": "D major",
+  "seconds": 60.0,
+  "length": 53.52,
+  "caption": "upbeat afrobeats party instrumental, talking drum, bright brass stabs, groovy bass, celebratory",
+  "seed": 4446,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 224,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

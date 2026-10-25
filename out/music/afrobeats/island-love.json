@@ -1,0 +1,15 @@
+{
+  "id": "island-love",
+  "title": "Island Love",
+  "genre": "afrobeats",
+  "genre_name": "Afrobeats",
+  "bpm": 98,
+  "key": "F major",
+  "seconds": 60.0,
+  "length": 52.01,
+  "caption": "afro fusion instrumental, smooth guitar, soft log drum bass, gentle percussion, romantic and breezy",
+  "seed": 7828,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 213,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

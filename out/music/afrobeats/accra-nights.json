@@ -1,0 +1,15 @@
+{
+  "id": "accra-nights",
+  "title": "Accra Nights",
+  "genre": "afrobeats",
+  "genre_name": "Afrobeats",
+  "bpm": 112,
+  "key": "E minor",
+  "seconds": 60.0,
+  "length": 51.8,
+  "caption": "afro house infused afrobeats instrumental, rolling percussion, marimba, deep groove, hypnotic",
+  "seed": 8432,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 202,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

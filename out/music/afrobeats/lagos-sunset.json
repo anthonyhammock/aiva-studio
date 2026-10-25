@@ -1,0 +1,15 @@
+{
+  "id": "lagos-sunset",
+  "title": "Lagos Sunset",
+  "genre": "afrobeats",
+  "genre_name": "Afrobeats",
+  "bpm": 102,
+  "key": "A minor",
+  "seconds": 60.0,
+  "length": 55.46,
+  "caption": "afrobeats instrumental, bouncy afro-pop groove, syncopated percussion, shakers, highlife guitar riffs, warm synth chords, sunny and danceable",
+  "seed": 8771,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 210,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

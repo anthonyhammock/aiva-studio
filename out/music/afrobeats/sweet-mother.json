@@ -1,0 +1,15 @@
+{
+  "id": "sweet-mother",
+  "title": "Sweet Mother",
+  "genre": "afrobeats",
+  "genre_name": "Afrobeats",
+  "bpm": 96,
+  "key": "C major",
+  "seconds": 60.0,
+  "length": 55.69,
+  "caption": "classic highlife inspired instrumental, interlocking clean guitars, horns, bass, joyful and nostalgic",
+  "seed": 8769,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 194,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

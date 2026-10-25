@@ -1,0 +1,15 @@
+{
+  "id": "vibes-only",
+  "title": "Vibes Only",
+  "genre": "afrobeats",
+  "genre_name": "Afrobeats",
+  "bpm": 105,
+  "key": "G minor",
+  "seconds": 60.0,
+  "length": 54.75,
+  "caption": "afrobeats instrumental, punchy kick pattern, shekere, plucked synth melody, deep bass, confident",
+  "seed": 7227,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 212,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

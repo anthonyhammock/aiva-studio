@@ -1,0 +1,54 @@
+{
+  "genre": "afrobeats",
+  "name": "Afrobeats",
+  "tracks": [
+    {
+      "id": "lagos-sunset",
+      "title": "Lagos Sunset",
+      "bpm": 102,
+      "key": "A minor",
+      "length": 55.46,
+      "caption": "afrobeats instrumental, bouncy afro-pop groove, syncopated percussion, shakers, highlife guitar riffs, warm synth chords, sunny and danceable"
+    },
+    {
+      "id": "owambe",
+      "title": "Owambe",
+      "bpm": 108,
+      "key": "D major",
+      "length": 53.52,
+      "caption": "upbeat afrobeats party instrumental, talking drum, bright brass stabs, groovy bass, celebratory"
+    },
+    {
+      "id": "island-love",
+      "title": "Island Love",
+      "bpm": 98,
+      "key": "F major",
+      "length": 52.01,
+      "caption": "afro fusion instrumental, smooth guitar, soft log drum bass, gentle percussion, romantic and breezy"
+    },
+    {
+      "id": "vibes-only",
+      "title": "Vibes Only",
+      "bpm": 105,
+      "key": "G minor",
+      "length": 54.75,
+      "caption": "afrobeats instrumental, punchy kick pattern, shekere, plucked synth melody, deep bass, confident"
+    },
+    {
+      "id": "accra-nights",
+      "title": "Accra Nights",
+      "bpm": 112,
+      "key": "E minor",
+      "length": 51.8,
+      "caption": "afro house infused afrobeats instrumental, rolling percussion, marimba, deep groove, hypnotic"
+    },
+    {
+      "id": "sweet-mother",
+      "title": "Sweet Mother",
+      "bpm": 96,
+      "key": "C major",
+      "length": 55.69,
+      "caption": "classic highlife inspired instrumental, interlocking clean guitars, horns, bass, joyful and nostalgic"
+    }
+  ]
+}
