@@ -1,0 +1,15 @@
+{
+  "id": "still-waters",
+  "title": "Still Waters",
+  "genre": "gospel",
+  "genre_name": "Gospel",
+  "bpm": 64,
+  "key": "F major",
+  "seconds": 60.0,
+  "length": 54.2,
+  "caption": "peaceful gospel instrumental, soft piano, strings, gentle organ, calm and comforting",
+  "seed": 8817,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 145,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

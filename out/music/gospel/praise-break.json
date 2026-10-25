@@ -1,0 +1,15 @@
+{
+  "id": "praise-break",
+  "title": "Praise Break",
+  "genre": "gospel",
+  "genre_name": "Gospel",
+  "bpm": 140,
+  "key": "Bb major",
+  "seconds": 60.0,
+  "length": 55.4,
+  "caption": "fast gospel shout instrumental, organ runs, energetic drums, bass, celebratory",
+  "seed": 8444,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 144,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "morning-glory",
+  "title": "Morning Glory",
+  "genre": "gospel",
+  "genre_name": "Gospel",
+  "bpm": 88,
+  "key": "C major",
+  "seconds": 60.0,
+  "length": 53.6,
+  "caption": "gospel soul instrumental, horns, piano, handclaps, warm and bright",
+  "seed": 9551,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 146,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "testimony",
+  "title": "Testimony",
+  "genre": "gospel",
+  "genre_name": "Gospel",
+  "bpm": 72,
+  "key": "Eb major",
+  "seconds": 60.0,
+  "length": 53.4,
+  "caption": "gospel ballad instrumental, piano and organ, soft drums, warm bass, hopeful and moving",
+  "seed": 7029,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 141,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
