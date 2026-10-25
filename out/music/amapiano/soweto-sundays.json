@@ -1,0 +1,14 @@
+{
+  "id": "soweto-sundays",
+  "title": "Soweto Sundays",
+  "genre": "amapiano",
+  "genre_name": "Amapiano",
+  "bpm": 112,
+  "key": "F minor",
+  "seconds": 30.0,
+  "caption": "amapiano instrumental, deep log drum bass, shakers and cabasa, jazzy piano chords, airy pads, soulful private school style, laid-back dance groove",
+  "seed": 10451,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 130,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

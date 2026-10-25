@@ -1,0 +1,14 @@
+{
+  "id": "blue-room",
+  "title": "Blue Room",
+  "genre": "jazz",
+  "genre_name": "Jazz",
+  "bpm": 120,
+  "key": "Bb major",
+  "seconds": 30.0,
+  "caption": "modern jazz quartet instrumental, piano, tenor saxophone, walking upright bass, brushed swing drums, sophisticated lounge",
+  "seed": 6398,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 125,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
