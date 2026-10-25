@@ -6,10 +6,10 @@
   "bpm": 88,
   "key": "Bb minor",
   "seconds": 60.0,
-  "length": 51.8,
+  "length": 51.77,
   "caption": "modern alternative R&B instrumental, atmospheric synths, muted guitar, trap-style hats, deep bass, sensual and moody",
   "seed": 6952,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 221,
+  "made_in_seconds": 237,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

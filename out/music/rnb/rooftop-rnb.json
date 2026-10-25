@@ -1,0 +1,15 @@
+{
+  "id": "rooftop-rnb",
+  "title": "Rooftop",
+  "genre": "rnb",
+  "genre_name": "R&B",
+  "bpm": 104,
+  "key": "C minor",
+  "seconds": 60.0,
+  "length": 54.6,
+  "caption": "dance R&B instrumental, groovy bassline, crisp drums, shimmering synth chords, stylish and confident",
+  "seed": 8012,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 217,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

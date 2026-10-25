@@ -1,0 +1,15 @@
+{
+  "id": "slow-burn",
+  "title": "Slow Burn",
+  "genre": "rnb",
+  "genre_name": "R&B",
+  "bpm": 66,
+  "key": "Db major",
+  "seconds": 60.0,
+  "length": 51.25,
+  "caption": "slow R&B ballad instrumental, grand piano, string pads, soft kick and snare, emotional and tender",
+  "seed": 6564,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 217,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

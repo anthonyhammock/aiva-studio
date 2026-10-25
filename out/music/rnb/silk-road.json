@@ -6,10 +6,10 @@
   "bpm": 98,
   "key": "F major",
   "seconds": 60.0,
-  "length": 53.3,
+  "length": 53.32,
   "caption": "upbeat 90s style R&B instrumental, swinging new jack drums, bright keys, slap bass, feel-good and nostalgic",
   "seed": 6316,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 214,
+  "made_in_seconds": 225,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

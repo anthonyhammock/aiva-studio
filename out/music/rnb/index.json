@@ -7,7 +7,7 @@
       "title": "Velvet",
       "bpm": 72,
       "key": "Eb major",
-      "length": 54.4,
+      "length": 54.36,
       "caption": "smooth contemporary R&B instrumental, silky electric piano, lush pads, finger snaps, deep sub bass, slow jam groove, romantic and polished"
     },
     {
@@ -15,7 +15,7 @@
       "title": "After Dark",
       "bpm": 88,
       "key": "Bb minor",
-      "length": 51.8,
+      "length": 51.77,
       "caption": "modern alternative R&B instrumental, atmospheric synths, muted guitar, trap-style hats, deep bass, sensual and moody"
     },
     {
@@ -23,7 +23,7 @@
       "title": "Silk Road",
       "bpm": 98,
       "key": "F major",
-      "length": 53.3,
+      "length": 53.32,
       "caption": "upbeat 90s style R&B instrumental, swinging new jack drums, bright keys, slap bass, feel-good and nostalgic"
     },
     {
@@ -31,8 +31,24 @@
       "title": "Golden Hour",
       "bpm": 80,
       "key": "Ab major",
-      "length": 54.9,
+      "length": 54.94,
       "caption": "warm R&B instrumental, acoustic guitar and Rhodes, soft drums, gentle bass, intimate and uplifting"
+    },
+    {
+      "id": "rooftop-rnb",
+      "title": "Rooftop",
+      "bpm": 104,
+      "key": "C minor",
+      "length": 54.6,
+      "caption": "dance R&B instrumental, groovy bassline, crisp drums, shimmering synth chords, stylish and confident"
+    },
+    {
+      "id": "slow-burn",
+      "title": "Slow Burn",
+      "bpm": 66,
+      "key": "Db major",
+      "length": 51.25,
+      "caption": "slow R&B ballad instrumental, grand piano, string pads, soft kick and snare, emotional and tender"
     }
   ]
 }

@@ -6,10 +6,10 @@
   "bpm": 80,
   "key": "Ab major",
   "seconds": 60.0,
-  "length": 54.9,
+  "length": 54.94,
   "caption": "warm R&B instrumental, acoustic guitar and Rhodes, soft drums, gentle bass, intimate and uplifting",
   "seed": 10440,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 215,
+  "made_in_seconds": 222,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }
