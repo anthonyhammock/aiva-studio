@@ -1,0 +1,15 @@
+{
+  "id": "groove-cartel",
+  "title": "Groove Cartel",
+  "genre": "amapiano",
+  "genre_name": "Amapiano",
+  "bpm": 113,
+  "key": "A minor",
+  "seconds": 60.0,
+  "length": 52.2,
+  "caption": "amapiano instrumental, punchy log drums, whistles, percussive vocal chops style synth, deep bass, energetic dance floor",
+  "seed": 9367,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 221,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

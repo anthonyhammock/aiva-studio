@@ -1,0 +1,30 @@
+{
+  "genre": "amapiano",
+  "name": "Amapiano",
+  "tracks": [
+    {
+      "id": "soweto-sundays",
+      "title": "Soweto Sundays",
+      "bpm": 112,
+      "key": "F minor",
+      "length": 53.0,
+      "caption": "amapiano instrumental, deep log drum bass, shakers and cabasa, jazzy piano chords, airy pads, soulful private school style, laid-back dance groove"
+    },
+    {
+      "id": "groove-cartel",
+      "title": "Groove Cartel",
+      "bpm": 113,
+      "key": "A minor",
+      "length": 52.2,
+      "caption": "amapiano instrumental, punchy log drums, whistles, percussive vocal chops style synth, deep bass, energetic dance floor"
+    },
+    {
+      "id": "velvet-piano",
+      "title": "Velvet Piano",
+      "bpm": 110,
+      "key": "Eb major",
+      "length": 51.4,
+      "caption": "soulful amapiano instrumental, lush Rhodes and saxophone, soft log drum, gentle shakers, smooth and classy"
+    }
+  ]
+}

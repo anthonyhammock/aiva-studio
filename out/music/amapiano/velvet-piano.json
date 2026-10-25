@@ -1,0 +1,15 @@
+{
+  "id": "velvet-piano",
+  "title": "Velvet Piano",
+  "genre": "amapiano",
+  "genre_name": "Amapiano",
+  "bpm": 110,
+  "key": "Eb major",
+  "seconds": 60.0,
+  "length": 51.4,
+  "caption": "soulful amapiano instrumental, lush Rhodes and saxophone, soft log drum, gentle shakers, smooth and classy",
+  "seed": 8696,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 219,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
