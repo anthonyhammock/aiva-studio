@@ -1,0 +1,15 @@
+{
+  "id": "uptown-swing",
+  "title": "Uptown Swing",
+  "genre": "jazz",
+  "genre_name": "Jazz",
+  "bpm": 160,
+  "key": "C major",
+  "seconds": 60.0,
+  "length": 54.62,
+  "caption": "upbeat big band swing instrumental, brass section, swinging drums, walking bass, piano comping, fun and lively",
+  "seed": 8977,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 215,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "gallery",
+  "title": "Gallery",
+  "genre": "jazz",
+  "genre_name": "Jazz",
+  "bpm": 88,
+  "key": "Eb major",
+  "seconds": 60.0,
+  "length": 55.35,
+  "caption": "contemporary jazz instrumental, Rhodes, soprano saxophone, smooth groove, fretless bass, refined and modern",
+  "seed": 5268,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 216,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

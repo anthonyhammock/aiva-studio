@@ -6,10 +6,10 @@
   "bpm": 120,
   "key": "Bb major",
   "seconds": 60.0,
-  "length": 49.3,
+  "length": 49.35,
   "caption": "modern jazz quartet instrumental, piano, tenor saxophone, walking upright bass, brushed swing drums, sophisticated lounge",
   "seed": 6398,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 261,
+  "made_in_seconds": 284,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

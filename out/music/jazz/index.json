@@ -7,7 +7,7 @@
       "title": "Blue Room",
       "bpm": 120,
       "key": "Bb major",
-      "length": 49.3,
+      "length": 49.35,
       "caption": "modern jazz quartet instrumental, piano, tenor saxophone, walking upright bass, brushed swing drums, sophisticated lounge"
     },
     {
@@ -23,8 +23,32 @@
       "title": "Bossa Terrace",
       "bpm": 128,
       "key": "D minor",
-      "length": 55.5,
+      "length": 55.51,
       "caption": "bossa nova jazz instrumental, nylon guitar, light percussion, flute melody, upright bass, breezy and elegant"
+    },
+    {
+      "id": "uptown-swing",
+      "title": "Uptown Swing",
+      "bpm": 160,
+      "key": "C major",
+      "length": 54.62,
+      "caption": "upbeat big band swing instrumental, brass section, swinging drums, walking bass, piano comping, fun and lively"
+    },
+    {
+      "id": "gallery",
+      "title": "Gallery",
+      "bpm": 88,
+      "key": "Eb major",
+      "length": 55.35,
+      "caption": "contemporary jazz instrumental, Rhodes, soprano saxophone, smooth groove, fretless bass, refined and modern"
+    },
+    {
+      "id": "rain-check",
+      "title": "Rain Check",
+      "bpm": 70,
+      "key": "A minor",
+      "length": 53.89,
+      "caption": "jazz ballad instrumental, solo piano with soft bass and brushes, tender and reflective"
     }
   ]
 }
