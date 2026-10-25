@@ -1,0 +1,15 @@
+{
+  "id": "study-hall",
+  "title": "Study Hall",
+  "genre": "lofi",
+  "genre_name": "Lo-fi",
+  "bpm": 80,
+  "key": "F major",
+  "seconds": 60.0,
+  "length": 50.42,
+  "caption": "lofi chillhop instrumental, dusty drums, mellow jazzy guitar, soft Rhodes, tape wobble, cozy and relaxed",
+  "seed": 7217,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 151,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

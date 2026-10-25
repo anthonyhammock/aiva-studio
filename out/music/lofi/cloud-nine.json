@@ -1,0 +1,15 @@
+{
+  "id": "cloud-nine",
+  "title": "Cloud Nine",
+  "genre": "lofi",
+  "genre_name": "Lo-fi",
+  "bpm": 78,
+  "key": "E major",
+  "seconds": 60.0,
+  "length": 56.71,
+  "caption": "dreamy lofi instrumental, airy synth pads, soft guitar, lazy beat, peaceful",
+  "seed": 7045,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 143,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

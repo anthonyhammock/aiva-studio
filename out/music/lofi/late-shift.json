@@ -1,0 +1,15 @@
+{
+  "id": "late-shift",
+  "title": "Late Shift",
+  "genre": "lofi",
+  "genre_name": "Lo-fi",
+  "bpm": 84,
+  "key": "A minor",
+  "seconds": 60.0,
+  "length": 55.82,
+  "caption": "lofi beat instrumental, warm keys, deep bass, crackle, moody and focused",
+  "seed": 7067,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 150,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

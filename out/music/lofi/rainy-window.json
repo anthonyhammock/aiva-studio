@@ -1,0 +1,15 @@
+{
+  "id": "rainy-window",
+  "title": "Rainy Window",
+  "genre": "lofi",
+  "genre_name": "Lo-fi",
+  "bpm": 72,
+  "key": "D minor",
+  "seconds": 60.0,
+  "length": 54.57,
+  "caption": "lofi hip hop instrumental, soft piano, rain ambience, muffled drums, warm bass, calm and reflective",
+  "seed": 8793,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 146,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

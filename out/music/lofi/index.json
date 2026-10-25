@@ -1,0 +1,54 @@
+{
+  "genre": "lofi",
+  "name": "Lo-fi",
+  "tracks": [
+    {
+      "id": "study-hall",
+      "title": "Study Hall",
+      "bpm": 80,
+      "key": "F major",
+      "length": 50.42,
+      "caption": "lofi chillhop instrumental, dusty drums, mellow jazzy guitar, soft Rhodes, tape wobble, cozy and relaxed"
+    },
+    {
+      "id": "rainy-window",
+      "title": "Rainy Window",
+      "bpm": 72,
+      "key": "D minor",
+      "length": 54.57,
+      "caption": "lofi hip hop instrumental, soft piano, rain ambience, muffled drums, warm bass, calm and reflective"
+    },
+    {
+      "id": "corner-cafe",
+      "title": "Corner Caf\u00e9",
+      "bpm": 86,
+      "key": "Bb major",
+      "length": 55.85,
+      "caption": "jazzy lofi instrumental, upright bass, brushed drums, vibraphone, gentle and warm"
+    },
+    {
+      "id": "cloud-nine",
+      "title": "Cloud Nine",
+      "bpm": 78,
+      "key": "E major",
+      "length": 56.71,
+      "caption": "dreamy lofi instrumental, airy synth pads, soft guitar, lazy beat, peaceful"
+    },
+    {
+      "id": "late-shift",
+      "title": "Late Shift",
+      "bpm": 84,
+      "key": "A minor",
+      "length": 55.82,
+      "caption": "lofi beat instrumental, warm keys, deep bass, crackle, moody and focused"
+    },
+    {
+      "id": "sunday-paper",
+      "title": "Sunday Paper",
+      "bpm": 90,
+      "key": "G major",
+      "length": 55.07,
+      "caption": "upbeat lofi instrumental, bright guitar, bouncy drums, warm and happy"
+    }
+  ]
+}

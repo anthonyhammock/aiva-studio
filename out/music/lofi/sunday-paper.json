@@ -1,0 +1,15 @@
+{
+  "id": "sunday-paper",
+  "title": "Sunday Paper",
+  "genre": "lofi",
+  "genre_name": "Lo-fi",
+  "bpm": 90,
+  "key": "G major",
+  "seconds": 60.0,
+  "length": 55.07,
+  "caption": "upbeat lofi instrumental, bright guitar, bouncy drums, warm and happy",
+  "seed": 8692,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 146,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

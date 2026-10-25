@@ -1,0 +1,15 @@
+{
+  "id": "corner-cafe",
+  "title": "Corner Caf\u00e9",
+  "genre": "lofi",
+  "genre_name": "Lo-fi",
+  "bpm": 86,
+  "key": "Bb major",
+  "seconds": 60.0,
+  "length": 55.85,
+  "caption": "jazzy lofi instrumental, upright bass, brushed drums, vibraphone, gentle and warm",
+  "seed": 7653,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 142,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
