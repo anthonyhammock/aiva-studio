@@ -1,0 +1,38 @@
+{
+  "genre": "rnb",
+  "name": "R&B",
+  "tracks": [
+    {
+      "id": "velvet",
+      "title": "Velvet",
+      "bpm": 72,
+      "key": "Eb major",
+      "length": 54.4,
+      "caption": "smooth contemporary R&B instrumental, silky electric piano, lush pads, finger snaps, deep sub bass, slow jam groove, romantic and polished"
+    },
+    {
+      "id": "after-dark",
+      "title": "After Dark",
+      "bpm": 88,
+      "key": "Bb minor",
+      "length": 51.8,
+      "caption": "modern alternative R&B instrumental, atmospheric synths, muted guitar, trap-style hats, deep bass, sensual and moody"
+    },
+    {
+      "id": "silk-road",
+      "title": "Silk Road",
+      "bpm": 98,
+      "key": "F major",
+      "length": 53.3,
+      "caption": "upbeat 90s style R&B instrumental, swinging new jack drums, bright keys, slap bass, feel-good and nostalgic"
+    },
+    {
+      "id": "golden-hour-rnb",
+      "title": "Golden Hour",
+      "bpm": 80,
+      "key": "Ab major",
+      "length": 54.9,
+      "caption": "warm R&B instrumental, acoustic guitar and Rhodes, soft drums, gentle bass, intimate and uplifting"
+    }
+  ]
+}
