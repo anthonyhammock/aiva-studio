@@ -5,55 +5,95 @@
     1120
   ],
   "face": {
-    "cx": 0.527855668749128,
-    "cy": 0.5024705614362445,
-    "w": 0.46531258310590473,
-    "h": 0.3824151992797852
+    "cx": 0.5278544425964355,
+    "cy": 0.5024727957589286,
+    "w": 0.46530873434884207,
+    "h": 0.3824146270751953
   },
   "clips": {
     "idle": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.5
     },
     "idle2": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.5
     },
     "listen": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.5
     },
     "think": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.5
     },
     "talk": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.5
     },
     "talk2": {
       "d": 5.0,
-      "frames": 125
+      "frames": 125,
+      "motion": "written",
+      "warmth": 0.5
     },
     "nod": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.5
     },
     "smile": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.5
     },
     "wink": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.5
     },
     "head_tilt": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.5
     },
     "laugh": {
       "d": 4.0,
-      "frames": 100
+      "frames": 100,
+      "motion": "written",
+      "warmth": 0.5
+    },
+    "idle_long": {
+      "d": 14.0,
+      "frames": 350,
+      "motion": "written",
+      "warmth": 0.5
+    },
+    "listen_long": {
+      "d": 9.0,
+      "frames": 225,
+      "motion": "written",
+      "warmth": 0.5
+    },
+    "talk_long": {
+      "d": 8.0,
+      "frames": 200,
+      "motion": "written",
+      "warmth": 0.5
     }
   }
 }
