@@ -15,7 +15,7 @@
       "title": "Incense",
       "bpm": 76,
       "key": "D major",
-      "length": 54.4,
+      "length": 54.36,
       "caption": "laid-back neo soul instrumental, dusty drums behind the beat, muted guitar, Wurlitzer keys, flute accents, earthy and soulful"
     },
     {
@@ -23,7 +23,7 @@
       "title": "Brownstone",
       "bpm": 90,
       "key": "F minor",
-      "length": 53.9,
+      "length": 53.86,
       "caption": "neo soul groove instrumental, syncopated bass, clavinet, tight pocket drums, horn stabs, funky and smooth"
     },
     {
@@ -31,8 +31,24 @@
       "title": "Sunroom",
       "bpm": 70,
       "key": "G major",
-      "length": 53.7,
+      "length": 53.71,
       "caption": "gentle neo soul instrumental, acoustic guitar and Rhodes, brushed drums, soft vibraphone, peaceful and warm"
+    },
+    {
+      "id": "linen",
+      "title": "Linen",
+      "bpm": 82,
+      "key": "Bb major",
+      "length": 47.33,
+      "caption": "jazzy neo soul instrumental, lush chords, fretless bass, crisp ride cymbal, string pad swells, elegant"
+    },
+    {
+      "id": "front-porch",
+      "title": "Front Porch",
+      "bpm": 92,
+      "key": "A minor",
+      "length": 55.72,
+      "caption": "uplifting neo soul instrumental, gospel-tinged organ, handclaps, warm bass, bright keys, joyful"
     }
   ]
 }

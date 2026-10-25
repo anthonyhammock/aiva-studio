@@ -6,10 +6,10 @@
   "bpm": 70,
   "key": "G major",
   "seconds": 60.0,
-  "length": 53.7,
+  "length": 53.71,
   "caption": "gentle neo soul instrumental, acoustic guitar and Rhodes, brushed drums, soft vibraphone, peaceful and warm",
   "seed": 5512,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 216,
+  "made_in_seconds": 214,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

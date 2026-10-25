@@ -6,10 +6,10 @@
   "bpm": 90,
   "key": "F minor",
   "seconds": 60.0,
-  "length": 53.9,
+  "length": 53.86,
   "caption": "neo soul groove instrumental, syncopated bass, clavinet, tight pocket drums, horn stabs, funky and smooth",
   "seed": 7737,
   "model": "ACE-Step 1.5 acestep-v15-turbo",
-  "made_in_seconds": 218,
+  "made_in_seconds": 214,
   "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
 }

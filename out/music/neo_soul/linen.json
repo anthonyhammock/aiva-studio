@@ -1,0 +1,15 @@
+{
+  "id": "linen",
+  "title": "Linen",
+  "genre": "neo_soul",
+  "genre_name": "Neo-Soul",
+  "bpm": 82,
+  "key": "Bb major",
+  "seconds": 60.0,
+  "length": 47.33,
+  "caption": "jazzy neo soul instrumental, lush chords, fretless bass, crisp ride cymbal, string pad swells, elegant",
+  "seed": 3742,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 213,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

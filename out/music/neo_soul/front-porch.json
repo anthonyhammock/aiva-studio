@@ -1,0 +1,15 @@
+{
+  "id": "front-porch",
+  "title": "Front Porch",
+  "genre": "neo_soul",
+  "genre_name": "Neo-Soul",
+  "bpm": 92,
+  "key": "A minor",
+  "seconds": 60.0,
+  "length": 55.72,
+  "caption": "uplifting neo soul instrumental, gospel-tinged organ, handclaps, warm bass, bright keys, joyful",
+  "seed": 7971,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 213,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
