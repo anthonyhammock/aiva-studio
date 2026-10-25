@@ -1,0 +1,15 @@
+{
+  "id": "spotlight",
+  "title": "Spotlight",
+  "genre": "pop",
+  "genre_name": "Pop",
+  "bpm": 128,
+  "key": "D minor",
+  "seconds": 60.0,
+  "length": 54.7,
+  "caption": "dance pop instrumental, big synth chords, punchy drums, build and drop, exciting and glossy",
+  "seed": 6934,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 132,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

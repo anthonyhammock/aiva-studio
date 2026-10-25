@@ -1,0 +1,15 @@
+{
+  "id": "hometown",
+  "title": "Hometown",
+  "genre": "pop",
+  "genre_name": "Pop",
+  "bpm": 96,
+  "key": "D major",
+  "seconds": 60.0,
+  "length": 52.56,
+  "caption": "acoustic pop instrumental, strummed guitar, piano, light drums, warm and heartfelt",
+  "seed": 6172,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 131,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

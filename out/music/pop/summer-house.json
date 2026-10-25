@@ -1,0 +1,15 @@
+{
+  "id": "summer-house",
+  "title": "Summer House",
+  "genre": "pop",
+  "genre_name": "Pop",
+  "bpm": 122,
+  "key": "A minor",
+  "seconds": 60.0,
+  "length": 56.69,
+  "caption": "tropical house instrumental, marimba melody, soft kick, warm bass, breezy and summery",
+  "seed": 8809,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 132,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

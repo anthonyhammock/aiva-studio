@@ -7,7 +7,7 @@
       "title": "Good Day",
       "bpm": 118,
       "key": "C major",
-      "length": 52.6,
+      "length": 52.64,
       "caption": "upbeat modern pop instrumental, bright synths, claps, four-on-the-floor kick, catchy plucks, feel-good commercial"
     },
     {
@@ -15,7 +15,7 @@
       "title": "Neon Heart",
       "bpm": 112,
       "key": "F# minor",
-      "length": 51.8,
+      "length": 51.75,
       "caption": "synth pop instrumental, retro 80s synths, gated drums, driving bass, stylish and energetic"
     },
     {
@@ -23,8 +23,32 @@
       "title": "Open Road",
       "bpm": 124,
       "key": "G major",
-      "length": 55.7,
+      "length": 55.67,
       "caption": "indie pop instrumental, jangly guitars, bright drums, handclaps, optimistic and fresh"
+    },
+    {
+      "id": "summer-house",
+      "title": "Summer House",
+      "bpm": 122,
+      "key": "A minor",
+      "length": 56.69,
+      "caption": "tropical house instrumental, marimba melody, soft kick, warm bass, breezy and summery"
+    },
+    {
+      "id": "spotlight",
+      "title": "Spotlight",
+      "bpm": 128,
+      "key": "D minor",
+      "length": 54.7,
+      "caption": "dance pop instrumental, big synth chords, punchy drums, build and drop, exciting and glossy"
+    },
+    {
+      "id": "hometown",
+      "title": "Hometown",
+      "bpm": 96,
+      "key": "D major",
+      "length": 52.56,
+      "caption": "acoustic pop instrumental, strummed guitar, piano, light drums, warm and heartfelt"
     }
   ]
 }
