@@ -1,0 +1,15 @@
+{
+  "id": "neon-heart",
+  "title": "Neon Heart",
+  "genre": "pop",
+  "genre_name": "Pop",
+  "bpm": 112,
+  "key": "F# minor",
+  "seconds": 60.0,
+  "length": 51.8,
+  "caption": "synth pop instrumental, retro 80s synths, gated drums, driving bass, stylish and energetic",
+  "seed": 7064,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 229,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

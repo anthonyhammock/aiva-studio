@@ -1,0 +1,30 @@
+{
+  "genre": "pop",
+  "name": "Pop",
+  "tracks": [
+    {
+      "id": "good-day",
+      "title": "Good Day",
+      "bpm": 118,
+      "key": "C major",
+      "length": 52.6,
+      "caption": "upbeat modern pop instrumental, bright synths, claps, four-on-the-floor kick, catchy plucks, feel-good commercial"
+    },
+    {
+      "id": "neon-heart",
+      "title": "Neon Heart",
+      "bpm": 112,
+      "key": "F# minor",
+      "length": 51.8,
+      "caption": "synth pop instrumental, retro 80s synths, gated drums, driving bass, stylish and energetic"
+    },
+    {
+      "id": "open-road",
+      "title": "Open Road",
+      "bpm": 124,
+      "key": "G major",
+      "length": 55.7,
+      "caption": "indie pop instrumental, jangly guitars, bright drums, handclaps, optimistic and fresh"
+    }
+  ]
+}

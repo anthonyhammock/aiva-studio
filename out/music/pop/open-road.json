@@ -1,0 +1,15 @@
+{
+  "id": "open-road",
+  "title": "Open Road",
+  "genre": "pop",
+  "genre_name": "Pop",
+  "bpm": 124,
+  "key": "G major",
+  "seconds": 60.0,
+  "length": 55.7,
+  "caption": "indie pop instrumental, jangly guitars, bright drums, handclaps, optimistic and fresh",
+  "seed": 6309,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 221,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
