@@ -1,0 +1,15 @@
+{
+  "id": "the-climb",
+  "title": "The Climb",
+  "genre": "hip_hop",
+  "genre_name": "Hip-Hop",
+  "bpm": 84,
+  "key": "C minor",
+  "seconds": 60.0,
+  "length": 56.29,
+  "caption": "orchestral hip hop instrumental, cinematic strings and choir, heavy drums, deep bass, triumphant and motivational",
+  "seed": 6199,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 216,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

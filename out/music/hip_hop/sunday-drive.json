@@ -1,0 +1,15 @@
+{
+  "id": "sunday-drive",
+  "title": "Sunday Drive",
+  "genre": "hip_hop",
+  "genre_name": "Hip-Hop",
+  "bpm": 95,
+  "key": "A minor",
+  "seconds": 60.0,
+  "length": 50.1,
+  "caption": "jazzy hip hop instrumental, mellow Rhodes chords, upright bass, laid-back swung drums, muted trumpet phrases, relaxed and classy",
+  "seed": 8703,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 219,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

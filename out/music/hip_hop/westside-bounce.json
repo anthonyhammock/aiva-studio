@@ -1,0 +1,15 @@
+{
+  "id": "westside-bounce",
+  "title": "Westside Bounce",
+  "genre": "hip_hop",
+  "genre_name": "Hip-Hop",
+  "bpm": 96,
+  "key": "G minor",
+  "seconds": 60.0,
+  "length": 56.16,
+  "caption": "west coast hip hop instrumental, bouncy funk bassline, whistle synth lead, handclaps and snappy snare, sunny and smooth",
+  "seed": 10874,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 217,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

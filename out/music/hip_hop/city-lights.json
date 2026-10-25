@@ -1,0 +1,15 @@
+{
+  "id": "city-lights",
+  "title": "City Lights",
+  "genre": "hip_hop",
+  "genre_name": "Hip-Hop",
+  "bpm": 140,
+  "key": "F minor",
+  "seconds": 60.0,
+  "length": 54.73,
+  "caption": "modern trap instrumental, smooth bell and piano melody, rolling hi-hats, deep 808 bass glides, airy pads, luxurious and confident, clean radio-ready mix",
+  "seed": 7960,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 219,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}

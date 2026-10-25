@@ -1,0 +1,54 @@
+{
+  "genre": "hip_hop",
+  "name": "Hip-Hop",
+  "tracks": [
+    {
+      "id": "golden-era",
+      "title": "Golden Era",
+      "bpm": 90,
+      "key": "D minor",
+      "length": 55.46,
+      "caption": "instrumental hip hop beat, warm chopped soul sample with strings and horns, punchy boom bap drums with crisp snare, deep round bass, subtle vinyl texture, confident head-nodding groove, polished modern mix"
+    },
+    {
+      "id": "city-lights",
+      "title": "City Lights",
+      "bpm": 140,
+      "key": "F minor",
+      "length": 54.73,
+      "caption": "modern trap instrumental, smooth bell and piano melody, rolling hi-hats, deep 808 bass glides, airy pads, luxurious and confident, clean radio-ready mix"
+    },
+    {
+      "id": "sunday-drive",
+      "title": "Sunday Drive",
+      "bpm": 95,
+      "key": "A minor",
+      "length": 50.1,
+      "caption": "jazzy hip hop instrumental, mellow Rhodes chords, upright bass, laid-back swung drums, muted trumpet phrases, relaxed and classy"
+    },
+    {
+      "id": "westside-bounce",
+      "title": "Westside Bounce",
+      "bpm": 96,
+      "key": "G minor",
+      "length": 56.16,
+      "caption": "west coast hip hop instrumental, bouncy funk bassline, whistle synth lead, handclaps and snappy snare, sunny and smooth"
+    },
+    {
+      "id": "the-climb",
+      "title": "The Climb",
+      "bpm": 84,
+      "key": "C minor",
+      "length": 56.29,
+      "caption": "orchestral hip hop instrumental, cinematic strings and choir, heavy drums, deep bass, triumphant and motivational"
+    },
+    {
+      "id": "late-checkout",
+      "title": "Late Checkout",
+      "bpm": 75,
+      "key": "E minor",
+      "length": 52.69,
+      "caption": "chill trap soul instrumental, dreamy guitar loop, soft 808s, crisp hats, warm and moody late night vibe"
+    }
+  ]
+}

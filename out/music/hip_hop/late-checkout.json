@@ -1,0 +1,15 @@
+{
+  "id": "late-checkout",
+  "title": "Late Checkout",
+  "genre": "hip_hop",
+  "genre_name": "Hip-Hop",
+  "bpm": 75,
+  "key": "E minor",
+  "seconds": 60.0,
+  "length": 52.69,
+  "caption": "chill trap soul instrumental, dreamy guitar loop, soft 808s, crisp hats, warm and moody late night vibe",
+  "seed": 9252,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 216,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
