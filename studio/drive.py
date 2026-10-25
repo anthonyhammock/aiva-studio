@@ -110,8 +110,10 @@ def _peak(template):
     return exp[int(np.argmax(np.linalg.norm(exp.reshape(len(exp), -1), axis=1)))]
 
 
-def clip(rec, name, templates):
-    """Frame parameters for one recorded clip: a list of dicts for Driver.render."""
+def clip(rec, name, templates, rest=None):
+    """Frame parameters for one recorded clip: a list of dicts for Driver.render.
+    rest: the persona's resting expression (motions.rest_expression), worn
+    throughout, with the recorded smile and wink on top."""
     a, b = rec["clips"][name]
     t, rest = rec["tracks"], rec["rest"]
     i0 = max(0, int(round(a * FPS)))
@@ -132,7 +134,7 @@ def clip(rec, name, templates):
         mouth = float(np.clip((t["jaw"][i] - rest["jaw"]) / JAW_SPAN, 0, 1))
         smile = float(np.clip((t["smile"][i] - rest["smile"]) / SMILE_SPAN, 0, 1))
         wink = float(np.clip((abs(t["blinkL"][i] - t["blinkR"][i]) - 0.25) / 0.35, 0, 1))
-        exp = (smile * 0.9 * smile_exp + wink * wink_exp) * ease
+        exp = (smile * 0.9 * smile_exp + wink * wink_exp) * ease + (0.0 if rest is None else rest)
         frames.append(dict(pitch=float(pose[0]), yaw=float(pose[1]), roll=float(pose[2]),
                            eyes_closed=eyes * ease * (1 - wink), mouth_open=mouth * ease, exp=exp))
     return frames

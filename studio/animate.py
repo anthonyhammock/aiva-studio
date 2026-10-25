@@ -58,6 +58,24 @@ def save_webp(rgb, path, width):
     cv2.imwrite(str(path), cv2.cvtColor(img, cv2.COLOR_RGB2BGR), [cv2.IMWRITE_WEBP_QUALITY, 88])
 
 
+def warmth_sheet(drv, templates, path):
+    """The persona at a range of resting smiles (motions.WARMTH_SHEET), labelled."""
+    rows = []
+    for label, kp, tpl in motions.WARMTH_SHEET["rows"]:
+        tiles = []
+        for k in motions.WARMTH_SHEET["strengths"]:
+            img = drv.render(exp=k * motions.smile_shape(templates, kp, tpl))
+            f = drv.face_box()
+            H, W = img.shape[:2]
+            x0, x1 = int((f["cx"] - 0.62 * f["w"]) * W), int((f["cx"] + 0.62 * f["w"]) * W)
+            y0, y1 = int((f["cy"] - 0.6 * f["h"]) * H), int((f["cy"] + 0.7 * f["h"]) * H)
+            tile = cv2.resize(np.ascontiguousarray(img[max(0, y0):y1, max(0, x0):x1]), (300, 340), interpolation=cv2.INTER_AREA)
+            cv2.putText(tile, f"{label} {k:.1f}", (8, 24), cv2.FONT_HERSHEY_SIMPLEX, 0.65, (255, 255, 255), 2)
+            tiles.append(tile)
+        rows.append(np.hstack(tiles))
+    cv2.imwrite(str(path), cv2.cvtColor(np.vstack(rows), cv2.COLOR_RGB2BGR), [cv2.IMWRITE_JPEG_QUALITY, 85])
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--person", required=True)
@@ -96,28 +114,40 @@ def main():
     templates = motions.derive({name: load_template(name) for name in motions.TEMPLATES})
     print(f"{args.person}: models ready in {time.time() - t0:.0f}s; face {drv.face_box()}", flush=True)
 
-    neutral = drv.render()
+    # the resting pose every clip starts and ends on: the portrait with the
+    # persona's soft smile (motions.WARMTH)
+    warm = motions.warmth(args.person)
+    rest = motions.rest_expression(args.person, templates)
+    neutral = drv.render(exp=rest)
     save_webp(neutral, out / "portrait.webp", w)
     save_webp(neutral, out / "portrait-sm.webp", 480)
 
     rec = drive.load(ROOT / args.motion) if args.motion else None
     named = [c for c in args.clips.split(",") if c]
+    if "warmth_sheet" in named:
+        named.remove("warmth_sheet")
+        warmth_sheet(drv, templates, review / "warmth.jpg")
+        print(f"{args.person}: warmth sheet in {time.time() - t0:.0f}s", flush=True)
+        if not named:
+            return
     wanted = named or (drive.names(rec) if rec else list(motions.CLIPS))
     clips = meta.get("clips", {})
     for name in wanted:
         target = out / f"{name}.mp4"
-        if target.exists() and name in clips and not (args.force or named or rec):   # named and recorded clips are always remade
+        # named and recorded clips are always remade, and so is a clip made on another resting pose
+        same_rest = float(clips.get(name, {}).get("warmth", 0.0)) == warm
+        if target.exists() and name in clips and same_rest and not (args.force or named or rec):
             print(f"{args.person}/{name}: already made", flush=True)
             continue
         t1 = time.time()
         recorded = bool(rec and name in rec["clips"])
-        params = drive.clip(rec, name, templates) if recorded else motions.clip(name, templates, seed=sum(map(ord, args.person)))
+        params = drive.clip(rec, name, templates, rest=rest) if recorded else motions.clip(name, templates, seed=sum(map(ord, args.person)), person=args.person)
         frames = [neutral] + [drv.render(**p) for p in params[1:]]   # frame 0 is the portrait itself
         encode(frames, target, (w, h))
         review_sheet(frames, review / f"{name}.jpg")
         secs = time.time() - t1
         clips[name] = {"d": round(len(frames) / motions.FPS, 2), "frames": len(frames),
-                       "motion": f"recorded:{os.path.basename(args.motion)}" if recorded else "written"}
+                       "motion": f"recorded:{os.path.basename(args.motion)}" if recorded else "written", "warmth": warm}
         print(f"{args.person}/{name}: {len(frames)} frames in {secs:.0f}s ({secs / len(frames):.2f}s/frame)", flush=True)
         meta.update({"source": f"{pick}.webp", "size": [w, h], "face": drv.face_box(), "clips": clips})
         meta_path.write_text(json.dumps(meta, indent=2) + "\n")

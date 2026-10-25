@@ -17,6 +17,26 @@ brief (`people.json`), never based on a real person.
    so the website can chain them seamlessly. Review contact sheets go in
    `out/review/<id>/`.
 
+## Warmth and long takes
+
+Every clip starts and ends on the same resting pose: the portrait wearing the persona's
+soft, closed-mouth smile (`WARMTH` in `studio/motions.py`; Rosa and Grace were cast
+smiling, so theirs is small or none). A neutral resting face reads as cool or stern on a
+live call. The smile is drawn on LivePortrait's expression keypoints (`KP_SMILE`) and
+mixed with the laugh template's (`REST_MIX`); smiles inside clips use the same shape, so
+a full smile peaks at the same strength whatever the warmth. Changing a persona's warmth
+remakes all of its clips on the next run (each clip records the warmth it was made with).
+
+To choose the warmth by eye, run `{"step": "animate", "clips": ["warmth_sheet"],
+"preview": true}`: each persona is rendered at a range of smiles into
+`out/preview/<id>/review/warmth.jpg` in a few minutes, without remaking any clip.
+
+Besides the 4–5 second clips there are three long takes the website plays most:
+`idle_long` (14 s: two glances, a nod, a tilt, smiles that come and go), `listen_long`
+(9 s of nods and a held tilt) and `talk_long` (8 s of speech with emphasis and a glance
+down), with blinks every two to four seconds. The website measures each talking clip's
+mouth when it imports a run, for lip sync.
+
 ## Real motion
 
 The personas can move like a real person instead of following the written choreography.
