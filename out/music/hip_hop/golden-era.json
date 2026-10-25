@@ -1,0 +1,14 @@
+{
+  "id": "golden-era",
+  "title": "Golden Era",
+  "genre": "hip_hop",
+  "genre_name": "Hip-Hop",
+  "bpm": 90,
+  "key": "D minor",
+  "seconds": 30.0,
+  "caption": "instrumental hip hop beat, warm chopped soul sample with strings and horns, punchy boom bap drums with crisp snare, deep round bass, subtle vinyl texture, confident head-nodding groove, polished modern mix",
+  "seed": 6930,
+  "model": "ACE-Step 1.5 acestep-v15-turbo",
+  "made_in_seconds": 78,
+  "license": "Original music made with ACE-Step 1.5 (MIT). Free for commercial use."
+}
