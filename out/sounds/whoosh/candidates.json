@@ -1,0 +1,357 @@
+{
+  "probe": {
+    "id": "whoosh",
+    "query": "whoosh",
+    "expect": [
+      "Whoosh, swoosh, swish"
+    ]
+  },
+  "count": 240,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "eab8a6e2-0ac8-4615-9e0d-ebde30523783",
+      "title": "Deep Whoosh #1",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Kinoton",
+      "duration": 3155,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/351/351256_2247456-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Kinoton/sounds/351256",
+      "tags": [
+        "air",
+        "sfx",
+        "sound-design",
+        "soundeffect",
+        "sweeping",
+        "swish",
+        "swoosh",
+        "swosh",
+        "transition",
+        "whoosh",
+        "wind"
+      ],
+      "seconds": 3.19,
+      "lufs": -15.5,
+      "peak_db": -1.9,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.906
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.058
+        },
+        {
+          "label": "Music",
+          "score": 0.003
+        },
+        {
+          "label": "Bang",
+          "score": 0.002
+        },
+        {
+          "label": "Explosion",
+          "score": 0.001
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.001
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "f1dc6045-7965-41de-87f8-4731d2583fd2",
+      "title": "Swosh swoosh whoosh air sound, free, high quality",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "qubodup",
+      "duration": 490,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/60/60026_71257-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/qubodup/sounds/60026",
+      "tags": [
+        "air",
+        "attack",
+        "bamboo",
+        "cut",
+        "domain",
+        "flup",
+        "h2",
+        "luft",
+        "public",
+        "public-domain",
+        "punch",
+        "stick"
+      ],
+      "seconds": 0.52,
+      "lufs": -19.1,
+      "peak_db": -7.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Sound effect",
+          "score": 0.306
+        },
+        {
+          "label": "Zipper (clothing)",
+          "score": 0.093
+        },
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.079
+        },
+        {
+          "label": "Music",
+          "score": 0.052
+        },
+        {
+          "label": "Speech",
+          "score": 0.036
+        },
+        {
+          "label": "Owl",
+          "score": 0.019
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "b7ae7822-8ec5-4a82-b6f8-d539b51caa61",
+      "title": "Swipe Whoosh",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "qubodup",
+      "duration": 447,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/60/60007_71257-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/qubodup/sounds/60007",
+      "tags": [
+        "air",
+        "attack",
+        "bamboo",
+        "cut",
+        "domain",
+        "flup",
+        "h2",
+        "luft",
+        "public",
+        "public-domain",
+        "punch",
+        "stick"
+      ],
+      "seconds": 0.5,
+      "lufs": -17.8,
+      "peak_db": -0.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Sound effect",
+          "score": 0.308
+        },
+        {
+          "label": "Whack, thwack",
+          "score": 0.084
+        },
+        {
+          "label": "Bang",
+          "score": 0.083
+        },
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.082
+        },
+        {
+          "label": "Music",
+          "score": 0.046
+        },
+        {
+          "label": "Slap, smack",
+          "score": 0.015
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "0453066f-9cb0-426e-b51f-539f0b2acabb",
+      "title": "Cartoony whooshes",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "BranRainey",
+      "duration": 2344,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/142/142348_757844-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/BranRainey/sounds/142348",
+      "tags": [
+        "cartoon",
+        "smack",
+        "swish",
+        "whip",
+        "whoosh"
+      ],
+      "seconds": 2.38,
+      "lufs": -23.5,
+      "peak_db": -4.9,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Sound effect",
+          "score": 0.28
+        },
+        {
+          "label": "Grunt",
+          "score": 0.056
+        },
+        {
+          "label": "Whack, thwack",
+          "score": 0.049
+        },
+        {
+          "label": "Slam",
+          "score": 0.043
+        },
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.034
+        },
+        {
+          "label": "Door",
+          "score": 0.028
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "86d2b266-79f3-4fa0-97e2-3a49860c8e6d",
+      "title": "processed swish, swoosh, whoosh",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "MadMaxSFX",
+      "duration": 5800,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/327/327990_4799665-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/MadMaxSFX/sounds/327990",
+      "tags": [
+        "swish",
+        "swoosh",
+        "swosh",
+        "whoosh",
+        "woosh"
+      ],
+      "seconds": 5.83,
+      "lufs": -28.9,
+      "peak_db": -8.5,
+      "lead_silence": 0.63,
+      "labels": [
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.444
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.164
+        },
+        {
+          "label": "Sonar",
+          "score": 0.112
+        },
+        {
+          "label": "Music",
+          "score": 0.028
+        },
+        {
+          "label": "Snort",
+          "score": 0.013
+        },
+        {
+          "label": "Reverberation",
+          "score": 0.012
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "416a411f-c8e5-4279-a985-466c19f21794",
+      "title": "13th Whoosh Swing Sound",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "qubodup",
+      "duration": 522,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/60/60000_71257-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/qubodup/sounds/60000",
+      "tags": [
+        "air",
+        "attack",
+        "bamboo",
+        "cut",
+        "domain",
+        "flup",
+        "h2",
+        "luft",
+        "public",
+        "public-domain",
+        "punch",
+        "stick"
+      ],
+      "seconds": 0.55,
+      "lufs": -19.0,
+      "peak_db": -0.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.2
+        },
+        {
+          "label": "Zipper (clothing)",
+          "score": 0.11
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.102
+        },
+        {
+          "label": "Speech",
+          "score": 0.058
+        },
+        {
+          "label": "Scratch",
+          "score": 0.054
+        },
+        {
+          "label": "Music",
+          "score": 0.038
+        }
+      ]
+    }
+  ]
+}

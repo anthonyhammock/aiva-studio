@@ -1,0 +1,342 @@
+{
+  "probe": {
+    "id": "temple_bell",
+    "query": "temple bell",
+    "expect": [
+      "Church bell",
+      "Bell",
+      "Jingle bell",
+      "Chime"
+    ]
+  },
+  "count": 57,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "5ef8351e-c79f-4354-83b0-98576f3f4a76",
+      "title": "Temple Bell, Valley of the Temples",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Mista Bumpy",
+      "duration": 89614,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/232/232333_2313287-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Mista%20Bumpy/sounds/232333",
+      "tags": [
+        "bell",
+        "bronze",
+        "field",
+        "honolulu",
+        "kaneohe",
+        "oahu",
+        "recording",
+        "temple",
+        "temples",
+        "valley"
+      ],
+      "seconds": 89.65,
+      "lufs": -19.3,
+      "peak_db": -0.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.332
+        },
+        {
+          "label": "Music",
+          "score": 0.1
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.051
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.04
+        },
+        {
+          "label": "Singing bowl",
+          "score": 0.038
+        },
+        {
+          "label": "Inside, small room",
+          "score": 0.033
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "479c5194-d7f1-47c7-b32a-aa4b8ab50c4b",
+      "title": "Temple bells",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "zachrau",
+      "duration": 33928,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/232/232440_676927-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/zachrau/sounds/232440",
+      "tags": [
+        "Asia",
+        "Buddhism",
+        "bell",
+        "religion",
+        "temple"
+      ],
+      "seconds": 33.96,
+      "lufs": -24.4,
+      "peak_db": -3.7,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.375
+        },
+        {
+          "label": "Bell",
+          "score": 0.087
+        },
+        {
+          "label": "Wind chime",
+          "score": 0.054
+        },
+        {
+          "label": "Outside, urban or manmade",
+          "score": 0.039
+        },
+        {
+          "label": "Chime",
+          "score": 0.036
+        },
+        {
+          "label": "Heart sounds, heartbeat",
+          "score": 0.03
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "26ee4fcc-3d70-439e-8cf1-0d655633bda3",
+      "title": "Cao Dai temple bell singing microcassette VIETNAM 030116.flac",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "TRP",
+      "duration": 272398,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/574/574663_97550-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/TRP/sounds/574663",
+      "tags": [
+        "bell",
+        "temple",
+        "voices"
+      ],
+      "seconds": 272.43,
+      "lufs": -28.8,
+      "peak_db": -4.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Music",
+          "score": 0.685
+        },
+        {
+          "label": "Television",
+          "score": 0.149
+        },
+        {
+          "label": "Speech",
+          "score": 0.025
+        },
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.009
+        },
+        {
+          "label": "Ping",
+          "score": 0.005
+        },
+        {
+          "label": "Inside, large room or hall",
+          "score": 0.004
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "dde7ed6a-296b-48a9-b3f1-01c492f8eb40",
+      "title": "Meditation Bowls",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Sandhwani",
+      "duration": 110400,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/473/473813_2979910-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Sandhwani/sounds/473813",
+      "tags": [
+        "Bell",
+        "Temple",
+        "bowl",
+        "meditation",
+        "singing-bowl",
+        "tibetan"
+      ],
+      "seconds": 110.45,
+      "lufs": -32.2,
+      "peak_db": -15.3,
+      "lead_silence": 2.41,
+      "labels": [
+        {
+          "label": "Tubular bells",
+          "score": 0.197
+        },
+        {
+          "label": "Marimba, xylophone",
+          "score": 0.193
+        },
+        {
+          "label": "Glockenspiel",
+          "score": 0.158
+        },
+        {
+          "label": "Music",
+          "score": 0.098
+        },
+        {
+          "label": "Chime",
+          "score": 0.095
+        },
+        {
+          "label": "Mallet percussion",
+          "score": 0.081
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "f01cdec2-11e7-4ccb-8cd2-208bb4cd15e6",
+      "title": "BurmaBell.aif",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "LozKaye",
+      "duration": 5928,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/94/94024_469745-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/LozKaye/sounds/94024",
+      "tags": [
+        "asian",
+        "bell",
+        "bong",
+        "burma",
+        "forward",
+        "gong",
+        "leap",
+        "little",
+        "metal",
+        "percussion",
+        "theatre"
+      ],
+      "seconds": 5.96,
+      "lufs": -28.5,
+      "peak_db": -13.5,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Ding",
+          "score": 0.749
+        },
+        {
+          "label": "Clang",
+          "score": 0.179
+        },
+        {
+          "label": "Bell",
+          "score": 0.017
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.012
+        },
+        {
+          "label": "Doorbell",
+          "score": 0.006
+        },
+        {
+          "label": "Ding-dong",
+          "score": 0.005
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "43cc88b8-9910-4080-9b25-d3fb99f53583",
+      "title": "Shiva Bells.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "grololo",
+      "duration": 30020,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/34/34870_311859-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/grololo/sounds/34870",
+      "tags": [
+        "bells",
+        "india",
+        "instruments",
+        "traditionnal"
+      ],
+      "seconds": 30.07,
+      "lufs": -15.4,
+      "peak_db": -0.8,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Bell",
+          "score": 0.343
+        },
+        {
+          "label": "Speech",
+          "score": 0.324
+        },
+        {
+          "label": "Church bell",
+          "score": 0.064
+        },
+        {
+          "label": "Music",
+          "score": 0.049
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.046
+        },
+        {
+          "label": "Wind chime",
+          "score": 0.031
+        }
+      ]
+    }
+  ]
+}

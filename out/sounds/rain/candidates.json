@@ -1,0 +1,388 @@
+{
+  "probe": {
+    "id": "rain",
+    "query": "rain",
+    "expect": [
+      "Rain",
+      "Raindrop",
+      "Rain on surface"
+    ]
+  },
+  "count": 240,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "9df463a7-c243-4e7d-9251-20ca3b8f8cce",
+      "title": "Rain Sound and Rainforest.mp3",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "INNORECORDS",
+      "duration": 240079,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/457/457447_9518146-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/INNORECORDS/sounds/457447",
+      "tags": [
+        "AudioShare",
+        "Rain",
+        "Rainforest",
+        "Sound",
+        "Thunder",
+        "a",
+        "after",
+        "ambience",
+        "ambient",
+        "dripping",
+        "drops",
+        "falling"
+      ],
+      "seconds": 240.12,
+      "lufs": -18.2,
+      "peak_db": -0.9,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Thunderstorm",
+          "score": 0.408
+        },
+        {
+          "label": "Thunder",
+          "score": 0.397
+        },
+        {
+          "label": "Rain",
+          "score": 0.161
+        },
+        {
+          "label": "Rain on surface",
+          "score": 0.014
+        },
+        {
+          "label": "Raindrop",
+          "score": 0.012
+        },
+        {
+          "label": "Rustle",
+          "score": 0.001
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "c48df7a7-3761-4c48-9a86-024496893316",
+      "title": "THUNDER / Rain low frequencies 4-CHANNEL-48kHz.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "BlueDelta",
+      "duration": 122000,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/367/367222_1790434-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/BlueDelta/sounds/367222",
+      "tags": [
+        "360-degree",
+        "4-ch",
+        "4-channel-audio",
+        "ATMO",
+        "Fieldrecording",
+        "HQ",
+        "IRT-cross",
+        "NT1-A",
+        "Nature",
+        "Rain",
+        "Surround",
+        "THUNDER"
+      ],
+      "seconds": 122.04,
+      "lufs": -26.1,
+      "peak_db": -1.0,
+      "lead_silence": 2.49,
+      "labels": [
+        {
+          "label": "Thunder",
+          "score": 0.364
+        },
+        {
+          "label": "Thunderstorm",
+          "score": 0.287
+        },
+        {
+          "label": "Rain",
+          "score": 0.275
+        },
+        {
+          "label": "Rain on surface",
+          "score": 0.035
+        },
+        {
+          "label": "Raindrop",
+          "score": 0.031
+        },
+        {
+          "label": "Rustle",
+          "score": 0.002
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "a3fcc6d0-c4aa-4c1d-abfe-47287f48777e",
+      "title": "1 Minute Rain (Medium)",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "yzhamua",
+      "duration": 51841,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/188/188655_1178799-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/yzhamua/sounds/188655",
+      "tags": [
+        "light",
+        "outdoors",
+        "patio",
+        "rain",
+        "thunder"
+      ],
+      "seconds": 51.88,
+      "lufs": -40.2,
+      "peak_db": -12.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Raindrop",
+          "score": 0.376
+        },
+        {
+          "label": "Rain on surface",
+          "score": 0.342
+        },
+        {
+          "label": "Rain",
+          "score": 0.24
+        },
+        {
+          "label": "Thunderstorm",
+          "score": 0.004
+        },
+        {
+          "label": "Thunder",
+          "score": 0.003
+        },
+        {
+          "label": "Fire",
+          "score": 0.003
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "9a965918-c3de-4c49-a9f9-ae40d5691f60",
+      "title": "Birds in Rain Sounds (Scotland).wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "BurghRecords",
+      "duration": 194946,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/521/521360_7241289-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/BurghRecords/sounds/521360",
+      "tags": [
+        "Birds",
+        "ambience",
+        "ambient",
+        "bird",
+        "birds",
+        "birdsong",
+        "field-recording",
+        "forest",
+        "morning",
+        "nature",
+        "rain",
+        "spring"
+      ],
+      "seconds": 194.98,
+      "lufs": -30.5,
+      "peak_db": -6.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Bird",
+          "score": 0.223
+        },
+        {
+          "label": "Environmental noise",
+          "score": 0.217
+        },
+        {
+          "label": "Animal",
+          "score": 0.171
+        },
+        {
+          "label": "Bird vocalization, bird call, bird song",
+          "score": 0.144
+        },
+        {
+          "label": "Chirp, tweet",
+          "score": 0.077
+        },
+        {
+          "label": "Outside, rural or natural",
+          "score": 0.043
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "96c9e107-8e1d-48cf-9682-ce030e2bb7ee",
+      "title": "Rain Thunder.mp3",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Nimlos",
+      "duration": 19005,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/359/359151_4710044-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Nimlos/sounds/359151",
+      "tags": [
+        "field-recording",
+        "lightning",
+        "nature",
+        "rain",
+        "storm",
+        "thunder",
+        "thunderstorm",
+        "weather"
+      ],
+      "seconds": 19.04,
+      "lufs": -19.4,
+      "peak_db": -0.6,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Thunder",
+          "score": 0.43
+        },
+        {
+          "label": "Thunderstorm",
+          "score": 0.383
+        },
+        {
+          "label": "Rain",
+          "score": 0.17
+        },
+        {
+          "label": "Rain on surface",
+          "score": 0.011
+        },
+        {
+          "label": "Raindrop",
+          "score": 0.004
+        },
+        {
+          "label": "Rustle",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "959159a3-db42-46c5-8f5f-a7693f4e0652",
+      "title": "Rain sound, Water drops",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Danut05",
+      "duration": 2220040,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/628/628024_13815964-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Danut05/sounds/628024",
+      "tags": [
+        "Rain",
+        "Water",
+        "drop",
+        "drops",
+        "light",
+        "rain",
+        "sound",
+        "water-drops"
+      ],
+      "error": "over 40 MB"
+    },
+    {
+      "rank": 6,
+      "id": "d40bcd75-0398-4c21-acfa-2a1364e0b606",
+      "title": "Big rain drops (2).MP3",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "macdaddyno1",
+      "duration": 9862,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/396/396483_313780-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/macdaddyno1/sounds/396483",
+      "tags": [
+        "Rain",
+        "drip",
+        "dripping",
+        "drops",
+        "rain",
+        "raindrops",
+        "raining",
+        "water",
+        "weather",
+        "wet"
+      ],
+      "seconds": 9.9,
+      "lufs": -25.7,
+      "peak_db": -0.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Rain on surface",
+          "score": 0.553
+        },
+        {
+          "label": "Rain",
+          "score": 0.338
+        },
+        {
+          "label": "Raindrop",
+          "score": 0.082
+        },
+        {
+          "label": "Thunderstorm",
+          "score": 0.002
+        },
+        {
+          "label": "Tap",
+          "score": 0.002
+        },
+        {
+          "label": "Thunder",
+          "score": 0.002
+        }
+      ]
+    }
+  ]
+}

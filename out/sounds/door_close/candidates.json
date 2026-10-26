@@ -1,0 +1,352 @@
+{
+  "probe": {
+    "id": "door_close",
+    "query": "door close",
+    "expect": [
+      "Door",
+      "Slam"
+    ]
+  },
+  "count": 240,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "aec0904a-4703-4303-88bb-879ec6031fa5",
+      "title": "Door closing, door closed",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "steinhyrningur",
+      "duration": 4437,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/466/466864_9135300-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/steinhyrningur/sounds/466864",
+      "tags": [
+        "Close",
+        "Door",
+        "door",
+        "front",
+        "heavy"
+      ],
+      "seconds": 4.46,
+      "lufs": -12.5,
+      "peak_db": -0.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Door",
+          "score": 0.439
+        },
+        {
+          "label": "Thunk",
+          "score": 0.253
+        },
+        {
+          "label": "Slam",
+          "score": 0.121
+        },
+        {
+          "label": "Sliding door",
+          "score": 0.031
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.022
+        },
+        {
+          "label": "Vehicle",
+          "score": 0.015
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "03a6e3f8-4f31-4fc0-a631-0a140bd389e2",
+      "title": "Door - Close 03.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "JarredGibb",
+      "duration": 1741,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/219/219495_4056007-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/JarredGibb/sounds/219495",
+      "tags": [
+        "Door",
+        "close",
+        "closing",
+        "door",
+        "doors",
+        "open",
+        "opening"
+      ],
+      "seconds": 1.78,
+      "lufs": -18.1,
+      "peak_db": -0.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Door",
+          "score": 0.373
+        },
+        {
+          "label": "Slam",
+          "score": 0.214
+        },
+        {
+          "label": "Speech",
+          "score": 0.067
+        },
+        {
+          "label": "Knock",
+          "score": 0.048
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.031
+        },
+        {
+          "label": "Sliding door",
+          "score": 0.027
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "9b806626-65d5-4a66-987d-7fc72ce5996c",
+      "title": "door closed hardly.WAV",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "fusarof",
+      "duration": 19200,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/237/237791_1412716-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/fusarof/sounds/237791",
+      "tags": [
+        "a",
+        "close",
+        "closing",
+        "door",
+        "doors",
+        "field-recording",
+        "handle",
+        "lock",
+        "open",
+        "popular",
+        "shut",
+        "slam"
+      ],
+      "seconds": 19.25,
+      "lufs": -15.4,
+      "peak_db": 2.0,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Door",
+          "score": 0.337
+        },
+        {
+          "label": "Slam",
+          "score": 0.25
+        },
+        {
+          "label": "Thunk",
+          "score": 0.093
+        },
+        {
+          "label": "Hammer",
+          "score": 0.036
+        },
+        {
+          "label": "Thump, thud",
+          "score": 0.033
+        },
+        {
+          "label": "Cupboard open or close",
+          "score": 0.032
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "0282830b-5691-44d4-9acf-6fcdc6b34bc0",
+      "title": "Prison door closing",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "brianbaltar",
+      "duration": 6020,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/528/528259_11385110-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/brianbaltar/sounds/528259",
+      "tags": [
+        "Prison",
+        "close",
+        "closing",
+        "door",
+        "gate",
+        "lock",
+        "sliding"
+      ],
+      "seconds": 6.06,
+      "lufs": -15.2,
+      "peak_db": 0.7,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Music",
+          "score": 0.672
+        },
+        {
+          "label": "Timpani",
+          "score": 0.07
+        },
+        {
+          "label": "Explosion",
+          "score": 0.043
+        },
+        {
+          "label": "Burst, pop",
+          "score": 0.039
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.016
+        },
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.014
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "fe8a452e-b240-43ec-bc5f-1f1a9a7133e3",
+      "title": "Cabinet Door Close",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "jackthemurray",
+      "duration": 1714,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/433/433587_5618682-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/jackthemurray/sounds/433587",
+      "tags": [
+        "Closing",
+        "a",
+        "cabinet",
+        "cabinet-door",
+        "cabinet-shut",
+        "close",
+        "closing",
+        "closing-door",
+        "door",
+        "door-slam",
+        "shut",
+        "slam"
+      ],
+      "seconds": 1.75,
+      "lufs": -21.6,
+      "peak_db": -0.2,
+      "lead_silence": 0.42,
+      "labels": [
+        {
+          "label": "Door",
+          "score": 0.711
+        },
+        {
+          "label": "Slam",
+          "score": 0.044
+        },
+        {
+          "label": "Sliding door",
+          "score": 0.041
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.03
+        },
+        {
+          "label": "Vehicle",
+          "score": 0.022
+        },
+        {
+          "label": "Knock",
+          "score": 0.02
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "ef094617-c076-4e53-9712-0f26e1405b48",
+      "title": "SFX Door Close Big.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Paul368",
+      "duration": 2310,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/264/264060_2971294-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Paul368/sounds/264060",
+      "tags": [
+        "Air",
+        "Design",
+        "Hatch",
+        "Morphing",
+        "SciFi",
+        "Sound",
+        "Space",
+        "layers"
+      ],
+      "seconds": 2.35,
+      "lufs": -17.3,
+      "peak_db": -0.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.798
+        },
+        {
+          "label": "Bang",
+          "score": 0.061
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.041
+        },
+        {
+          "label": "Music",
+          "score": 0.017
+        },
+        {
+          "label": "Burst, pop",
+          "score": 0.009
+        },
+        {
+          "label": "Explosion",
+          "score": 0.007
+        }
+      ]
+    }
+  ]
+}

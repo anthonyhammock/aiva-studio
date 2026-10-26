@@ -1,0 +1,330 @@
+{
+  "probe": {
+    "id": "gong",
+    "query": "gong",
+    "expect": [
+      "Gong"
+    ]
+  },
+  "count": 240,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "c8d52a28-a204-48f5-a8df-1b2b71ad601b",
+      "title": "low gong bash",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "hiddenpersuader",
+      "duration": 23572,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/155/155460_1138047-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/hiddenpersuader/sounds/155460",
+      "tags": [
+        "bash",
+        "gong",
+        "low",
+        "rumble"
+      ],
+      "seconds": 23.61,
+      "lufs": -14.9,
+      "peak_db": -0.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Music",
+          "score": 0.494
+        },
+        {
+          "label": "Gong",
+          "score": 0.212
+        },
+        {
+          "label": "Timpani",
+          "score": 0.046
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.043
+        },
+        {
+          "label": "Drum",
+          "score": 0.039
+        },
+        {
+          "label": "Percussion",
+          "score": 0.028
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "ce22a94e-3448-4e1a-9a27-a35104af1a6e",
+      "title": "Gong sabi 2.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Logicogonist",
+      "duration": 24485,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/209/209917_3797507-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Logicogonist/sounds/209917",
+      "tags": [
+        "CompMusic",
+        "Sabian",
+        "beijing",
+        "beijing-opera",
+        "chinese",
+        "gong",
+        "percrussion"
+      ],
+      "seconds": 24.53,
+      "lufs": -22.7,
+      "peak_db": -7.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.988
+        },
+        {
+          "label": "Music",
+          "score": 0.002
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.001
+        },
+        {
+          "label": "Silence",
+          "score": 0.001
+        },
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.0
+        },
+        {
+          "label": "Sigh",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "bd5e36e6-0e2e-4c10-8613-cde52875a72c",
+      "title": "Gong Brilliant Paiste 32'",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "JensZygar",
+      "duration": 32040,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/486/486629_10460973-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/JensZygar/sounds/486629",
+      "tags": [
+        "Brilliantgong",
+        "Paistegong",
+        "gong",
+        "sound"
+      ],
+      "seconds": 32.08,
+      "lufs": -16.6,
+      "peak_db": -0.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.996
+        },
+        {
+          "label": "Music",
+          "score": 0.001
+        },
+        {
+          "label": "Tuning fork",
+          "score": 0.0
+        },
+        {
+          "label": "Singing bowl",
+          "score": 0.0
+        },
+        {
+          "label": "Bell",
+          "score": 0.0
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "997722a1-5bae-49d0-9a93-77792c17a6b4",
+      "title": "240382 the-very-real-horst chinese-gong-finish-session-2014-06-10-29-143",
+      "license": "cc0",
+      "source": "wikimedia_audio",
+      "provider": "wikimedia_audio",
+      "creator": "the_very_Real_Horst",
+      "duration": 29142,
+      "filetype": "wav",
+      "bit_rate": 1411200,
+      "sample_rate": 44100,
+      "category": null,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/240382_the-very-real-horst_chinese-gong-finish-session-2014-06-10-29-143.wav",
+      "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=117675217",
+      "tags": [],
+      "seconds": 29.14,
+      "lufs": -17.0,
+      "peak_db": -2.0,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.994
+        },
+        {
+          "label": "Music",
+          "score": 0.002
+        },
+        {
+          "label": "Timpani",
+          "score": 0.001
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.0
+        },
+        {
+          "label": "Percussion",
+          "score": 0.0
+        },
+        {
+          "label": "Bell",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "9346475a-0bff-4550-8de3-98351b8fe152",
+      "title": "Paiste Gong",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "LloydEvans09",
+      "duration": 17373,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/185/185824_2567799-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/LloydEvans09/sounds/185824",
+      "tags": [
+        "MS",
+        "amazing",
+        "beautiful",
+        "brilliant",
+        "fantastic",
+        "gong",
+        "metallic",
+        "overtones",
+        "recording",
+        "rich",
+        "stereo"
+      ],
+      "seconds": 17.4,
+      "lufs": -16.8,
+      "peak_db": -1.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.964
+        },
+        {
+          "label": "Music",
+          "score": 0.02
+        },
+        {
+          "label": "Timpani",
+          "score": 0.004
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.001
+        },
+        {
+          "label": "Percussion",
+          "score": 0.001
+        },
+        {
+          "label": "Drum",
+          "score": 0.001
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "27f423a7-efc1-4d09-bf86-65abb5049679",
+      "title": "Gong",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "qubodup",
+      "duration": 4932,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/157/157432_71257-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/qubodup/sounds/157432",
+      "tags": [
+        "Mallets",
+        "chime",
+        "gong",
+        "instrument",
+        "percussion"
+      ],
+      "seconds": 4.96,
+      "lufs": -18.8,
+      "peak_db": -0.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.991
+        },
+        {
+          "label": "Music",
+          "score": 0.002
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.001
+        },
+        {
+          "label": "Bell",
+          "score": 0.0
+        },
+        {
+          "label": "Drum",
+          "score": 0.0
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.0
+        }
+      ]
+    }
+  ]
+}

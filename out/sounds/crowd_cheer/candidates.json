@@ -1,0 +1,360 @@
+{
+  "probe": {
+    "id": "crowd_cheer",
+    "query": "crowd cheer",
+    "expect": [
+      "Cheering",
+      "Crowd",
+      "Applause"
+    ]
+  },
+  "count": 240,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "9f869849-90b0-4a74-8f12-d49a2f1ee658",
+      "title": "Crowd Cheering",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "SoundsExciting",
+      "duration": 13248,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/365/365132_3279490-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/SoundsExciting/sounds/365132",
+      "tags": [
+        "applaud",
+        "applauding",
+        "applause",
+        "audience",
+        "cheer",
+        "cheering",
+        "clapping",
+        "crowd",
+        "wooing"
+      ],
+      "seconds": 13.3,
+      "lufs": -24.1,
+      "peak_db": -9.9,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Applause",
+          "score": 0.29
+        },
+        {
+          "label": "Speech",
+          "score": 0.17
+        },
+        {
+          "label": "Crowd",
+          "score": 0.121
+        },
+        {
+          "label": "Music",
+          "score": 0.1
+        },
+        {
+          "label": "Cheering",
+          "score": 0.086
+        },
+        {
+          "label": "Clapping",
+          "score": 0.034
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "c80ae9c9-9f84-4b03-8bc1-27c87feef9dd",
+      "title": "Medium crowd cheering 02",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "misjoc",
+      "duration": 7399,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/400/400586_3372256-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/misjoc/sounds/400586",
+      "tags": [
+        "applaud",
+        "applause",
+        "audience",
+        "cheer",
+        "cheering",
+        "clap",
+        "clapping",
+        "crowd",
+        "group"
+      ],
+      "seconds": 7.44,
+      "lufs": -21.8,
+      "peak_db": -6.9,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.434
+        },
+        {
+          "label": "Applause",
+          "score": 0.116
+        },
+        {
+          "label": "Cheering",
+          "score": 0.08
+        },
+        {
+          "label": "Run",
+          "score": 0.079
+        },
+        {
+          "label": "Crowd",
+          "score": 0.076
+        },
+        {
+          "label": "Clapping",
+          "score": 0.031
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "bfb7ab87-0f69-4417-aa76-fa77282d556f",
+      "title": "Short Crowd Cheer 2.flac",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "qubodup",
+      "duration": 7689,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/182/182572_71257-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/qubodup/sounds/182572",
+      "tags": [
+        "applaude",
+        "applauding",
+        "applaus",
+        "applause",
+        "cheer",
+        "clap",
+        "clapping",
+        "claps",
+        "concert",
+        "hands",
+        "party",
+        "people"
+      ],
+      "seconds": 7.73,
+      "lufs": -18.2,
+      "peak_db": 0.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Applause",
+          "score": 0.648
+        },
+        {
+          "label": "Clapping",
+          "score": 0.164
+        },
+        {
+          "label": "Speech",
+          "score": 0.084
+        },
+        {
+          "label": "Animal",
+          "score": 0.012
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.006
+        },
+        {
+          "label": "Domestic animals, pets",
+          "score": 0.005
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2bbf964c-0a51-4c87-b21b-98040186012b",
+      "title": "Crowd Cheering and Applause",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Ev-Dawg",
+      "duration": 6410,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/360/360620_1772601-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Ev-Dawg/sounds/360620",
+      "tags": [
+        "applause",
+        "cheer",
+        "cheering",
+        "clap",
+        "clapping",
+        "congratulatory",
+        "crowd",
+        "happy",
+        "whistle",
+        "whistling"
+      ],
+      "seconds": 6.45,
+      "lufs": -32.7,
+      "peak_db": -13.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.353
+        },
+        {
+          "label": "Run",
+          "score": 0.13
+        },
+        {
+          "label": "Applause",
+          "score": 0.056
+        },
+        {
+          "label": "Crowd",
+          "score": 0.049
+        },
+        {
+          "label": "Music",
+          "score": 0.041
+        },
+        {
+          "label": "Outside, urban or manmade",
+          "score": 0.038
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "c5ff6b85-ca4e-4d43-a2db-9d5e9f9238ae",
+      "title": "BerlinGameScene.com Crowd Cheer 2",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "BerlinGameScene",
+      "duration": 4481,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/267/267248_5052946-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/BerlinGameScene/sounds/267248",
+      "tags": [
+        "applause",
+        "cheer",
+        "cheering",
+        "crowd",
+        "mass",
+        "meeting",
+        "people",
+        "positive",
+        "yay"
+      ],
+      "seconds": 4.51,
+      "lufs": -15.6,
+      "peak_db": -3.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.198
+        },
+        {
+          "label": "Clapping",
+          "score": 0.178
+        },
+        {
+          "label": "Applause",
+          "score": 0.124
+        },
+        {
+          "label": "Crowd",
+          "score": 0.088
+        },
+        {
+          "label": "Cheering",
+          "score": 0.037
+        },
+        {
+          "label": "Finger snapping",
+          "score": 0.026
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "7b96ad8f-f838-43f0-9cec-8bff2d241718",
+      "title": "BerlinGameScene.com Crowd Cheer 4",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "BerlinGameScene",
+      "duration": 7106,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/267/267246_5052946-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/BerlinGameScene/sounds/267246",
+      "tags": [
+        "applause",
+        "cheer",
+        "cheering",
+        "crowd",
+        "mass",
+        "meeting",
+        "people",
+        "positive",
+        "yay"
+      ],
+      "seconds": 7.15,
+      "lufs": -17.3,
+      "peak_db": -4.0,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.158
+        },
+        {
+          "label": "Neigh, whinny",
+          "score": 0.149
+        },
+        {
+          "label": "Crowd",
+          "score": 0.122
+        },
+        {
+          "label": "Applause",
+          "score": 0.095
+        },
+        {
+          "label": "Animal",
+          "score": 0.083
+        },
+        {
+          "label": "Horse",
+          "score": 0.074
+        }
+      ]
+    }
+  ]
+}

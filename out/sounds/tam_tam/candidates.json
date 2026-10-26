@@ -1,0 +1,336 @@
+{
+  "probe": {
+    "id": "tam_tam",
+    "query": "tam tam",
+    "expect": [
+      "Gong"
+    ]
+  },
+  "count": 213,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "13a94292-f652-4eb0-877c-8197b0e16ebd",
+      "title": "Tam Tam einmal.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "laopengyou",
+      "duration": 32365,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/180/180011_412373-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/laopengyou/sounds/180011",
+      "tags": [
+        "Tam",
+        "attack",
+        "fade",
+        "out",
+        "soft"
+      ],
+      "seconds": 32.42,
+      "lufs": -30.4,
+      "peak_db": -16.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.995
+        },
+        {
+          "label": "Singing bowl",
+          "score": 0.001
+        },
+        {
+          "label": "Music",
+          "score": 0.001
+        },
+        {
+          "label": "Chirp tone",
+          "score": 0.0
+        },
+        {
+          "label": "Tuning fork",
+          "score": 0.0
+        },
+        {
+          "label": "Ambient music",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "114276fd-44bb-42c7-8f4b-80ac84979f01",
+      "title": "Tam tam (soft)",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "camel7695",
+      "duration": 58500,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/423/423477_8092625-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/camel7695/sounds/423477",
+      "tags": [
+        "ambience",
+        "ambient",
+        "atmospheric",
+        "background",
+        "background-sound",
+        "bass",
+        "calm",
+        "chillout",
+        "distance",
+        "mellow",
+        "polyphonic",
+        "soft"
+      ],
+      "seconds": 58.54,
+      "lufs": -21.4,
+      "peak_db": -6.8,
+      "lead_silence": 0.32,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.791
+        },
+        {
+          "label": "Music",
+          "score": 0.07
+        },
+        {
+          "label": "Singing bowl",
+          "score": 0.024
+        },
+        {
+          "label": "Chirp tone",
+          "score": 0.019
+        },
+        {
+          "label": "Sine wave",
+          "score": 0.019
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.009
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "fe8b5725-88a4-4e3c-8ad9-d7c3e923d39a",
+      "title": "Tam tam soft",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "camel7695",
+      "duration": 57000,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/423/423475_8092625-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/camel7695/sounds/423475",
+      "tags": [
+        "Tam-tam",
+        "drum",
+        "gong",
+        "high-quality",
+        "hit",
+        "industrial",
+        "metal",
+        "metallic",
+        "percussion",
+        "percussive",
+        "urban"
+      ],
+      "seconds": 57.05,
+      "lufs": -21.2,
+      "peak_db": -2.9,
+      "lead_silence": 0.34,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.995
+        },
+        {
+          "label": "Music",
+          "score": 0.001
+        },
+        {
+          "label": "Tuning fork",
+          "score": 0.0
+        },
+        {
+          "label": "Singing bowl",
+          "score": 0.0
+        },
+        {
+          "label": "Cymbal",
+          "score": 0.0
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "207c5aec-e4c0-4c05-905d-0220407eea35",
+      "title": "LL-Q809 (pol)-Olaf-tam-tam",
+      "license": "cc0",
+      "source": "wikimedia_audio",
+      "provider": "wikimedia_audio",
+      "creator": "Speaker: Olaf Recorder: Olaf",
+      "duration": 968,
+      "filetype": "wav",
+      "bit_rate": 768000,
+      "sample_rate": 48000,
+      "category": "pronunciation",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/LL-Q809_%28pol%29-Olaf-tam-tam.wav",
+      "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=113793447",
+      "tags": [],
+      "seconds": 0.97,
+      "lufs": -22.4,
+      "peak_db": -3.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.879
+        },
+        {
+          "label": "Male speech, man speaking",
+          "score": 0.026
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.008
+        },
+        {
+          "label": "Narration, monologue",
+          "score": 0.005
+        },
+        {
+          "label": "Single-lens reflex camera",
+          "score": 0.005
+        },
+        {
+          "label": "Television",
+          "score": 0.005
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "56091dd6-aa66-4fd0-8aee-da5642264d6b",
+      "title": "Tam tam rough",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "camel7695",
+      "duration": 59500,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/423/423476_8092625-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/camel7695/sounds/423476",
+      "tags": [
+        "Tam-tam",
+        "percussion",
+        "anti-node",
+        "percussive",
+        "drums",
+        "big-gong"
+      ],
+      "seconds": 59.53,
+      "lufs": -23.7,
+      "peak_db": -2.4,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.992
+        },
+        {
+          "label": "Music",
+          "score": 0.002
+        },
+        {
+          "label": "Singing bowl",
+          "score": 0.001
+        },
+        {
+          "label": "Cymbal",
+          "score": 0.0
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.0
+        },
+        {
+          "label": "Tuning fork",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "7d8c9dab-767a-4589-8b8e-f2c51b661c76",
+      "title": "gong.aiff",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "bevibeldesign",
+      "duration": 29076,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/316/316642_4557960-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/bevibeldesign/sounds/316642",
+      "tags": [
+        "boom",
+        "gong",
+        "tam-tam"
+      ],
+      "seconds": 29.11,
+      "lufs": -16.9,
+      "peak_db": -0.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.996
+        },
+        {
+          "label": "Music",
+          "score": 0.001
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.0
+        },
+        {
+          "label": "Speech",
+          "score": 0.0
+        },
+        {
+          "label": "Bell",
+          "score": 0.0
+        },
+        {
+          "label": "Percussion",
+          "score": 0.0
+        }
+      ]
+    }
+  ]
+}

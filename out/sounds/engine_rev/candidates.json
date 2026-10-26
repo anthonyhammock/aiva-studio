@@ -1,0 +1,349 @@
+{
+  "probe": {
+    "id": "engine_rev",
+    "query": "engine rev",
+    "expect": [
+      "Engine",
+      "Accelerating, revving, vroom",
+      "Vehicle"
+    ]
+  },
+  "count": 240,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "07675eb7-4a19-4821-9685-0218641f6174",
+      "title": "Auston Martin Rapide Start Engine, Engine Revs & Stut Off.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Paul368",
+      "duration": 25000,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/320/320096_2971294-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Paul368/sounds/320096",
+      "tags": [
+        "Auston-Martin",
+        "Car",
+        "Drive",
+        "Driving",
+        "Engine",
+        "Locomotive",
+        "Rev"
+      ],
+      "seconds": 25.03,
+      "lufs": -18.7,
+      "peak_db": -5.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Car",
+          "score": 0.299
+        },
+        {
+          "label": "Vehicle",
+          "score": 0.289
+        },
+        {
+          "label": "Accelerating, revving, vroom",
+          "score": 0.116
+        },
+        {
+          "label": "Whir",
+          "score": 0.058
+        },
+        {
+          "label": "Medium engine (mid frequency)",
+          "score": 0.038
+        },
+        {
+          "label": "Rumble",
+          "score": 0.034
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "4b4fcbf1-5b21-4c21-a7a6-7b066771560e",
+      "title": "Harley Davidson Sportster - Idling with Engine Revs",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "demodave",
+      "duration": 161911,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/502/502690_10898992-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/demodave/sounds/502690",
+      "tags": [
+        "davidson",
+        "engine",
+        "harley",
+        "harley-davidson",
+        "idle",
+        "motorcycle",
+        "rev"
+      ],
+      "seconds": 161.96,
+      "lufs": -24.2,
+      "peak_db": -0.3,
+      "lead_silence": 0.35,
+      "labels": [
+        {
+          "label": "Rumble",
+          "score": 0.193
+        },
+        {
+          "label": "Fart",
+          "score": 0.099
+        },
+        {
+          "label": "Zipper (clothing)",
+          "score": 0.078
+        },
+        {
+          "label": "Vehicle",
+          "score": 0.063
+        },
+        {
+          "label": "Scrape",
+          "score": 0.039
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.037
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "91c1dbdd-f90d-4db6-ba2c-d1da9d4ba4f6",
+      "title": "truck large diesel or military tank APC armored personnel carrier accelerate big rev and pull away then other distant engine rev and another one close pass by Saravena, Colombia 2016.flac",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "kyles",
+      "duration": 91049,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/405/405086_612689-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/kyles/sounds/405086",
+      "tags": [
+        "APC",
+        "accelerate",
+        "armored",
+        "away",
+        "big",
+        "carrier",
+        "diesel",
+        "engine",
+        "large",
+        "military",
+        "pass",
+        "personnel"
+      ],
+      "seconds": 91.08,
+      "lufs": -23.9,
+      "peak_db": -2.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Vehicle",
+          "score": 0.424
+        },
+        {
+          "label": "Bus",
+          "score": 0.088
+        },
+        {
+          "label": "Speech",
+          "score": 0.082
+        },
+        {
+          "label": "Truck",
+          "score": 0.068
+        },
+        {
+          "label": "Air brake",
+          "score": 0.04
+        },
+        {
+          "label": "Bird",
+          "score": 0.033
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "90189c78-2885-4e68-874b-12d2c0c1f054",
+      "title": "dune buggy muscle car pass slow loud nearby full engine rev and trail off to right.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "kyles",
+      "duration": 97180,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/413/413905_612689-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/kyles/sounds/413905",
+      "tags": [
+        "buggy",
+        "car",
+        "dune",
+        "engine",
+        "loud",
+        "muscle",
+        "pass",
+        "rev",
+        "slow"
+      ],
+      "seconds": 97.22,
+      "lufs": -13.7,
+      "peak_db": -0.0,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Vehicle",
+          "score": 0.532
+        },
+        {
+          "label": "Speech",
+          "score": 0.112
+        },
+        {
+          "label": "Car",
+          "score": 0.108
+        },
+        {
+          "label": "Motor vehicle (road)",
+          "score": 0.039
+        },
+        {
+          "label": "Outside, urban or manmade",
+          "score": 0.034
+        },
+        {
+          "label": "Car passing by",
+          "score": 0.018
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "9ea805b1-0ab4-4612-9cf2-23bf4243b2e6",
+      "title": "motorcycle, bmw, engine rev, underground, garage.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "golovlev.sound",
+      "duration": 18041,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/632/632218_3784464-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/golovlev.sound/sounds/632218",
+      "tags": [
+        "bmw",
+        "engine",
+        "garage",
+        "motorcycle",
+        "rev",
+        "underground"
+      ],
+      "seconds": 18.07,
+      "lufs": -17.7,
+      "peak_db": -0.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.321
+        },
+        {
+          "label": "Vehicle",
+          "score": 0.252
+        },
+        {
+          "label": "Accelerating, revving, vroom",
+          "score": 0.154
+        },
+        {
+          "label": "Motorcycle",
+          "score": 0.061
+        },
+        {
+          "label": "Car",
+          "score": 0.04
+        },
+        {
+          "label": "Medium engine (mid frequency)",
+          "score": 0.018
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "666b3ac9-52e6-4102-8842-f66196511dcf",
+      "title": "dune buggys nearby semidistant distant engine revs and pop.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "kyles",
+      "duration": 31573,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/413/413903_612689-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/kyles/sounds/413903",
+      "tags": [
+        "buggy",
+        "distant",
+        "dune",
+        "engine",
+        "revs",
+        "semidistant"
+      ],
+      "seconds": 31.61,
+      "lufs": -26.6,
+      "peak_db": -0.8,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Vehicle",
+          "score": 0.458
+        },
+        {
+          "label": "Outside, rural or natural",
+          "score": 0.084
+        },
+        {
+          "label": "Rumble",
+          "score": 0.084
+        },
+        {
+          "label": "Field recording",
+          "score": 0.044
+        },
+        {
+          "label": "Car",
+          "score": 0.041
+        },
+        {
+          "label": "Outside, urban or manmade",
+          "score": 0.04
+        }
+      ]
+    }
+  ]
+}

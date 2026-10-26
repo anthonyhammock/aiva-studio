@@ -1,0 +1,1720 @@
+{
+  "result_count": 240,
+  "page_count": 12,
+  "page_size": 20,
+  "page": 1,
+  "results": [
+    {
+      "id": "c8d52a28-a204-48f5-a8df-1b2b71ad601b",
+      "title": "low gong bash",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/hiddenpersuader/sounds/155460",
+      "url": "https://cdn.freesound.org/previews/155/155460_1138047-hq.mp3",
+      "creator": "hiddenpersuader",
+      "creator_url": "https://freesound.org/people/hiddenpersuader",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 558944,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "bash",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "low",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "rumble",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/155460/download/",
+          "bit_rate": 0,
+          "filesize": 4158342,
+          "filetype": "aiff",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"low gong bash\" by hiddenpersuader is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Gongs",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/9598/",
+        "creator": "hiddenpersuader",
+        "creator_url": "https://freesound.org/people/hiddenpersuader/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 23572,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/c8d52a28-a204-48f5-a8df-1b2b71ad601b/",
+      "related_url": "https://api.openverse.org/v1/audio/c8d52a28-a204-48f5-a8df-1b2b71ad601b/related/",
+      "waveform": "https://api.openverse.org/v1/audio/c8d52a28-a204-48f5-a8df-1b2b71ad601b/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "ce22a94e-3448-4e1a-9a27-a35104af1a6e",
+      "title": "Gong sabi 2.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/Logicogonist/sounds/209917",
+      "url": "https://cdn.freesound.org/previews/209/209917_3797507-hq.mp3",
+      "creator": "Logicogonist",
+      "creator_url": "https://freesound.org/people/Logicogonist",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 558703,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "CompMusic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Sabian",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "beijing",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "beijing-opera",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "chinese",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "percrussion",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/209917/download/",
+          "bit_rate": 0,
+          "filesize": 4328448,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Gong sabi 2.wav\" by Logicogonist is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "gongs",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/13350/",
+        "creator": "Logicogonist",
+        "creator_url": "https://freesound.org/people/Logicogonist/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 24485,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/ce22a94e-3448-4e1a-9a27-a35104af1a6e/",
+      "related_url": "https://api.openverse.org/v1/audio/ce22a94e-3448-4e1a-9a27-a35104af1a6e/related/",
+      "waveform": "https://api.openverse.org/v1/audio/ce22a94e-3448-4e1a-9a27-a35104af1a6e/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "bd5e36e6-0e2e-4c10-8613-cde52875a72c",
+      "title": "Gong Brilliant Paiste 32'",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/JensZygar/sounds/486629",
+      "url": "https://cdn.freesound.org/previews/486/486629_10460973-hq.mp3",
+      "creator": "JensZygar",
+      "creator_url": "https://freesound.org/people/JensZygar",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 598895,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Brilliantgong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Paistegong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "sound",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/486629/download/",
+          "bit_rate": 160000,
+          "filesize": 645141,
+          "filetype": "mp3",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Gong Brilliant Paiste 32'\" by JensZygar is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "gong sounds",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/27494/",
+        "creator": "JensZygar",
+        "creator_url": "https://freesound.org/people/JensZygar/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 32040,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/bd5e36e6-0e2e-4c10-8613-cde52875a72c/",
+      "related_url": "https://api.openverse.org/v1/audio/bd5e36e6-0e2e-4c10-8613-cde52875a72c/related/",
+      "waveform": "https://api.openverse.org/v1/audio/bd5e36e6-0e2e-4c10-8613-cde52875a72c/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "997722a1-5bae-49d0-9a93-77792c17a6b4",
+      "title": "240382 the-very-real-horst chinese-gong-finish-session-2014-06-10-29-143",
+      "indexed_on": "2024-08-04T21:04:19.282303Z",
+      "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=117675217",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/240382_the-very-real-horst_chinese-gong-finish-session-2014-06-10-29-143.wav",
+      "creator": "the_very_Real_Horst",
+      "creator_url": null,
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+      "provider": "wikimedia_audio",
+      "source": "wikimedia_audio",
+      "category": null,
+      "genres": null,
+      "filesize": 5140894,
+      "filetype": "wav",
+      "tags": [],
+      "alt_files": null,
+      "attribution": "\"240382 the-very-real-horst chinese-gong-finish-session-2014-06-10-29-143\" by the_very_Real_Horst is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/deed.en/.",
+      "fields_matched": [
+        "description",
+        "title"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 29142,
+      "bit_rate": 1411200,
+      "sample_rate": 44100,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/997722a1-5bae-49d0-9a93-77792c17a6b4/",
+      "related_url": "https://api.openverse.org/v1/audio/997722a1-5bae-49d0-9a93-77792c17a6b4/related/",
+      "waveform": "https://api.openverse.org/v1/audio/997722a1-5bae-49d0-9a93-77792c17a6b4/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "9346475a-0bff-4550-8de3-98351b8fe152",
+      "title": "Paiste Gong",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/LloydEvans09/sounds/185824",
+      "url": "https://cdn.freesound.org/previews/185/185824_2567799-hq.mp3",
+      "creator": "LloydEvans09",
+      "creator_url": "https://freesound.org/people/LloydEvans09",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 392424,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "MS",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "amazing",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "beautiful",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "brilliant",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "fantastic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "metallic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "overtones",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "recording",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "rich",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "stereo",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/185824/download/",
+          "bit_rate": 0,
+          "filesize": 10010132,
+          "filetype": "wav",
+          "sample_rate": 96000
+        }
+      ],
+      "attribution": "\"Paiste Gong\" by LloydEvans09 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 17373,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/9346475a-0bff-4550-8de3-98351b8fe152/",
+      "related_url": "https://api.openverse.org/v1/audio/9346475a-0bff-4550-8de3-98351b8fe152/related/",
+      "waveform": "https://api.openverse.org/v1/audio/9346475a-0bff-4550-8de3-98351b8fe152/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "27f423a7-efc1-4d09-bf86-65abb5049679",
+      "title": "Gong",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/qubodup/sounds/157432",
+      "url": "https://cdn.freesound.org/previews/157/157432_71257-hq.mp3",
+      "creator": "qubodup",
+      "creator_url": "https://freesound.org/people/qubodup",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 104100,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Mallets",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "chime",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "instrument",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "percussion",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/157432/download/",
+          "bit_rate": 0,
+          "filesize": 435046,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Gong\" by qubodup is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "(= metal ^_^ iron =)",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/8949/",
+        "creator": "qubodup",
+        "creator_url": "https://freesound.org/people/qubodup/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 4932,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/27f423a7-efc1-4d09-bf86-65abb5049679/",
+      "related_url": "https://api.openverse.org/v1/audio/27f423a7-efc1-4d09-bf86-65abb5049679/related/",
+      "waveform": "https://api.openverse.org/v1/audio/27f423a7-efc1-4d09-bf86-65abb5049679/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "cb498e53-a9f2-420d-9c7f-d8e3cad34bae",
+      "title": "anime gong 1.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/Logicogonist/sounds/264047",
+      "url": "https://cdn.freesound.org/previews/264/264047_3797507-hq.mp3",
+      "creator": "Logicogonist",
+      "creator_url": "https://freesound.org/people/Logicogonist",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 113642,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "anime",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "fear",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "horrifying",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "terrifying",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "thriller",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/264047/download/",
+          "bit_rate": 0,
+          "filesize": 882856,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"anime gong 1.wav\" by Logicogonist is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "gongs",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/13350/",
+        "creator": "Logicogonist",
+        "creator_url": "https://freesound.org/people/Logicogonist/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 4981,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/cb498e53-a9f2-420d-9c7f-d8e3cad34bae/",
+      "related_url": "https://api.openverse.org/v1/audio/cb498e53-a9f2-420d-9c7f-d8e3cad34bae/related/",
+      "waveform": "https://api.openverse.org/v1/audio/cb498e53-a9f2-420d-9c7f-d8e3cad34bae/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "4febf942-d107-43b7-aa7d-d1d305ba0265",
+      "title": "Gong in zen buddhism",
+      "indexed_on": "2022-08-01T10:21:55.203678Z",
+      "foreign_landing_url": "https://freesound.org/people/florianreichelt/sounds/440606",
+      "url": "https://cdn.freesound.org/previews/440/440606_6253486-hq.mp3",
+      "creator": "florianreichelt",
+      "creator_url": "https://freesound.org/people/florianreichelt",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 743616,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "bell",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "sample",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "multi",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "drum",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "practice",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "ritual",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "tibetan",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "puja",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "buddhist",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "zen",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "cymbal",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "instrument",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "buddhism",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "velocity",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "multisample",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "prayer",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "japan",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "snare",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "religious",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "percussion",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/440606/download/",
+          "bit_rate": 0,
+          "filesize": 18790030,
+          "filetype": "wav",
+          "sample_rate": 96000
+        }
+      ],
+      "attribution": "\"Gong in zen buddhism\" by florianreichelt is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Tokyo - Japan",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/25012/",
+        "creator": "florianreichelt",
+        "creator_url": "https://freesound.org/people/florianreichelt/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 32619,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/4febf942-d107-43b7-aa7d-d1d305ba0265/",
+      "related_url": "https://api.openverse.org/v1/audio/4febf942-d107-43b7-aa7d-d1d305ba0265/related/",
+      "waveform": "https://api.openverse.org/v1/audio/4febf942-d107-43b7-aa7d-d1d305ba0265/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "a081acee-6b7f-4b4d-b169-64ff0082aa10",
+      "title": "gong-014.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/rabban625/sounds/436485",
+      "url": "https://cdn.freesound.org/previews/436/436485_2988281-hq.mp3",
+      "creator": "rabban625",
+      "creator_url": "https://freesound.org/people/rabban625",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 394873,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "field-recording",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "percussion",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/436485/download/",
+          "bit_rate": 0,
+          "filesize": 3037582,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"gong-014.wav\" by rabban625 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 17214,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/a081acee-6b7f-4b4d-b169-64ff0082aa10/",
+      "related_url": "https://api.openverse.org/v1/audio/a081acee-6b7f-4b4d-b169-64ff0082aa10/related/",
+      "waveform": "https://api.openverse.org/v1/audio/a081acee-6b7f-4b4d-b169-64ff0082aa10/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "a08d7c14-60b3-437a-8c8a-58b0fceac562",
+      "title": "Gong sabi 1.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/Logicogonist/sounds/209918",
+      "url": "https://cdn.freesound.org/previews/209/209918_3797507-hq.mp3",
+      "creator": "Logicogonist",
+      "creator_url": "https://freesound.org/people/Logicogonist",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 545781,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "CompMusic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Sabian",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "beijing",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "beijing-opera",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "chinese",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "percrussion",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/209918/download/",
+          "bit_rate": 0,
+          "filesize": 4323260,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Gong sabi 1.wav\" by Logicogonist is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "gongs",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/13350/",
+        "creator": "Logicogonist",
+        "creator_url": "https://freesound.org/people/Logicogonist/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 24485,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/a08d7c14-60b3-437a-8c8a-58b0fceac562/",
+      "related_url": "https://api.openverse.org/v1/audio/a08d7c14-60b3-437a-8c8a-58b0fceac562/related/",
+      "waveform": "https://api.openverse.org/v1/audio/a08d7c14-60b3-437a-8c8a-58b0fceac562/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "0070aa0e-b81b-4113-b6bf-9bd2c0cfbb1e",
+      "title": "Stones in a Gong",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/LloydEvans09/sounds/185825",
+      "url": "https://cdn.freesound.org/previews/185/185825_2567799-hq.mp3",
+      "creator": "LloydEvans09",
+      "creator_url": "https://freesound.org/people/LloydEvans09",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 218880,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "MS",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "amazing",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "beautiful",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "fantastic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "metallic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "recording",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "rich",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "rich-overtones",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "stereo",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/185825/download/",
+          "bit_rate": 0,
+          "filesize": 5469326,
+          "filetype": "wav",
+          "sample_rate": 96000
+        }
+      ],
+      "attribution": "\"Stones in a Gong\" by LloydEvans09 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 9490,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/0070aa0e-b81b-4113-b6bf-9bd2c0cfbb1e/",
+      "related_url": "https://api.openverse.org/v1/audio/0070aa0e-b81b-4113-b6bf-9bd2c0cfbb1e/related/",
+      "waveform": "https://api.openverse.org/v1/audio/0070aa0e-b81b-4113-b6bf-9bd2c0cfbb1e/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "1aacd931-d82c-413f-b8a0-2a95a07a026c",
+      "title": "Asian Gong",
+      "indexed_on": "2022-10-01T04:02:44.560321Z",
+      "foreign_landing_url": "https://freesound.org/people/elliottmusic7/sounds/367464",
+      "url": "https://cdn.freesound.org/previews/367/367464_6703348-hq.mp3",
+      "creator": "elliottmusic7",
+      "creator_url": "https://freesound.org/people/elliottmusic7",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 276000,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Korea",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "drum",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "India",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Asia",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Instrument",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "China",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Drums",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Thailand",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Japan",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/367464/download/",
+          "bit_rate": 0,
+          "filesize": 3424138,
+          "filetype": "wav",
+          "sample_rate": 48000
+        }
+      ],
+      "attribution": "\"Asian Gong\" by elliottmusic7 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "title"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 11883,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/1aacd931-d82c-413f-b8a0-2a95a07a026c/",
+      "related_url": "https://api.openverse.org/v1/audio/1aacd931-d82c-413f-b8a0-2a95a07a026c/related/",
+      "waveform": "https://api.openverse.org/v1/audio/1aacd931-d82c-413f-b8a0-2a95a07a026c/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "8883aacd-a5ff-4101-b697-fc075017bd1e",
+      "title": "LL-Q809 (pol)-Olaf-gong",
+      "indexed_on": "2024-11-17T16:01:31.178564Z",
+      "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=100259237",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/LL-Q809_%28pol%29-Olaf-gong.wav",
+      "creator": "Speaker: Olaf Recorder: Olaf",
+      "creator_url": "https://lingualibre.org/wiki/Q267375",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+      "provider": "wikimedia_audio",
+      "source": "wikimedia_audio",
+      "category": "pronunciation",
+      "genres": null,
+      "filesize": 92972,
+      "filetype": "wav",
+      "tags": [],
+      "alt_files": null,
+      "attribution": "\"LL-Q809 (pol)-Olaf-gong\" by Speaker: Olaf Recorder: Olaf is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/deed.en/.",
+      "fields_matched": [
+        "title"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 968,
+      "bit_rate": 768000,
+      "sample_rate": 48000,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/8883aacd-a5ff-4101-b697-fc075017bd1e/",
+      "related_url": "https://api.openverse.org/v1/audio/8883aacd-a5ff-4101-b697-fc075017bd1e/related/",
+      "waveform": "https://api.openverse.org/v1/audio/8883aacd-a5ff-4101-b697-fc075017bd1e/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "5a7b220b-a60f-47cf-b69a-1fe3f14d600b",
+      "title": "gong 2.wav",
+      "indexed_on": "2022-06-01T12:00:12.608809Z",
+      "foreign_landing_url": "https://freesound.org/people/Logicogonist/sounds/518292",
+      "url": "https://cdn.freesound.org/previews/518/518292_3797507-hq.mp3",
+      "creator": "Logicogonist",
+      "creator_url": "https://freesound.org/people/Logicogonist",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 132896,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "anti-Buddhism",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "anti-Shinto",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "atheism",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "crash",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "drum",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "filmscore",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "foley",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gamescore",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong-sound",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gowlermusic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "hit",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "impact",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "impersonhood",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "industrial",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "kill-the-Tenno-for-quinquennial-Presidency",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Leonard-Susskind",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "metal",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "metallic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "percussion",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "percussive",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "single-impact",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "synth",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/518292/download/",
+          "bit_rate": 0,
+          "filesize": 1032076,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"gong 2.wav\" by Logicogonist is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "gongs",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/13350/",
+        "creator": "Logicogonist",
+        "creator_url": "https://freesound.org/people/Logicogonist/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 5827,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/5a7b220b-a60f-47cf-b69a-1fe3f14d600b/",
+      "related_url": "https://api.openverse.org/v1/audio/5a7b220b-a60f-47cf-b69a-1fe3f14d600b/related/",
+      "waveform": "https://api.openverse.org/v1/audio/5a7b220b-a60f-47cf-b69a-1fe3f14d600b/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "d6c7f7aa-4487-4894-aafc-99c451245e68",
+      "title": "gong veilered 16 bit.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/Logicogonist/sounds/209920",
+      "url": "https://cdn.freesound.org/previews/209/209920_3797507-hq.mp3",
+      "creator": "Logicogonist",
+      "creator_url": "https://freesound.org/people/Logicogonist",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 138217,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Veiler",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "a",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "amount",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "but",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "correct",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "files",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "full",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "hies",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "lows",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "made",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "many",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "metal",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "range",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "recorded",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "using",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/209920/download/",
+          "bit_rate": 0,
+          "filesize": 1063076,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"gong veilered 16 bit.wav\" by Logicogonist is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "gongs",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/13350/",
+        "creator": "Logicogonist",
+        "creator_url": "https://freesound.org/people/Logicogonist/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 6003,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/d6c7f7aa-4487-4894-aafc-99c451245e68/",
+      "related_url": "https://api.openverse.org/v1/audio/d6c7f7aa-4487-4894-aafc-99c451245e68/related/",
+      "waveform": "https://api.openverse.org/v1/audio/d6c7f7aa-4487-4894-aafc-99c451245e68/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "0dbb9775-b47f-4b7e-b8e9-9c44257a4937",
+      "title": "Gong 2.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/gevaroy/sounds/347382",
+      "url": "https://cdn.freesound.org/previews/347/347382_1647179-hq.mp3",
+      "creator": "gevaroy",
+      "creator_url": "https://freesound.org/people/gevaroy",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 7522388,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "healing",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "meditation",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/347382/download/",
+          "bit_rate": 0,
+          "filesize": 44396389,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Gong 2.wav\" by gevaroy is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 335562,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/0dbb9775-b47f-4b7e-b8e9-9c44257a4937/",
+      "related_url": "https://api.openverse.org/v1/audio/0dbb9775-b47f-4b7e-b8e9-9c44257a4937/related/",
+      "waveform": "https://api.openverse.org/v1/audio/0dbb9775-b47f-4b7e-b8e9-9c44257a4937/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "4136fa1a-67fa-472b-aba3-ed42d8457c64",
+      "title": "gong-012.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/rabban625/sounds/436481",
+      "url": "https://cdn.freesound.org/previews/436/436481_2988281-hq.mp3",
+      "creator": "rabban625",
+      "creator_url": "https://freesound.org/people/rabban625",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 409021,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "field-recording",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/436481/download/",
+          "bit_rate": 0,
+          "filesize": 3160718,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"gong-012.wav\" by rabban625 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 17912,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/4136fa1a-67fa-472b-aba3-ed42d8457c64/",
+      "related_url": "https://api.openverse.org/v1/audio/4136fa1a-67fa-472b-aba3-ed42d8457c64/related/",
+      "waveform": "https://api.openverse.org/v1/audio/4136fa1a-67fa-472b-aba3-ed42d8457c64/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "05fa8e4a-4d2c-4d87-88c5-579fbf9c6b74",
+      "title": "Yoga Gong",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/AntoineRomo/sounds/587045",
+      "url": "https://cdn.freesound.org/previews/587/587045_13244504-hq.mp3",
+      "creator": "AntoineRomo",
+      "creator_url": "https://freesound.org/people/AntoineRomo",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 205072,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Yoga",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Yoga-Gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "bell",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/587045/download/",
+          "bit_rate": 117000,
+          "filesize": 133158,
+          "filetype": "mp3",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Yoga Gong\" by AntoineRomo is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Home Sounds",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/33019/",
+        "creator": "AntoineRomo",
+        "creator_url": "https://freesound.org/people/AntoineRomo/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 9055,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/05fa8e4a-4d2c-4d87-88c5-579fbf9c6b74/",
+      "related_url": "https://api.openverse.org/v1/audio/05fa8e4a-4d2c-4d87-88c5-579fbf9c6b74/related/",
+      "waveform": "https://api.openverse.org/v1/audio/05fa8e4a-4d2c-4d87-88c5-579fbf9c6b74/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "c688315b-9c3e-4bc4-9a25-587ab8d8e0a7",
+      "title": "gong bash high resonance",
+      "indexed_on": "2022-11-01T13:48:32.970278Z",
+      "foreign_landing_url": "https://freesound.org/people/hiddenpersuader/sounds/155462",
+      "url": "https://cdn.freesound.org/previews/155/155462_1138047-hq.mp3",
+      "creator": "hiddenpersuader",
+      "creator_url": "https://freesound.org/people/hiddenpersuader",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 275948,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "bash",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "high",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "resonance",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "rumble",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/155462/download/",
+          "bit_rate": 0,
+          "filesize": 2057894,
+          "filetype": "aiff",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"gong bash high resonance\" by hiddenpersuader is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Gongs",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/9598/",
+        "creator": "hiddenpersuader",
+        "creator_url": "https://freesound.org/people/hiddenpersuader/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 11665,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/c688315b-9c3e-4bc4-9a25-587ab8d8e0a7/",
+      "related_url": "https://api.openverse.org/v1/audio/c688315b-9c3e-4bc4-9a25-587ab8d8e0a7/related/",
+      "waveform": "https://api.openverse.org/v1/audio/c688315b-9c3e-4bc4-9a25-587ab8d8e0a7/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "24ef0b2f-742d-4b78-a932-4318ef0c7712",
+      "title": "gong hit soft close .wav",
+      "indexed_on": "2022-11-01T13:48:32.970278Z",
+      "foreign_landing_url": "https://freesound.org/people/thma/sounds/245876",
+      "url": "https://cdn.freesound.org/previews/245/245876_40734-hq.mp3",
+      "creator": "thma",
+      "creator_url": "https://freesound.org/people/thma",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 837216,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "close-up",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Cymbal",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Gong",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "hit",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "metal",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Percussion",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/245876/download/",
+          "bit_rate": 0,
+          "filesize": 29045614,
+          "filetype": "wav",
+          "sample_rate": 96000
+        }
+      ],
+      "attribution": "\"gong hit soft close .wav\" by thma is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Medium sized Gong tuned to F#",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/15199/",
+        "creator": "thma",
+        "creator_url": "https://freesound.org/people/thma/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 37812,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/24ef0b2f-742d-4b78-a932-4318ef0c7712/",
+      "related_url": "https://api.openverse.org/v1/audio/24ef0b2f-742d-4b78-a932-4318ef0c7712/related/",
+      "waveform": "https://api.openverse.org/v1/audio/24ef0b2f-742d-4b78-a932-4318ef0c7712/waveform/",
+      "unstable__sensitivity": []
+    }
+  ]
+}

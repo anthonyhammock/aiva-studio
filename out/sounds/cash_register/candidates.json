@@ -1,0 +1,338 @@
+{
+  "probe": {
+    "id": "cash_register",
+    "query": "cash register",
+    "expect": [
+      "Cash register"
+    ]
+  },
+  "count": 89,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "62dd2f8f-b2be-441c-a11e-df13944fd087",
+      "title": "old cash register open and close with a bing",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "clubmydia+",
+      "duration": 15535,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/584/584168_11720717-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/clubmydia+/sounds/584168",
+      "tags": [
+        "cash",
+        "cash-register",
+        "cashier",
+        "change",
+        "coin",
+        "coins",
+        "money",
+        "register"
+      ],
+      "seconds": 15.58,
+      "lufs": -16.8,
+      "peak_db": -0.4,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Coin (dropping)",
+          "score": 0.422
+        },
+        {
+          "label": "Cash register",
+          "score": 0.219
+        },
+        {
+          "label": "Typewriter",
+          "score": 0.096
+        },
+        {
+          "label": "Mechanisms",
+          "score": 0.029
+        },
+        {
+          "label": "Clock",
+          "score": 0.021
+        },
+        {
+          "label": "Bicycle bell",
+          "score": 0.016
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "4a7a8a4b-8e63-4e14-a183-4cb11218e3bb",
+      "title": "cash register beep sound.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "videofueralle",
+      "duration": 11990,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/455/455397_1130120-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/videofueralle/sounds/455397",
+      "tags": [
+        "ambient",
+        "beep",
+        "cash",
+        "field",
+        "recording",
+        "register",
+        "sound",
+        "supermarket"
+      ],
+      "seconds": 12.02,
+      "lufs": -33.5,
+      "peak_db": -4.0,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.329
+        },
+        {
+          "label": "Crumpling, crinkling",
+          "score": 0.219
+        },
+        {
+          "label": "Inside, small room",
+          "score": 0.153
+        },
+        {
+          "label": "Crackle",
+          "score": 0.087
+        },
+        {
+          "label": "Beep, bleep",
+          "score": 0.025
+        },
+        {
+          "label": "Telephone dialing, DTMF",
+          "score": 0.021
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "deafdf72-1f73-4d0a-a849-356212e09e83",
+      "title": "Cash register",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "MaoDin204",
+      "duration": 1072,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/721/721774_15555277-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/MaoDin204/sounds/721774",
+      "tags": [
+        "Cash",
+        "cash-register",
+        "money"
+      ],
+      "seconds": 1.12,
+      "lufs": -17.9,
+      "peak_db": -2.8,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Cash register",
+          "score": 0.973
+        },
+        {
+          "label": "Typewriter",
+          "score": 0.003
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.003
+        },
+        {
+          "label": "Creak",
+          "score": 0.003
+        },
+        {
+          "label": "Speech",
+          "score": 0.002
+        },
+        {
+          "label": "Door",
+          "score": 0.001
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2eba049f-c79e-43ff-a61a-5c8b793041f5",
+      "title": "cash register old antique open close drawer with bell ring various combinations.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "kyles",
+      "duration": 156823,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/452/452572_612689-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/kyles/sounds/452572",
+      "tags": [
+        "antique",
+        "bell",
+        "cash",
+        "close",
+        "drawer",
+        "old",
+        "open",
+        "register",
+        "ring"
+      ],
+      "seconds": 156.86,
+      "lufs": -23.9,
+      "peak_db": -1.0,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Cash register",
+          "score": 0.373
+        },
+        {
+          "label": "Door",
+          "score": 0.111
+        },
+        {
+          "label": "Sliding door",
+          "score": 0.077
+        },
+        {
+          "label": "Bicycle bell",
+          "score": 0.047
+        },
+        {
+          "label": "Typewriter",
+          "score": 0.043
+        },
+        {
+          "label": "Ding",
+          "score": 0.035
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "5fb0db45-c92c-4614-a8bf-69eae9e2982a",
+      "title": "Automatic cash register in a Japanese supermarket.",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "macdaddyno1",
+      "duration": 31230,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/320/320058_313780-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/macdaddyno1/sounds/320058",
+      "tags": [
+        "automatic",
+        "cash",
+        "japanese",
+        "register",
+        "robot",
+        "supermarket",
+        "talk"
+      ],
+      "seconds": 31.27,
+      "lufs": -14.2,
+      "peak_db": 0.9,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Speech",
+          "score": 0.896
+        },
+        {
+          "label": "Hiccup",
+          "score": 0.052
+        },
+        {
+          "label": "Female speech, woman speaking",
+          "score": 0.004
+        },
+        {
+          "label": "Telephone dialing, DTMF",
+          "score": 0.004
+        },
+        {
+          "label": "Inside, public space",
+          "score": 0.003
+        },
+        {
+          "label": "Music",
+          "score": 0.003
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "59e9bcbc-64ef-4316-aa82-1c91be63f0da",
+      "title": "Cash Register Sound Effect.mp3",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "kayliebenson",
+      "duration": 5131,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/474/474239_10066278-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/kayliebenson/sounds/474239",
+      "tags": [
+        "ds106",
+        "feet",
+        "foot"
+      ],
+      "seconds": 5.17,
+      "lufs": -20.7,
+      "peak_db": -8.7,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Ding",
+          "score": 0.475
+        },
+        {
+          "label": "Clang",
+          "score": 0.194
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.055
+        },
+        {
+          "label": "Bicycle bell",
+          "score": 0.038
+        },
+        {
+          "label": "Bell",
+          "score": 0.018
+        },
+        {
+          "label": "Chink, clink",
+          "score": 0.017
+        }
+      ]
+    }
+  ]
+}

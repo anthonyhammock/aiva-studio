@@ -1,0 +1,359 @@
+{
+  "probe": {
+    "id": "temple_gong",
+    "query": "temple gong",
+    "expect": [
+      "Gong"
+    ]
+  },
+  "count": 25,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "f01cdec2-11e7-4ccb-8cd2-208bb4cd15e6",
+      "title": "BurmaBell.aif",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "LozKaye",
+      "duration": 5928,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/94/94024_469745-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/LozKaye/sounds/94024",
+      "tags": [
+        "asian",
+        "bell",
+        "bong",
+        "burma",
+        "forward",
+        "gong",
+        "leap",
+        "little",
+        "metal",
+        "percussion",
+        "theatre"
+      ],
+      "seconds": 5.96,
+      "lufs": -28.5,
+      "peak_db": -13.5,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Ding",
+          "score": 0.749
+        },
+        {
+          "label": "Clang",
+          "score": 0.179
+        },
+        {
+          "label": "Bell",
+          "score": 0.017
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.012
+        },
+        {
+          "label": "Doorbell",
+          "score": 0.006
+        },
+        {
+          "label": "Ding-dong",
+          "score": 0.005
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "f1c81b4a-2637-46a6-8d24-362260768ab4",
+      "title": "temple bells.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Paresh",
+      "duration": 82731,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/423/423401_229952-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Paresh/sounds/423401",
+      "tags": [
+        "Hawaii",
+        "bells",
+        "birds",
+        "chimes",
+        "gong",
+        "meditation",
+        "ringing",
+        "wind"
+      ],
+      "seconds": 82.78,
+      "lufs": -28.4,
+      "peak_db": -5.5,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Music",
+          "score": 0.189
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.11
+        },
+        {
+          "label": "Singing bowl",
+          "score": 0.056
+        },
+        {
+          "label": "Outside, rural or natural",
+          "score": 0.052
+        },
+        {
+          "label": "Chime",
+          "score": 0.049
+        },
+        {
+          "label": "Environmental noise",
+          "score": 0.045
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "9d88d49f-92df-44c8-9866-4632b2f1aea8",
+      "title": "Monks Chanting in Jade Buddha Temple, Shanghai",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "timsc",
+      "duration": 291996,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/186/186677_266678-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/timsc/sounds/186677",
+      "tags": [
+        "buddism",
+        "chant",
+        "china",
+        "drum",
+        "field-recording",
+        "gong",
+        "monk",
+        "percussion",
+        "religion",
+        "sacred",
+        "talking",
+        "temple"
+      ],
+      "seconds": 292.03,
+      "lufs": -17.5,
+      "peak_db": -1.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Music",
+          "score": 0.686
+        },
+        {
+          "label": "Speech",
+          "score": 0.026
+        },
+        {
+          "label": "Mantra",
+          "score": 0.025
+        },
+        {
+          "label": "Choir",
+          "score": 0.022
+        },
+        {
+          "label": "Chant",
+          "score": 0.02
+        },
+        {
+          "label": "Didgeridoo",
+          "score": 0.019
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "8154c100-ea92-4f97-9491-49e56e5a0cbd",
+      "title": "Japan_Kashiwa_Shrine_Hitting_a_Small_Gong.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "RutgerMuller",
+      "duration": 86721,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/364/364847_179538-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/RutgerMuller/sounds/364847",
+      "tags": [
+        "Japan",
+        "Japanese",
+        "asia",
+        "bell",
+        "buddhism",
+        "buddhist",
+        "clang",
+        "coin",
+        "donating",
+        "donation",
+        "gong",
+        "iron"
+      ],
+      "seconds": 86.76,
+      "lufs": -22.6,
+      "peak_db": -1.8,
+      "lead_silence": 0.68,
+      "labels": [
+        {
+          "label": "Bird",
+          "score": 0.143
+        },
+        {
+          "label": "Bird vocalization, bird call, bird song",
+          "score": 0.124
+        },
+        {
+          "label": "Environmental noise",
+          "score": 0.097
+        },
+        {
+          "label": "Arrow",
+          "score": 0.097
+        },
+        {
+          "label": "Music",
+          "score": 0.082
+        },
+        {
+          "label": "Chirp, tweet",
+          "score": 0.073
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "06793688-38e3-43d8-9077-ac4b8501047e",
+      "title": "\u21e2 GREAT Fx Gong 1.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "SingleCoil",
+      "duration": 7709,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/459/459506_8946488-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/SingleCoil/sounds/459506",
+      "tags": [
+        "cinematic-gong",
+        "gong",
+        "gong-cinematic",
+        "gong-fx",
+        "gong-sfx",
+        "gong-temple",
+        "shaman",
+        "temple-gong"
+      ],
+      "seconds": 7.76,
+      "lufs": -9.9,
+      "peak_db": 0.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Gong",
+          "score": 0.958
+        },
+        {
+          "label": "Music",
+          "score": 0.017
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.003
+        },
+        {
+          "label": "Percussion",
+          "score": 0.003
+        },
+        {
+          "label": "Timpani",
+          "score": 0.002
+        },
+        {
+          "label": "Drum",
+          "score": 0.002
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "6f61424c-a652-4ef4-9b08-4e9f86a389eb",
+      "title": "Japanese singing bowl",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "imbecilinplus",
+      "duration": 159591,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/711/711790_1719057-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/imbecilinplus/sounds/711790",
+      "tags": [
+        "bell",
+        "buddhism",
+        "ceremony",
+        "dojo",
+        "gong",
+        "ringing",
+        "temple",
+        "zen"
+      ],
+      "seconds": 159.62,
+      "lufs": -24.1,
+      "peak_db": -6.8,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Singing bowl",
+          "score": 0.505
+        },
+        {
+          "label": "Tuning fork",
+          "score": 0.313
+        },
+        {
+          "label": "Music",
+          "score": 0.042
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.027
+        },
+        {
+          "label": "Gong",
+          "score": 0.024
+        },
+        {
+          "label": "Bell",
+          "score": 0.018
+        }
+      ]
+    }
+  ]
+}

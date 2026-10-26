@@ -1,0 +1,349 @@
+{
+  "probe": {
+    "id": "singing_bowl",
+    "query": "singing bowl",
+    "expect": [
+      "Singing bowl"
+    ]
+  },
+  "count": 116,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "309f12d1-f7bc-402c-9ed5-ebb614216d79",
+      "title": "Tibetan singing bowl",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "enhuber",
+      "duration": 85615,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/400/400819_4118562-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/enhuber/sounds/400819",
+      "tags": [
+        "Tibetan",
+        "Tibetan-singing-bowl",
+        "bowl",
+        "singing"
+      ],
+      "seconds": 85.66,
+      "lufs": -20.8,
+      "peak_db": -2.6,
+      "lead_silence": 14.8,
+      "labels": [
+        {
+          "label": "Singing bowl",
+          "score": 0.988
+        },
+        {
+          "label": "Music",
+          "score": 0.007
+        },
+        {
+          "label": "Chirp tone",
+          "score": 0.001
+        },
+        {
+          "label": "Gong",
+          "score": 0.001
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.0
+        },
+        {
+          "label": "New-age music",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "4e1a2fa4-4516-4b90-8459-8128f31030cf",
+      "title": "NEPTUN-Solo-07 Tibetan Singing Bowl",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "the_very_Real_Horst",
+      "duration": 12333,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/240/240934_3597112-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/the_very_Real_Horst/sounds/240934",
+      "tags": [
+        "Neptun",
+        "Tibetan",
+        "bowl",
+        "frequencies-of-the-planets",
+        "healing-sounds",
+        "meditation",
+        "relaxing-mind",
+        "singing",
+        "sounds-for-peace",
+        "sounds-from-outer-space",
+        "tibetan-bells"
+      ],
+      "seconds": 12.36,
+      "lufs": -19.7,
+      "peak_db": -6.7,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Singing bowl",
+          "score": 0.432
+        },
+        {
+          "label": "Chirp tone",
+          "score": 0.4
+        },
+        {
+          "label": "Tuning fork",
+          "score": 0.051
+        },
+        {
+          "label": "Gong",
+          "score": 0.028
+        },
+        {
+          "label": "Music",
+          "score": 0.017
+        },
+        {
+          "label": "Sine wave",
+          "score": 0.016
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "af40bf69-2ddf-4a43-acbe-0599840b51ba",
+      "title": "singing bowl sing.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "ryancacophony",
+      "duration": 39230,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/202/202004_1992412-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/ryancacophony/sounds/202004",
+      "tags": [
+        "bell",
+        "bowl",
+        "meditation",
+        "ring",
+        "ringong",
+        "sing",
+        "singing",
+        "singing-bowl",
+        "tibetan"
+      ],
+      "seconds": 39.26,
+      "lufs": -12.8,
+      "peak_db": -5.0,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Singing bowl",
+          "score": 0.931
+        },
+        {
+          "label": "Music",
+          "score": 0.035
+        },
+        {
+          "label": "Chirp tone",
+          "score": 0.01
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.004
+        },
+        {
+          "label": "Sine wave",
+          "score": 0.002
+        },
+        {
+          "label": "Tuning fork",
+          "score": 0.001
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "be918846-86a5-4fb3-8464-331287263767",
+      "title": "singing bowl strike sound",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "inoshirodesign",
+      "duration": 6269,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/271/271370_5159066-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/inoshirodesign/sounds/271370",
+      "tags": [
+        "asian",
+        "bowl",
+        "buddhist",
+        "chant",
+        "chanting",
+        "mongolian",
+        "monk",
+        "overtone",
+        "religious",
+        "singing",
+        "strike",
+        "tantra"
+      ],
+      "seconds": 6.3,
+      "lufs": -34.6,
+      "peak_db": -22.5,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Ding",
+          "score": 0.927
+        },
+        {
+          "label": "Clang",
+          "score": 0.045
+        },
+        {
+          "label": "Tuning fork",
+          "score": 0.011
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.002
+        },
+        {
+          "label": "Ding-dong",
+          "score": 0.002
+        },
+        {
+          "label": "Bell",
+          "score": 0.001
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "26688177-4789-4827-8322-f87d012b15d7",
+      "title": "Tibetan Singing Bowl (Struck)",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Truthiswithin",
+      "duration": 15034,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/193/193022_588254-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Truthiswithin/sounds/193022",
+      "tags": [
+        "bowl",
+        "ring",
+        "tibet"
+      ],
+      "seconds": 15.07,
+      "lufs": -21.6,
+      "peak_db": -0.3,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Tuning fork",
+          "score": 0.555
+        },
+        {
+          "label": "Ding",
+          "score": 0.303
+        },
+        {
+          "label": "Singing bowl",
+          "score": 0.054
+        },
+        {
+          "label": "Clang",
+          "score": 0.035
+        },
+        {
+          "label": "Tubular bells",
+          "score": 0.008
+        },
+        {
+          "label": "Music",
+          "score": 0.004
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "c82aef13-1757-495c-80bc-c78591f65972",
+      "title": "Tibetan Singing Bowl",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "FlashTrauma",
+      "duration": 72326,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/398/398285_2351866-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/FlashTrauma/sounds/398285",
+      "tags": [
+        "bell",
+        "bowl",
+        "buddhism",
+        "buddhist",
+        "meditation",
+        "ring",
+        "singing",
+        "sustained",
+        "tibet",
+        "tibetan"
+      ],
+      "seconds": 72.36,
+      "lufs": -23.9,
+      "peak_db": 0.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Tuning fork",
+          "score": 0.51
+        },
+        {
+          "label": "Bicycle bell",
+          "score": 0.256
+        },
+        {
+          "label": "Bell",
+          "score": 0.099
+        },
+        {
+          "label": "Ding",
+          "score": 0.053
+        },
+        {
+          "label": "Clang",
+          "score": 0.01
+        },
+        {
+          "label": "Silence",
+          "score": 0.007
+        }
+      ]
+    }
+  ]
+}

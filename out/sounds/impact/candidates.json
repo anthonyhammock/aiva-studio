@@ -1,0 +1,348 @@
+{
+  "probe": {
+    "id": "impact",
+    "query": "impact boom",
+    "expect": [
+      "Boom",
+      "Thump, thud",
+      "Explosion"
+    ]
+  },
+  "count": 186,
+  "candidates": [
+    {
+      "rank": 0,
+      "id": "e26ac0c1-610a-441b-a01b-34e579480332",
+      "title": "Cinematic Impact Boom Metalic",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "EminYILDIRIM",
+      "duration": 8400,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/535/535413_10912485-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/EminYILDIRIM/sounds/535413",
+      "tags": [
+        "Boom",
+        "Cinematic",
+        "Hit",
+        "Impact",
+        "Metalic"
+      ],
+      "seconds": 8.44,
+      "lufs": -19.4,
+      "peak_db": -1.5,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.273
+        },
+        {
+          "label": "Music",
+          "score": 0.265
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.169
+        },
+        {
+          "label": "Sonar",
+          "score": 0.086
+        },
+        {
+          "label": "Reverberation",
+          "score": 0.021
+        },
+        {
+          "label": "Silence",
+          "score": 0.02
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "210a2965-2408-40d4-a1fc-97caed05f251",
+      "title": "Impact",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "chriskalos",
+      "duration": 2623,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/172/172779_2430808-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/chriskalos/sounds/172779",
+      "tags": [
+        "fast",
+        "impact",
+        "move",
+        "transition",
+        "whoosh",
+        "woosh"
+      ],
+      "seconds": 2.66,
+      "lufs": -12.2,
+      "peak_db": 0.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.683
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.067
+        },
+        {
+          "label": "Music",
+          "score": 0.056
+        },
+        {
+          "label": "Explosion",
+          "score": 0.032
+        },
+        {
+          "label": "Burst, pop",
+          "score": 0.021
+        },
+        {
+          "label": "Bang",
+          "score": 0.015
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "4c99d7d3-4987-46f3-9637-bfd9b4cc66b9",
+      "title": "BOOM IMPACT 2",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "XHALE303",
+      "duration": 1998,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/535/535592_9015615-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/XHALE303/sounds/535592",
+      "tags": [
+        "boom",
+        "dark",
+        "design",
+        "explosion",
+        "gamescore",
+        "impact"
+      ],
+      "seconds": 2.04,
+      "lufs": -12.8,
+      "peak_db": -1.0,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Explosion",
+          "score": 0.746
+        },
+        {
+          "label": "Burst, pop",
+          "score": 0.162
+        },
+        {
+          "label": "Eruption",
+          "score": 0.052
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.005
+        },
+        {
+          "label": "Music",
+          "score": 0.005
+        },
+        {
+          "label": "Bang",
+          "score": 0.004
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "7f3dc6f7-0aca-436c-828c-11670ee8b47f",
+      "title": "Hit Impact",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Mrguff",
+      "duration": 446,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/369/369711_2855293-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Mrguff/sounds/369711",
+      "tags": [
+        "Boom",
+        "Crash",
+        "Hit",
+        "Impact",
+        "Knock",
+        "Wood",
+        "Woodent"
+      ],
+      "seconds": 0.5,
+      "lufs": -16.6,
+      "peak_db": -0.2,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Door",
+          "score": 0.505
+        },
+        {
+          "label": "Knock",
+          "score": 0.167
+        },
+        {
+          "label": "Slam",
+          "score": 0.112
+        },
+        {
+          "label": "Thunk",
+          "score": 0.027
+        },
+        {
+          "label": "Speech",
+          "score": 0.027
+        },
+        {
+          "label": "Sliding door",
+          "score": 0.024
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "4fa53bb3-1f12-45e2-8706-20f0337dff8e",
+      "title": "whoosh+boom.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "Capashen",
+      "duration": 4153,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/118/118934_643327-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/Capashen/sounds/118934",
+      "tags": [
+        "boom",
+        "deep",
+        "hard",
+        "hit",
+        "impact",
+        "noise",
+        "sci-fi",
+        "space",
+        "whoosh",
+        "wind"
+      ],
+      "seconds": 4.2,
+      "lufs": -27.8,
+      "peak_db": -11.6,
+      "lead_silence": 0.38,
+      "labels": [
+        {
+          "label": "Whoosh, swoosh, swish",
+          "score": 0.408
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.15
+        },
+        {
+          "label": "Bang",
+          "score": 0.135
+        },
+        {
+          "label": "Explosion",
+          "score": 0.075
+        },
+        {
+          "label": "Music",
+          "score": 0.041
+        },
+        {
+          "label": "Burst, pop",
+          "score": 0.036
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "7d993e37-ff25-4561-a2c5-b87827437fc0",
+      "title": "Trailer Super Hits.wav",
+      "license": "cc0",
+      "source": "freesound",
+      "provider": "freesound",
+      "creator": "gerainsan",
+      "duration": 39473,
+      "filetype": "mp3",
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "category": null,
+      "url": "https://cdn.freesound.org/previews/382/382689_3577171-hq.mp3",
+      "foreign_landing_url": "https://freesound.org/people/gerainsan/sounds/382689",
+      "tags": [
+        "boom",
+        "cinematic",
+        "effect",
+        "film",
+        "future",
+        "fx",
+        "hit",
+        "hits",
+        "impact",
+        "sci-fi",
+        "sound-design",
+        "sounddesign"
+      ],
+      "seconds": 39.5,
+      "lufs": -15.9,
+      "peak_db": -1.1,
+      "lead_silence": 0.0,
+      "labels": [
+        {
+          "label": "Music",
+          "score": 0.711
+        },
+        {
+          "label": "Electronic music",
+          "score": 0.087
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.033
+        },
+        {
+          "label": "Synthesizer",
+          "score": 0.017
+        },
+        {
+          "label": "Silence",
+          "score": 0.016
+        },
+        {
+          "label": "Electronic dance music",
+          "score": 0.011
+        }
+      ]
+    }
+  ]
+}
